@@ -10,7 +10,7 @@ But times have changed since the greater spacefaring society discovered Torei, a
 
 You play humans from the greater intergalactic civilization, come to Torei for your own motives both public and secret.
 
-## ![](icons/lorc/originals/svg/tied-scroll.svg) Background {.row}
+## Background {.row}
 
 To make a character, one of the first things you must choose is which of the five background types your character has.  Try to pick the one that best describes your character.
 
@@ -37,8 +37,8 @@ As an outsider, your life will have been different from that of a native Torean.
 
 ### Why Did You Come? {.col-md-6}
 
- - Why did you come to Torei?
- - What reason do you tell people?
+ 1. Why did you come to Torei?
+ 2. What reason do you tell people?
 
 These are often two different things!
 
@@ -50,21 +50,23 @@ Invent a new planet around some new star in a nearby galaxy, and make that your 
 
 > There are no sapient aliens in this setting: you must play a human.
 
-### ![](icons/lorc/originals/svg/minions.svg) Hierarchy {.row .col-md-12}
+### Hierarchy {.row .col-md-12}
+
+
 
 #### Whose power do you represent? {.col-md-6}
 
-Torei is fond of hierarchy.  Everyone is beneath someone and above others.  What power do you serve or represent, that brought you to this world?
+![](icons/lorc/originals/svg/minions.svg) Torei is fond of hierarchy.  Everyone is beneath someone and above others.  What power do you serve or represent, that brought you to this world?
 
 #### Who represents your power? {.col-md-6}
 
-Status on Torei comes from the people you command.  Are you a manager?  An officer?  A parent?  Do you have elected status in any organization, no matter how small?
+![](icons/lorc/originals/svg/dozen.svg) Status on Torei comes from the people you command.  Are you a manager?  An officer?  A parent?  Do you have elected status in any organization, no matter how small?
 
-## ![](icons/lorc/originals/svg/suits.svg) Stats {.row}
+## Stats {.row}
 
 Everyone has four [Stats], represented as sets of six-sided dice to be rolled during play.
 
-### Acuity {.col-md-3 .stat}
+### Acuity {.col-md-3 .stat .clearfix}
 ![Acuity](icons/lorc/originals/svg/brainstorm.svg) represents your intellect, perception, fine motor control, and finesse.
 
 It comes into play when doing something that requires attention to detail or delicate accuracy (talking, shooting, difficult piloting, picking pockets).
@@ -84,35 +86,35 @@ It comes into play when competing in a more indirect or non-violent way (talking
 
 It comes into play when competing directly against someone else in an attempt to best them (wrestling, swordfighting, shooting, dogfighting, breaking a slave).
 
-## ![](icons/lorc/originals/svg/poker-hand.svg) Traits
+## Traits
 
 Your [Traits] are aspects of your character that help you get what you want.  You can express [Traits] as narrative descriptions, skills, quotes, or even flaws. There are no set [Traits] to choose from. You make them up! 
 
 The most useful [Traits] are the ones that make the best narrative hooks.  The more ways you can justify a trait's relevance, the more dice you'll be able to bring into play.
 
-## ![](icons/lorc/originals/svg/telepathy.svg) Relationships
+## Relationships
 
 A relationship is a strong connection between your character and a person, place, organisation or fetish.  The GM decides when these grant you dice at the beginning of a conflict.
 
-## ![](icons/lorc/originals/svg/checkbox-tree.svg) Allocate your dice
+## Allocate your dice
 
 Your [Background] type determines what dice you have to allocate.  Remember that [Stats] have a minimum of **2d6** and you can't mix die sizes in [Traits] or [Relationships].
 
-           Background    Stat Dice    Trait Dice      Relationship Dice
----------------------    ---------    -------------   -----------------
-         Well-Rounded    17d6         1d4 4d6 2d8     4d6 2d8 
-       Strong History    13d6         3d6 4d8 3d10    1d4 4d6 2d8
-  Complicated History    15d6         4d4 2d6 2d10    5d6 2d8
-     Strong Community    13d6         1d4 3d6 2d8     4d6 4d8 3d10
-Complicated Community    15d6         6d6 2d8         4d4 2d6 2d8 2d10
----------------------    ---------    -------------   -----------------
+             Background     Stat Dice     Trait Dice      Relationship Dice
+-----------------------    -----------    -------------   -----------------
+         [Well-Rounded]      17d6         1d4 4d6 2d8     4d6 2d8 
+       [Strong History]      13d6         3d6 4d8 3d10    1d4 4d6 2d8
+  [Complicated History]      15d6         4d4 2d6 2d10    5d6 2d8
+     [Strong Community]      13d6         1d4 3d6 2d8     4d6 4d8 3d10
+[Complicated Community]      15d6         6d6 2d8         4d4 2d6 2d8 2d10
+-----------------------    ---------    -------------   -----------------
 
 
-## ![](icons/lorc/originals/svg/knapsack.svg) Belongings
+## Belongings
 
 Does your character carry anything?  Tools of the trade?  Restraints?  Whips?  Vibrators?
 
-## ![](icons/lorc/originals/svg/slavery-whip.svg) Initiation to Torei
+## Initiation to Torei
 
 You may not necessarily be an insider on Torei yet, but you've been there long enough for it to make its mark on you.  Consider the period between your arrival on Torei and the start of play, and write down something you hope to have accomplished.
 
@@ -121,9 +123,9 @@ resisted falling in love with an abuser.  Whatever you choose, make sure it
 isn't something that would ruin your character if you lose.  "I hope that I
 didn't die" won't work!
 
-The GM will run a [conflict] between your character and **4d6 4d10** in opposition.  The result will be a new **1d6** trait, such as "I stayed debt-free ever since the belt came off" or "I never did earn my slave's respect."
+The GM will run a [Conflict] between your character and **4d6 4d10** in opposition.  The result will be a new **1d6** trait, such as "I stayed debt-free ever since the belt came off" or "I never did earn my slave's respect."
 
-# Conflict! {.row}
+# Conflict {.row}
 
 #### Do you want something, but someone is stopping you? {.col-md-4}
 Say "conflict"!
@@ -132,51 +134,57 @@ Say "conflict"!
 That's the *stakes*.
 
 #### Who was in the scene when you said "conflict"?  {.col-md-4}
-They can join in.^[Characters who join later can help.]
+They can join in. Characters who join later can [Help].
 
-## ![](icons/lorc/originals/svg/cubes.svg) Roll Stats and Relationships {.row}
+## Roll Stats and Relationships {.row}
 
-The first step is to roll the dice from two of your [Stats].
+The first step is to roll the dice from two of your [Stats].  All your rolls go into a pool of dice in front of you, where everyone can see.
 
-### How are you trying to get what you want? {.col-md-12}
+Which two [Stats] you roll depends on how you're trying to get what you want:
 
+### Talking {.col-md-3 .action .well}
 
-### ![](icons/lorc/originals/svg/conversation.svg) Talking {.col-md-3 .action}
-If you're *talking*, everyone involved will roll **acuity + heart**.
+![If you're *talking*, everyone involved will roll [Acuity] + [Heart].](icons/lorc/originals/svg/conversation.svg) 
 
-### ![](icons/lorc/originals/svg/sprint.svg) Moving {.col-md-3 .action}
-If the competition is *physical*, you roll **body + heart**.
+### Moving {.col-md-3 .action .well}
 
-### ![](icons/lorc/originals/svg/crossed-swords.svg) Fighting {.col-md-3 .action}
-If it's *violent*, you roll **body + will**.
+![If the competition is *physical*, you roll [Body] + [Heart].](icons/lorc/originals/svg/sprint.svg) 
 
-### ![](icons/lorc/originals/svg/on-target.svg) Manoeuvring {.col-md-3 .action}
-If it's a contest of *skill and finesse*, roll **acuity + will**.
+### Fighting {.col-md-3 .action .well}
+
+![If it's *violent*, you roll [Body] + [Will].](icons/lorc/originals/svg/crossed-swords.svg) 
+
+### Manoeuvring {.col-md-3 .action .well}
+
+![ If it's a contest of *skill and finesse*, roll [Acuity] + [Will].](icons/lorc/originals/svg/on-target.svg)
 
 ### Are your relationships at stake? {.col-md-12}
 
-Roll the dice now for any [Relationships] involved in the conflict.
+Roll the dice now for any [Relationships] involved in the [Conflict].
 
 Don't roll your [Traits] or belongings yet!
 
-## ![](icons/lorc/originals/svg/life-in-the-balance.svg) Who Wins?
+## Who goes First?
 
-The last person in the conflict wins, and tells us what happens to the stakes.
+The person with the 2 highest rolled dice makes the first [Challenge]. If multiple people are involved, always pick the person who has the next 2 highest dice.
+
+## Who Wins?
+
+The last person in the [Conflict] wins, and tells us what happens to the stakes.
 
 Everyone then discards all remaining dice, and rolls fallout.
 
-## ![](icons/lorc/originals/svg/smoking-finger.svg) Challenge
+## Challenge
 
 ### Push forward any 2 dice from your pool. {.row .col-md-12}
 
 > Never push more than two in a [Challenge]!
 
-#### 1st Die {.col-md-4 .col-md-offset-2 .die}
+#### 1st Die {.col-md-4 .col-md-offset-2 .die .bg-info}
 ![Push one die if that's all you have left.](icons/delapouite/dice/svg/perspective-dice-six-faces-random.svg)
 
-#### 2nd Die {.col-md-4 .die}
-![But push both dice if you can.](icons/delapouite/dice/svg/perspective-dice-six-faces-random.svg)
-
+#### 2nd Die {.col-md-4 .die .bg-info}
+![But if you have at least two dice, you must push two.](icons/delapouite/dice/svg/perspective-dice-six-faces-random.svg)
 
 
 ### The higher the total on the dice, the better.
@@ -186,78 +194,92 @@ Everyone then discards all remaining dice, and rolls fallout.
 3) Each target makes a [Response].
 4) After all responses are done, discard these dice.
 
-## ![](icons/lorc/originals/svg/checked-shield.svg) Response {.row .col-md-12}
+## Response {.row .col-md-12}
 
+The target of the [Challenge] pushes forward enough dice to match the total from the [Challenge].
+
+The outcome of the challenge depends on how many dice were used to respond:
 
 #### 1 Die {.col-md-3 .die .bg-success}
-![Reversing the blow](icons/lorc/originals/svg/shield-reflect.svg)
+![If you met the challenge with only one die, you're *Reversing The Blow*.  Describe how you turn your challenger's actions to your advantage, and then re-use this die in your next [Challenge]!](icons/lorc/originals/svg/shield-reflect.svg)
 
 #### 2 Dice {.col-md-3 .die .bg-warning}
-![Blocking](icons/lorc/originals/svg/arrows-shield.svg)
+![If you met the challenge with exactly two dice, you've *Blocked*.  Describe how you prevented the challenger from affecting you.](icons/lorc/originals/svg/arrows-shield.svg)
 
 #### 3 Dice {.col-md-3 .die .bg-danger}
-![Taking the blow](icons/lorc/originals/svg/broken-shield.svg)
+![If you use three dice to meet the [Challenge], you're *Taking the Blow*.  Describe how the challenger's actions harmed you, and set aside three [Fallout] dice to roll after the [Conflict]!](icons/lorc/originals/svg/broken-shield.svg)
 
 #### ..or more! {.col-md-3 .die .bg-danger}
-![Taking the blow](icons/lorc/originals/svg/broken-shield.svg)
+![The more dice you use in your [Response], the more [Fallout] dice you need to roll. This can lead to greater harm, but also greater experience.](icons/lorc/originals/svg/broken-shield.svg)
 
-## adsfljsafd
+### Fewer Dice is Better {.col-md-12}
+
+## Changing The Game
+
+Are you shooting? Take it physical and run away! Fighting? Take it to talking with threats or bargaining. Whatever you do, it must be something the other person *can't ignore*!
+
+### Roll Anew and Strike Back
+
+Everyone immediately rolls stat dice for the new type of conflict. Don't re-roll any stats you've already rolled, and don't discard any dice already in your pool. If you change the game to a type nobody's rolled yet, you do not need to respond, and can instead make your own challenge now!
+
+## Traits and Belongings
+
+## Help
+
+Anyone can help by describing and rolling a relevant trait or belonging, then giving you their single highest rolled die. The rest are discarded. They now can't use this trait or belonging in their next conflict.
+
+## Give In
+
+You can give in the stakes at any time, even when someone is challenging you. This saves you from needing to respond, and can prevent fallout!
+
+Keep your 2 highest dice in your pool for your next conflict (don't re-roll them!) You can't help in this same conflict.
+
+# Fallout
+
+After a conflict, roll all your fallout dice (if any) together.
+If any of these rolled dice come up 1, you gain an [Experience]!
+
+> You only claim one experience per conflict.
+
+Then take the two highest fallout dice you rolled and add them together.  Choose harm from the following table:
+
+  Roll    [Short-Term Harm]    [Permanent Harm]
+------   -------------------  ------------------
+   2-7            1
+  8-10            1                    1
+ 11-15            1                    2
+ 16-19            2                    3
+    20                              *Death!*
+
+### Short-Term Harm {.row}
+
+[Short-Term Harm] only lasts for one conflict, or as the story requires.
+
+#### Dazed {.col-md-3 .bg-danger .harm}
+
+![Dazed reduces the die size of your [Acuity] from **d6** to **d4**.](icons/lorc/originals/svg/six-eyes.svg) 
+
+#### Bound {.col-md-3 .bg-danger .harm}
+
+![Bound reduces the die size of your [Body] from **d6** to **d4**.](icons/lorc/originals/svg/imprisoned.svg) 
+
+#### Broken {.col-md-3 .bg-danger .harm}
+
+![Broken reduces the die size of your [Will] from **d6** to **d4**.](icons/lorc/originals/svg/despair.svg) 
+
+#### Shamed {.col-md-3 .bg-danger .harm}
+
+![Shamed reduces the die size of your [Heart] from **d6** to **d4**.](icons/lorc/originals/svg/paranoia.svg) 
+
+### Permanent Harm
+
+> XXX: drop a die, lower a trait to d4...
+
+## Experience
+
+
 
 ----
-
-All your rolls go into a pool of dice in front of you, where
-everyone can see.
-
-Don't roll your traits & belongings yet!
-
-TA
-OT ACUITY
-
-it's
-
-roll acuity+will.
-
-♦
-
-WILL
-
-than two!
-
-challenge's total value.
-
-Fewer dice is better.
-If you can respond with…
-
-
-WHO GOES FIRST?
-The person with the 2 highest rolled dice makes the first
-challenge. If multiple people are involved, always pick the person
-who has the next 2 highest dice.
-
-WHO WINS?
-
-reverse the blow.
-
-1
-Die
-
-Re-use this die in your
-next challenge!
-
-3
-Dice
-
-4
-Dice
-
-5
-Dice
-
-Everyone immediately rolls stat dice for the new type of
-conflict. Don't re-roll any stats you've already rolled, and don't
-discard any dice already in your pool. If you change the
-game to a type nobody's rolled yet, you do not need to
-respond, and can instead make your own challenge now!
 
 2. Roll it and add the dice to your pool.
 
@@ -265,11 +287,9 @@ You can only use each trait or belonging once per conflict.
 
 Describe how you
 
-Anyone can help by describing and rolling a relevant trait or
 
 challenge.
 
-rest are discarded. They now can't use this trait or belonging
 
 6
 Dice
@@ -308,7 +328,6 @@ block the
 2
 Dice
 
-be something the other person can't ignore!
 
 1. Describe how a trait or a belonging helps you.
 
@@ -316,7 +335,6 @@ Push forward enough of your dice to match (or exceed) the
 
 Describe how you
 
-it to talking with threats or bargaining. Whatever you do, it must
 
 TRAITS & BELONGINGS
 
@@ -378,8 +396,6 @@ everyone involved will roll
 
 K HEART
 
-Are you shooting? Take it physical and run away! Fighting? Take
-
 * Describe how you try to get what you want. It must be
 
 E
@@ -411,17 +427,8 @@ CHALLENGE
 
 After responding, discard these dice (unless you reversed the
 
-belonging, then giving you their single highest rolled die. The
-in their next conflict.
 
 GIVE IN
-You can give in the stakes at any time, even when someone is
-
-challenging you. This saves you from needing to respond,
-and can prevent fallout!
-
-Keep your 2 highest dice in your pool for your next conflict
-(don't re-roll them!) You can't help in this same conflict.
 
 FALLOUT DICE
 Set aside the same number of dice you used to respond.
@@ -587,14 +594,6 @@ RELATIONSHIPS
 ROLLING FALLOUT
 
 PLAY ADVICE
-
-After a conflict, roll all your fallout dice (if any) together.
-
-If any of these rolled dice come up 1, you gain an experience!
-You only claim one experience
-per conflict.
-
-Then take the two highest
 
 Roll Short-Term Permanent
 

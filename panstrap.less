@@ -7,22 +7,23 @@ blockquote:extend(.alert-info all) {}
 
 div[role=main] > p:extend(.lead) {}
 
-.action img:extend(.img-rounded all), .stat img:extend(.img-circle all) { 
+section>p>img:extend(.img-rounded all, .pull-right all), 
+.stat img:extend(.img-circle all, .pull-left all) { 
     max-width: 4em;
-    float: left;
     margin-right: 0.5em;
 }
-section.die { text-align: center; }
-section.die a:extend(.btn) {}
-section.bg-success a:extend(.btn-success) {}
-section.bg-warning a:extend(.btn-warning) {}
-section.bg-danger a:extend(.btn-danger) {}
+section.harm:extend(.text-center all), section.action:extend(.text-center all), section.die:extend(.text-center all) { }
+section.harm h4 a:extend(.btn),
+section.die h4 a:extend(.btn) {}
+section.bg-success h4 a:extend(.btn-success) {}
+section.bg-info h4 a:extend(.btn-info) {}
+section.bg-warning h4 a:extend(.btn-warning) {}
+section.bg-danger h4 a:extend(.btn-danger) {}
+section.bg-success figure img,
+section.bg-info figure img,
+section.bg-warning figure img,
+section.bg-danger figure img { opacity: 0.7; }
 figure img:extend(.img-rounded) { max-width: 8em;}
-nav img:extend(.img-rounded),
-h1 img:extend(.img-rounded),
-h2 img:extend(.img-rounded),
-h3 img:extend(.img-rounded),
-h4 img:extend(.img-rounded) { max-height: 1.4em; }
 
 nav ul { 
     list-style: none;  
