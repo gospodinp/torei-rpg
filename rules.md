@@ -1,0 +1,758 @@
+% Torei RPG
+% by Gospodin
+
+
+Torei is a half-finished planet out in the empty space between the galaxies.  Vast inscrutable terraforming machines rule from their ziggurats at the poles, while humans scratch out what livelihood they can around the equator.
+
+But times have changed since the greater spacefaring society discovered Torei, and the new city-towers around the space elevator form a rich hub of intergalactic trade.  Now the powerful AIs struggle to keep the economy and ecology of the world in balance, fighting to keep their biological advances safe from scheming outsiders.  The visiting off-worlders, for their part, must learn to adjust to a society where slavery and sexual domination is the norm.
+
+# Character Creation 
+
+You play humans from the greater intergalactic civilization, come to Torei for your own motives both public and secret.
+
+## ![](icons/lorc/originals/svg/tied-scroll.svg) Background {.row}
+
+To make a character, one of the first things you must choose is which of the five background types your character has.  Try to pick the one that best describes your character.
+
+#### Well-Rounded {.col-md-4}
+You're straightforward, adaptable, and well-balanced.  Just the sort of person to set out to seek her or his fortune on a frontier world like Torei.
+
+#### Strong History {.col-md-4}
+You're well educated, trained, or experienced.  You're on Torei because something about your history makes you the best choice for the trip.
+
+#### Complicated History {.col-md-4}
+You've had a troubled past, or a series of events left their mark on you.  You're likely on Torei to grow past these problems, or to find a solution.
+
+#### Strong Community {.col-md-4}
+You're socially adept and a good former of friendships and alliances.  You may have come to Torei as a diplomat or a trader, to try and connect the Toreans to some off-world concern.
+
+#### Complicated Community {.col-md-4}
+You're socially vulnerable, and your [Relationships] tend to be messy.  You may have gone to Torei to get away from someone, or to try and heal a bond with others who came before you.
+
+### Male or Female? {.col-md-12 .clearfix}
+
+On Torei, your sex is extremely important.  Female Toreans outnumber males 9:1, and the whole economy runs on contracted and enslaved female labour.  Males often live lives of aristocratic privilege, but their status as breeding studs often complicates their [Relationships].
+
+As an outsider, your life will have been different from that of a native Torean.  Think of how your experience of being a man or a woman (or however you identify) was different from that on Torei.
+
+### Why Did You Come? {.col-md-6}
+
+ - Why did you come to Torei?
+ - What reason do you tell people?
+
+These are often two different things!
+
+### Where Are You From?  {.col-md-6}
+
+>  Earth is gone and completely forgotten.
+
+Invent a new planet around some new star in a nearby galaxy, and make that your homeworld.  Or perhaps it's a union of worlds that you think of as your nationality.  Be creative!
+
+> There are no sapient aliens in this setting: you must play a human.
+
+### ![](icons/lorc/originals/svg/minions.svg) Hierarchy {.row .col-md-12}
+
+#### Whose power do you represent? {.col-md-6}
+
+Torei is fond of hierarchy.  Everyone is beneath someone and above others.  What power do you serve or represent, that brought you to this world?
+
+#### Who represents your power? {.col-md-6}
+
+Status on Torei comes from the people you command.  Are you a manager?  An officer?  A parent?  Do you have elected status in any organization, no matter how small?
+
+## ![](icons/lorc/originals/svg/suits.svg) Stats {.row}
+
+Everyone has four [Stats], represented as sets of six-sided dice to be rolled during play.
+
+### Acuity {.col-md-3 .stat}
+![Acuity](icons/lorc/originals/svg/brainstorm.svg) represents your intellect, perception, fine motor control, and finesse.
+
+It comes into play when doing something that requires attention to detail or delicate accuracy (talking, shooting, difficult piloting, picking pockets).
+
+### Body {.col-md-3 .stat}
+![Body](icons/lorc/originals/svg/strong.svg) represents your health, lust, stamina, and physical ability.
+
+It comes into play when performing a physically demanding task (running, lifting, dancing, wrestling, swordfighting).
+
+### Heart {.col-md-3 .stat}
+![Heart](icons/lorc/originals/svg/shining-heart.svg) represents your empathy, motivation to improve, and desire to help others.
+
+It comes into play when competing in a more indirect or non-violent way (talking, racing, working, dancing).
+
+### Will {.col-md-3 .stat}
+![Will](icons/lorc/originals/svg/burning-passion.svg) represents your determination, resolve, nerves, and desire to dominate others.
+
+It comes into play when competing directly against someone else in an attempt to best them (wrestling, swordfighting, shooting, dogfighting, breaking a slave).
+
+## ![](icons/lorc/originals/svg/poker-hand.svg) Traits
+
+Your [Traits] are aspects of your character that help you get what you want.  You can express [Traits] as narrative descriptions, skills, quotes, or even flaws. There are no set [Traits] to choose from. You make them up! 
+
+The most useful [Traits] are the ones that make the best narrative hooks.  The more ways you can justify a trait's relevance, the more dice you'll be able to bring into play.
+
+## ![](icons/lorc/originals/svg/telepathy.svg) Relationships
+
+A relationship is a strong connection between your character and a person, place, organisation or fetish.  The GM decides when these grant you dice at the beginning of a conflict.
+
+## ![](icons/lorc/originals/svg/checkbox-tree.svg) Allocate your dice
+
+Your [Background] type determines what dice you have to allocate.  Remember that [Stats] have a minimum of **2d6** and you can't mix die sizes in [Traits] or [Relationships].
+
+           Background    Stat Dice    Trait Dice      Relationship Dice
+---------------------    ---------    -------------   -----------------
+         Well-Rounded    17d6         1d4 4d6 2d8     4d6 2d8 
+       Strong History    13d6         3d6 4d8 3d10    1d4 4d6 2d8
+  Complicated History    15d6         4d4 2d6 2d10    5d6 2d8
+     Strong Community    13d6         1d4 3d6 2d8     4d6 4d8 3d10
+Complicated Community    15d6         6d6 2d8         4d4 2d6 2d8 2d10
+---------------------    ---------    -------------   -----------------
+
+
+## ![](icons/lorc/originals/svg/knapsack.svg) Belongings
+
+Does your character carry anything?  Tools of the trade?  Restraints?  Whips?  Vibrators?
+
+## ![](icons/lorc/originals/svg/slavery-whip.svg) Initiation to Torei
+
+You may not necessarily be an insider on Torei yet, but you've been there long enough for it to make its mark on you.  Consider the period between your arrival on Torei and the start of play, and write down something you hope to have accomplished.
+
+Perhaps you hope that you got out of debt, or broke a slave's will, or
+resisted falling in love with an abuser.  Whatever you choose, make sure it
+isn't something that would ruin your character if you lose.  "I hope that I
+didn't die" won't work!
+
+The GM will run a [conflict] between your character and **4d6 4d10** in opposition.  The result will be a new **1d6** trait, such as "I stayed debt-free ever since the belt came off" or "I never did earn my slave's respect."
+
+# Conflict! {.row}
+
+#### Do you want something, but someone is stopping you? {.col-md-4}
+Say "conflict"!
+
+#### What are you fighting over?  {.col-md-4}
+That's the *stakes*.
+
+#### Who was in the scene when you said "conflict"?  {.col-md-4}
+They can join in.^[Characters who join later can help.]
+
+## ![](icons/lorc/originals/svg/cubes.svg) Roll Stats and Relationships {.row}
+
+The first step is to roll the dice from two of your [Stats].
+
+### How are you trying to get what you want? {.col-md-12}
+
+
+### ![](icons/lorc/originals/svg/conversation.svg) Talking {.col-md-3 .action}
+If you're *talking*, everyone involved will roll **acuity + heart**.
+
+### ![](icons/lorc/originals/svg/sprint.svg) Moving {.col-md-3 .action}
+If the competition is *physical*, you roll **body + heart**.
+
+### ![](icons/lorc/originals/svg/crossed-swords.svg) Fighting {.col-md-3 .action}
+If it's *violent*, you roll **body + will**.
+
+### ![](icons/lorc/originals/svg/on-target.svg) Manoeuvring {.col-md-3 .action}
+If it's a contest of *skill and finesse*, roll **acuity + will**.
+
+### Are your relationships at stake? {.col-md-12}
+
+Roll the dice now for any [Relationships] involved in the conflict.
+
+Don't roll your [Traits] or belongings yet!
+
+## ![](icons/lorc/originals/svg/life-in-the-balance.svg) Who Wins?
+
+The last person in the conflict wins, and tells us what happens to the stakes.
+
+Everyone then discards all remaining dice, and rolls fallout.
+
+## ![](icons/lorc/originals/svg/smoking-finger.svg) Challenge
+
+### Push forward any 2 dice from your pool. {.row .col-md-12}
+
+> Never push more than two in a [Challenge]!
+
+#### 1st Die {.col-md-4 .col-md-offset-2 .die}
+![Push one die if that's all you have left.](icons/delapouite/dice/svg/perspective-dice-six-faces-random.svg)
+
+#### 2nd Die {.col-md-4 .die}
+![But push both dice if you can.](icons/delapouite/dice/svg/perspective-dice-six-faces-random.svg)
+
+
+
+### The higher the total on the dice, the better.
+
+1) If you don't have any dice to push forward, you *lose*.
+2) Describe how you try to get what you want.  It must be something the targets *can't ignore*.
+3) Each target makes a [Response].
+4) After all responses are done, discard these dice.
+
+## ![](icons/lorc/originals/svg/checked-shield.svg) Response {.row .col-md-12}
+
+
+#### 1 Die {.col-md-3 .die .bg-success}
+![Reversing the blow](icons/lorc/originals/svg/shield-reflect.svg)
+
+#### 2 Dice {.col-md-3 .die .bg-warning}
+![Blocking](icons/lorc/originals/svg/arrows-shield.svg)
+
+#### 3 Dice {.col-md-3 .die .bg-danger}
+![Taking the blow](icons/lorc/originals/svg/broken-shield.svg)
+
+#### ..or more! {.col-md-3 .die .bg-danger}
+![Taking the blow](icons/lorc/originals/svg/broken-shield.svg)
+
+## adsfljsafd
+
+----
+
+All your rolls go into a pool of dice in front of you, where
+everyone can see.
+
+Don't roll your traits & belongings yet!
+
+TA
+OT ACUITY
+
+it's
+
+roll acuity+will.
+
+♦
+
+WILL
+
+than two!
+
+challenge's total value.
+
+Fewer dice is better.
+If you can respond with…
+
+
+WHO GOES FIRST?
+The person with the 2 highest rolled dice makes the first
+challenge. If multiple people are involved, always pick the person
+who has the next 2 highest dice.
+
+WHO WINS?
+
+reverse the blow.
+
+1
+Die
+
+Re-use this die in your
+next challenge!
+
+3
+Dice
+
+4
+Dice
+
+5
+Dice
+
+Everyone immediately rolls stat dice for the new type of
+conflict. Don't re-roll any stats you've already rolled, and don't
+discard any dice already in your pool. If you change the
+game to a type nobody's rolled yet, you do not need to
+respond, and can instead make your own challenge now!
+
+2. Roll it and add the dice to your pool.
+
+You can only use each trait or belonging once per conflict.
+
+Describe how you
+
+Anyone can help by describing and rolling a relevant trait or
+
+challenge.
+
+rest are discarded. They now can't use this trait or belonging
+
+6
+Dice
+
+7 or
+more
+
+If you respond with 3 or more dice:
+
+1. Describe how the challenge harms or weakens you.
+2. Set aside the same number of fallout dice.
+
+Need more dice?
+
+* Get help, use traits & belongings, or change the
+game.
+
+* Or you can give in! (Giving in is great!)
+
+The last person in the conflict wins, and tells us what happens
+
+If you can't match the challenge's total, you lose the stakes.
+
+Everyone then discards all remaining dice, and rolls fallout.
+
+blow).
+
+to the stakes.
+
+Roll Anew and Strike Back
+
+HELP
+
+block the
+
+2
+Dice
+
+be something the other person can't ignore!
+
+1. Describe how a trait or a belonging helps you.
+
+Push forward enough of your dice to match (or exceed) the
+
+Describe how you
+
+it to talking with threats or bargaining. Whatever you do, it must
+
+TRAITS & BELONGINGS
+
+RESPONSE
+
+G
+
+it's a contest of skill and finesse,
+
+O
+
+If
+
+SH
+
+body+heart.
+
+violent, you roll body+will. If
+
+♣
+
+FI
+
+roll
+
+But never more
+
+2nd
+Die
+
+* After all responses are done, discard these dice.
+
+M
+
+T
+
+competition is physical, you
+
+♠
+
+1st
+Die
+
+something the targets can't ignore.
+
+H
+
+their acuity+heart. If the
+
+Push one die if
+
+that's all you have
+
+* Each target makes a response.
+
+BODY
+
+everyone involved will roll
+
+K HEART
+
+Are you shooting? Take it physical and run away! Fighting? Take
+
+* Describe how you try to get what you want. It must be
+
+E
+
+stat dice. If you're talking,
+
+L
+
+Push forward any 2 dice from your pool.
+
+* If you don't have any dice to push forward, you lose.
+
+V
+O
+
+The first step is to roll your
+
+♥
+
+CHANGING THE GAME
+
+The higher the total on the dice, the better.
+
+ROLL STATS
+How are you trying to get
+what you want?
+
+CHALLENGE
+
+After responding, discard these dice (unless you reversed the
+
+belonging, then giving you their single highest rolled die. The
+in their next conflict.
+
+GIVE IN
+You can give in the stakes at any time, even when someone is
+
+challenging you. This saves you from needing to respond,
+and can prevent fallout!
+
+Keep your 2 highest dice in your pool for your next conflict
+(don't re-roll them!) You can't help in this same conflict.
+
+FALLOUT DICE
+Set aside the same number of dice you used to respond.
+
+What kind of dice?
+
+Talking: d4s, Physical: d6es, Weapons: d8s, Murder: d10s.
+Don't roll them yet! Roll after the conflict ends.
+
+TOREI IS
+Torei is a half-finished planet out in the empty space between
+the galaxies. Vast inscrutable terraforming machines rule from
+their ziggurats at the poles, while humans scratch out what
+livelihood they can around the equator.
+
+But times have changed since the greater spacefaring society
+discovered Torei, and the new city-towers around the space
+elevator form a rich hub of intergalactic trade. Now the
+powerful AIs struggle to keep the economy and ecology of the
+world in balance, fighting to keep their biological advances safe
+from scheming outsiders. The visiting off-worlders, for their
+part, must learn to adjust to a society where slavery and sexual
+domination is the norm.
+
+YOU PLAY
+You play humans from the greater intergalactic civilization,
+come to Torei for your own motives both public and secret.
+
+Where are you from?
+
+Invent a human culture around a new star in a nearby galaxy.
+Have fun with it!
+
+Why did you come to Torei?
+
+And almost as importantly, what reason do you tell other
+people? These are often very different!
+
+BACKGROUND
+To make a character, one of the first things you must choose is
+which of the five background types your character has. Try to
+pick the one that best describes your character.
+
+Well-Rounded
+
+You're straightforward, adaptable, and well-balanced. Just the
+sort of person to set out to seek her or his fortune on a frontier
+world like Torei.
+
+Strong History
+
+You're well educated, trained, or experienced. You're on Torei
+because something about your history makes you the best choice
+for the trip.
+
+Complicated History
+
+You've had a troubled past, or a series of events left their mark on
+you. You're likely on Torei to grow past these problems, or to find
+a solution.
+
+♥
+
+♦
+
+HEART represents your empathy, motivation to
+
+improve, and desire to help others. It comes into play
+
+when competing in a more indirect or non-violent way (talking,
+racing, working, dancing).
+
+WILL represents your determination, resolve, nerves,
+
+and desire to dominate others. It comes into play when
+
+competing directly against someone else in an attempt to best
+
+them (wrestling, swordfighting, shooting, dogfighting, breaking
+a slave).
+
+Divide up your stat dice as you prefer
+
+Well-Rounded characters have 17 dice to allocate to
+stats.
+
+If you have a Strong History or Strong Community,
+divide up 13 dice among the four stats.
+
+If you're a Complicated History or Complicated
+
+Community sort of character, you get 15 dice for stats.
+
+Strong Community
+
+TRAITS
+
+alliances. You may have come to Torei as a diplomat or a trader, to
+
+A trait is anything that helps you get what you want (that isn't a
+
+Complicated Community
+
+even flaws. There are no set traits to choose from. You make
+
+You're socially adept and a good former of friendships and
+try and connect the Toreans to some off-world concern.
+
+You're socially vulnerable, and your relationships tend to be
+messy. You may have gone to Torei to get away from someone, or
+to try and heal a bond with others who came before you.
+
+STATS
+Everyone has four stats, represented as sets of six-sided dice to
+
+♠
+
+be rolled during play.
+
+ACUITY represents your intellect, perception, fine motor
+
+control, and finesse. It comes into play when doing
+
+something that requires attention to detail or delicate accuracy
+
+♣
+
+(talking, shooting, difficult piloting, picking pockets).
+
+BODY represents your health, lust, stamina, and physical
+
+ability. It comes into play when performing a physically
+
+demanding
+
+task
+
+swordfighting).
+
+(running,
+
+lifting,
+
+dancing,
+
+wrestling,
+
+person or a thing). You can express traits as skills, quotes, or
+them up!
+
+Assign your Traits below in any order, one Trait per line with a
+number. You don't have to choose all your Traits now. Feel free
+to make them up as we play.
+
+BELONGINGS
+RELATIONSHIPS
+
+
+
+
+-----
+
+ROLLING FALLOUT
+
+PLAY ADVICE
+
+After a conflict, roll all your fallout dice (if any) together.
+
+If any of these rolled dice come up 1, you gain an experience!
+You only claim one experience
+per conflict.
+
+Then take the two highest
+
+Roll Short-Term Permanent
+
+2-7
+
+fallout dice you rolled and add 8-10
+them together. Choose harm 11-15
+from
+
+the
+
+short-term
+
+and 16-19
+
+permanent lists based on the
+total.
+
+1
+1
+
+1
+
+2
+
+3
+
+1
+
+2
+
+20 Describe your death!
+
+EXPERIENCE
+Per the circumstances of the story, choose one:
+* Gain a 1d6 trait, relationship, or belonging.
+
+* Add one die to an existing trait, relationship, or
+
+This game uses a lot of dice, and you often have to make choices
+based on combinations of them. Here's some advice:
+
+How to think about Dice
+
+Lots of small dice can win you the stakes, but they're more
+likely to cause fallout. It's true that 3d4 can total up to 12 just
+as 2d6 can, but needing 3 dice to respond instead of 2
+increases your fallout. So having that fistfull of d4s can win
+you the stakes, but you will pay for it later!
+
+How to think about fallout
+
+Fallout also has a die-size element to it, keyed to the type of
+conflict you're engaged in. The smaller dice used for the non-
+
+CONFLICT RULES
+
+will come up 1, earning you an experience. We learn more
+
+This pamphlet is intended to serve as a guide to the game during
+
+How to think about changing the game
+
+through the conflict rules. The inside flap handles the rules
+
+violent conflict types make it more likely that some of them
+consistently by talking or doing than we do by fighting, after all!
+
+The original name for changing the game was "escalation",
+
+belonging.
+
+and that still confuses a lot of people who are new to Dogs or its
+
+relationship, or belonging.
+
+approaches to more violent ones, but what's most important is
+
+* Add 2 to the die size (max: 10) of an existing trait,
+
+SHORT-TERM HARM
+For the next conflict only:
+
+* If there's no follow-up conflict, you're alone and in trouble.
+* Make a promise you don't want to make.
+
+* You're hurt: subtract 2d6 from one stat.
+
+* You're shaken: change two traits to d4s.
+
+* You're broken: change all relationships to d4s.
+
+* You're unprepared: change all belongings to d4s.
+
+PERMANENT HARM
+* Remove 1d6 or higher from any stat, trait, or relationship.
+* Create a new 1d4 trait or relationship, or add 1d4 to an
+existing one.
+
+* Reduce the die size of any trait or relationship to d4s.
+* Lose a belonging
+
+offshoots.
+
+It's true that you can escalate from peaceful
+
+that the current approach won't work for you and you're not willing
+
+play. If you unfold it completely, the inside surface will lead you
+for post-conflict fallout and experience, and the back
+page contains some helpful advice for learning to play well.
+
+WHY THIS IS UNUSUAL
+
+to give up the stakes.
+
+The Torean RPG is based on the rules from Vincent Baker's
+
+chandelier is changing the game every bit as much as a
+
+called Afraid. The conflict system is meant to handle any type
+
+A pirate who breaks from a swordfight to swing from the
+cowgirl who draws her pistol on an argument!
+
+GIVING IN IS AWESOME!
+If you're willing to surrender the stakes, giving in can be one
+
+unpublished horror-themed version of Dogs in the Vineyard,
+of disagreement between parties, played out in whatever arena
+
+is appropriate. This can mean everything from a weeks-long
+propaganda war over radio, to a struggle for dominance during a
+sexual encounter, or even a simple gunfight.
+
+Pools of die rolls.
+
+of the most powerful moves you have! You get to keep your two
+
+Your character is described by various stats, relationships,
+
+also avoid any further risk of fallout, and this can help you aim
+
+than simple numbers. You roll these dice during a conflict
+
+best rolls in your pool, and use them in your next conflict. You
+for experience.
+
+A submissive character may well play a long game of rope-adope, giving in to a dominant character regularly just to gain
+the upper hand on the next conflict.
+
+Consenting to submit as a beneficial game mechanic: it's one of
+the reasons the Torei RPG uses these rules!
+
+traits and belongings associated with sets of dice rather
+where everyone can see them, in a pool of rolls. You then trade
+these results back and forth in a challenge/response cycle,
+until you run out or give in. At each step of the game, players
+narrate what each move means in terms of the unfolding story.
+
+----

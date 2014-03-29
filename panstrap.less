@@ -1,0 +1,45 @@
+@import "bootstrap/less/bootstrap.less";
+nav:extend(.nav all, .well all) {}
+table:extend(.table all, .table-striped all) {}
+header:extend(.jumbotron all) {}
+
+blockquote:extend(.alert-info all) {}
+
+div[role=main] > p:extend(.lead) {}
+
+.action img:extend(.img-rounded all), .stat img:extend(.img-circle all) { 
+    max-width: 4em;
+    float: left;
+    margin-right: 0.5em;
+}
+section.die { text-align: center; }
+section.die a:extend(.btn) {}
+section.bg-success a:extend(.btn-success) {}
+section.bg-warning a:extend(.btn-warning) {}
+section.bg-danger a:extend(.btn-danger) {}
+figure img:extend(.img-rounded) { max-width: 8em;}
+nav img:extend(.img-rounded),
+h1 img:extend(.img-rounded),
+h2 img:extend(.img-rounded),
+h3 img:extend(.img-rounded),
+h4 img:extend(.img-rounded) { max-height: 1.4em; }
+
+nav ul { 
+    list-style: none;  
+    margin-left: -30px;
+} 
+section.row { margin: 0; }
+
+@media (min-width: 767px) {
+    .affix {
+        width: 262.5px;
+        top: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .affix {
+        position: static;
+    }
+}
+
+
