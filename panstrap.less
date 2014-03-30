@@ -13,36 +13,41 @@ section.level4 { .make-md-column(6) }
 section.level5 { .make-md-column(4) }
 section.level6 { .make-md-column(3) }
 
-a[href$='#character-creation'] { background: url('icons/lorc/originals/svg/drama-masks.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#background'] { background: url('icons/lorc/originals/svg/journey.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#why-did-you-come'] { background: url('icons/lorc/originals/svg/star-pupil.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#where-are-you-from'] { background: url('icons/lorc/originals/svg/globe.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#hierarchy'] { background: url('icons/lorc/originals/svg/minions.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#stats'] { background: url('icons/lorc/originals/svg/suits.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#acuity'] { background: url('icons/lorc/originals/svg/brainstorm.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#body'] { background: url('icons/lorc/originals/svg/strong.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#heart'] { background: url('icons/lorc/originals/svg/shining-heart.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#will'] { background: url('icons/lorc/originals/svg/burning-passion.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#traits'] { background: url('icons/lorc/originals/svg/poker-hand.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#relationships'] { background: url('icons/lorc/originals/svg/telepathy.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#belongings'] { background: url('icons/lorc/originals/svg/knapsack.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#initiation-to-torei'] { background: url('icons/lorc/originals/svg/slavery-whip.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#roll-stats-and-relationships'] { background: url('icons/lorc/originals/svg/cubes.svg') center left no-repeat; padding-left: 1.4em; }
+.image-link(@filestem) {
+    @filename: %('icons/lorc/originals/svg/%s.svg', @filestem);
+    background: url(@filename) center left no-repeat;
+    padding-left: 1.4em;
+}
 
-a[href$='#conflict'] { background: url('icons/lorc/originals/svg/back-forth.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#who-goes-first'] { background: url('icons/lorc/originals/svg/stopwatch.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#who-wins'] { background: url('icons/lorc/originals/svg/life-in-the-balance.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#challenge'] { background: url('icons/lorc/originals/svg/smoking-finger.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#response'] { background: url('icons/lorc/originals/svg/checked-shield.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#change-the-game'] { background: url('icons/lorc/originals/svg/magic-swirl.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#help'] { background: url('icons/lorc/originals/svg/all-for-one.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#give-in'] { background: url('icons/lorc/originals/svg/dove.svg') center left no-repeat; padding-left: 1.4em; }
+a[href$='#character-creation'] { .image-link('drama-masks'); }
+a[href$='#background'] { .image-link('journey');}
+a[href$='#why-did-you-come'] { .image-link('star-pupil');}
+a[href$='#where-are-you-from'] { .image-link('globe');}
+a[href$='#hierarchy'] { .image-link('minions');}
+a[href$='#stats'] { .image-link('suits');}
+a[href$='#acuity'] { .image-link('brainstorm');}
+a[href$='#body'] { .image-link('strong');}
+a[href$='#heart'] { .image-link('shining-heart');}
+a[href$='#will'] { .image-link('burning-passion');}
+a[href$='#traits'] { .image-link('poker-hand');}
+a[href$='#relationships'] { .image-link('telepathy');}
+a[href$='#belongings'] { .image-link('knapsack');}
+a[href$='#initiation-to-torei'] { .image-link('slavery-whip');}
+a[href$='#roll-stats-and-relationships'] { .image-link('cubes');}
 
+a[href$='#conflict'] { .image-link('back-forth');}
+a[href$='#who-goes-first'] { .image-link('stopwatch');}
+a[href$='#who-wins'] { .image-link('life-in-the-balance');}
+a[href$='#challenge'] { .image-link('smoking-finger');}
+a[href$='#response'] { .image-link('checked-shield');}
+a[href$='#change-the-game'] { .image-link('magic-swirl');}
+a[href$='#help'] { .image-link('all-for-one');}
+a[href$='#give-in'] { .image-link('dove');}
 
-a[href$='#fallout'] { background: url('icons/lorc/originals/svg/thunder-struck.svg') center left no-repeat; padding-left: 1.4em; }
-a[href$='#experience'] { background: url('icons/lorc/originals/svg/gift-of-knowledge.svg') center left no-repeat; padding-left: 1.4em; }
+a[href$='#fallout'] { .image-link('thunder-struck');}
+a[href$='#experience'] { .image-link('gift-of-knowledge');}
 
-a[href$='#play-advice'] { background: url('icons/lorc/originals/svg/light-bulb.svg') center left no-repeat; padding-left: 1.4em; }
+a[href$='#play-advice'] { .image-link('light-bulb');}
 
 nav:extend(.nav all) {}
 table:extend(.table all, .table-striped all) {}

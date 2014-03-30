@@ -67,22 +67,22 @@ Status on Torei comes from the people you command.  Are you a manager?  An offic
 
 Everyone has four Stats, represented as sets of six-sided dice to be rolled during play.
 
-###### Acuity {.stat}
+###### Acuity {.stat .well .content-box}
 Acuity represents your intellect, perception, fine motor control, and finesse.
 
 It comes into play when doing something that requires attention to detail or delicate accuracy (talking, shooting, difficult piloting, picking pockets).
 
-###### Body {.stat}
+###### Body {.stat .well .content-box}
 Body represents your health, lust, stamina, and physical ability.
 
 It comes into play when performing a physically demanding task (running, lifting, dancing, wrestling, swordfighting).
 
-###### Heart {.stat}
+###### Heart {.stat .well .content-box}
 Heart represents your empathy, motivation to improve, and desire to help others.
 
 It comes into play when competing in a more indirect or non-violent way (talking, racing, working, dancing).
 
-###### Will {.stat}
+###### Will {.stat .well .content-box}
 Will represents your determination, resolve, nerves, and desire to dominate others.
 
 It comes into play when competing directly against someone else in an attempt to best them (wrestling, swordfighting, shooting, dogfighting, breaking a slave).
