@@ -2,9 +2,11 @@
 nav:extend(.nav all) {}
 table:extend(.table all, .table-striped all) {}
 header:extend(.jumbotron all) {
-    background-image:url('icons/lorc/originals/svg/wavy-chains.svg');
-    background-size: cover;
+    background-image:url('icons/lorc/originals/svg/chained-heart.svg');
+    background-color: black;
+    background-height: 100%;
     background-repeat:no-repeat;
+    background-position: right;
 }
 
 blockquote:extend(.alert-info all) {}
@@ -61,9 +63,13 @@ section.row { margin: 0; }
 }
 
 @brand-primary:  #42ca8b;
+@state-success-text:  lighten(#3c763d, 50%);
 @state-success-bg:  darken(#dff0d8, 70%);
+@state-info-text:   lighten(#31708f, 50%);
 @state-info-bg:  darken(#d9edf7, 70%);
+@state-warning-text:    lighten(#8a6d3b, 50%);
 @state-warning-bg:  darken(#fcf8e3, 70%);
+@state-danger-text: lighten(#a94442, 50%);
 @state-danger-bg:  darken(#f2dede, 70%);
 @state-success-border:           lighten(spin(@state-success-bg, -10), 10%);
 @state-info-border:           lighten(spin(@state-info-bg, -10), 10%);
