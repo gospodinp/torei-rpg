@@ -98,16 +98,32 @@ A relationship is a strong connection between your character and a person, place
 
 ## Allocate your dice
 
-Your [Background] type determines what dice you have to allocate.  Remember that [Stats] have a minimum of **2d6** and you can't mix die sizes in [Traits] or [Relationships].
+Your [Background] type determines what dice you have to allocate.  Remember that [Stats] have a minimum of `2`{.d6} and you can't mix die sizes in [Traits] or [Relationships].
 
-             Background     Stat Dice     Trait Dice      Relationship Dice
------------------------    -----------    -------------   -----------------
-         [Well-Rounded]      17d6         1d4 4d6 2d8     4d6 2d8 
-       [Strong History]      13d6         3d6 4d8 3d10    1d4 4d6 2d8
-  [Complicated History]      15d6         4d4 2d6 2d10    5d6 2d8
-     [Strong Community]      13d6         1d4 3d6 2d8     4d6 4d8 3d10
-[Complicated Community]      15d6         6d6 2d8         4d4 2d6 2d8 2d10
------------------------    ---------    -------------   -----------------
+----------------------------------------------------------------------
+             Background   Stat Dice   Trait Dice    Relationship Dice
+-----------------------  -----------  ------------  ------------------
+         [Well-Rounded]   `17`{.d6}   `1`{.d4}      `4`{.d6}
+                                      `4`{.d6}      `2`{.d8}
+                                      `2`{.d8}  
+
+       [Strong History]   `13`{.d6}   `3`{.d6}      `1`{.d4}
+                                      `4`{.d8}      `4`{.d6}
+                                      `3`{.d10}     `2`{.d8}
+
+  [Complicated History]   `15`{.d6}   `4`{.d4}      `5`{.d6}
+                                      `2`{.d6}      `2`{.d8}
+                                      `2`{.d10}  
+  
+     [Strong Community]   `13`{.d6}   `1`{.d4}      `4`{.d6}
+                                      `3`{.d6}      `4`{.d8}
+                                      `2`{.d8}      `3`{.d10}
+
+[Complicated Community]   `15`{.d6}   `6`{.d6}       `4`{.d4}
+                                      `2`{.d8}      `2`{.d6}
+                                                    `2`{.d8}
+                                                    `2`{.d10}
+------------------------------------------------------------------------
 
 
 ## Belongings
@@ -123,7 +139,7 @@ resisted falling in love with an abuser.  Whatever you choose, make sure it
 isn't something that would ruin your character if you lose.  "I hope that I
 didn't die" won't work!
 
-The GM will run a [Conflict] between your character and **4d6 4d10** in opposition.  The result will be a new **1d6** trait, such as "I stayed debt-free ever since the belt came off" or "I never did earn my slave's respect."
+The GM will run a [Conflict] between your character and `4`{.d6} `4`{.d10} in opposition.  The result will be a new `1`{.d6} trait, such as "I stayed debt-free ever since the belt came off" or "I never did earn my slave's respect."
 
 # Conflict {.row}
 
@@ -142,19 +158,19 @@ The first step is to roll the dice from two of your [Stats].  All your rolls go 
 
 Which two [Stats] you roll depends on how you're trying to get what you want:
 
-### Talking {.col-md-3 .action .well}
+### Talking {.col-md-3 .action .well .content-box}
 
 ![If you're *talking*, everyone involved will roll [Acuity] + [Heart].](icons/lorc/originals/svg/conversation.svg) 
 
-### Moving {.col-md-3 .action .well}
+### Moving {.col-md-3 .action .well .content-box}
 
 ![If the competition is *physical*, you roll [Body] + [Heart].](icons/lorc/originals/svg/sprint.svg) 
 
-### Fighting {.col-md-3 .action .well}
+### Fighting {.col-md-3 .action .well .content-box}
 
 ![If it's *violent*, you roll [Body] + [Will].](icons/lorc/originals/svg/crossed-swords.svg) 
 
-### Manoeuvring {.col-md-3 .action .well}
+### Manoeuvring {.col-md-3 .action .well .content-box}
 
 ![ If it's a contest of *skill and finesse*, roll [Acuity] + [Will].](icons/lorc/originals/svg/on-target.svg)
 
@@ -180,10 +196,10 @@ Everyone then discards all remaining dice, and rolls fallout.
 
 > Never push more than two in a [Challenge]!
 
-#### 1st Die {.col-md-4 .col-md-offset-2 .die .bg-info}
+#### 1st Die {.col-md-4 .col-md-offset-2 .die .bg-info .content-box}
 ![Push one die if that's all you have left.](icons/delapouite/dice/svg/perspective-dice-six-faces-random.svg)
 
-#### 2nd Die {.col-md-4 .die .bg-info}
+#### 2nd Die {.col-md-4 .die .bg-info .content-box}
 ![But if you have at least two dice, you must push two.](icons/delapouite/dice/svg/perspective-dice-six-faces-random.svg)
 
 
@@ -194,37 +210,58 @@ Everyone then discards all remaining dice, and rolls fallout.
 3) Each target makes a [Response].
 4) After all responses are done, discard these dice.
 
-## Response {.row .col-md-12}
+## Response 
 
 The target of the [Challenge] pushes forward enough dice to match the total from the [Challenge].
 
 The outcome of the challenge depends on how many dice were used to respond:
 
-#### 1 Die {.col-md-3 .die .bg-success}
+### Fewer Dice is Better {.col-md-12 .row}
+
+#### 1 Die {.col-md-3 .die .bg-success .content-box}
 ![If you met the challenge with only one die, you're *Reversing The Blow*.  Describe how you turn your challenger's actions to your advantage, and then re-use this die in your next [Challenge]!](icons/lorc/originals/svg/shield-reflect.svg)
 
-#### 2 Dice {.col-md-3 .die .bg-warning}
+#### 2 Dice {.col-md-3 .die .bg-warning .content-box}
 ![If you met the challenge with exactly two dice, you've *Blocked*.  Describe how you prevented the challenger from affecting you.](icons/lorc/originals/svg/arrows-shield.svg)
 
-#### 3 Dice {.col-md-3 .die .bg-danger}
+#### 3 Dice {.col-md-3 .die .bg-danger .content-box}
 ![If you use three dice to meet the [Challenge], you're *Taking the Blow*.  Describe how the challenger's actions harmed you, and set aside three [Fallout] dice to roll after the [Conflict]!](icons/lorc/originals/svg/broken-shield.svg)
 
-#### ..or more! {.col-md-3 .die .bg-danger}
+#### ..or more! {.col-md-3 .die .bg-danger .content-box}
 ![The more dice you use in your [Response], the more [Fallout] dice you need to roll. This can lead to greater harm, but also greater experience.](icons/lorc/originals/svg/broken-shield.svg)
 
-### Fewer Dice is Better {.col-md-12}
+### Need more Dice? {.row .col-md-12}
 
-## Changing The Game
+* Get [Help]
+* Use [Traits and Belongings]
+* [Change the Game]
+
+Don't forget that [Giving In is Awesome]!
+
+If you can't match the [Challenge]'s total, you lose the stakes.
+
+After responding, discard these dice (unless you *Reversed the Blow*).
+
+## Change the Game {.col-md-6}
 
 Are you shooting? Take it physical and run away! Fighting? Take it to talking with threats or bargaining. Whatever you do, it must be something the other person *can't ignore*!
 
 ### Roll Anew and Strike Back
 
-Everyone immediately rolls stat dice for the new type of conflict. Don't re-roll any stats you've already rolled, and don't discard any dice already in your pool. If you change the game to a type nobody's rolled yet, you do not need to respond, and can instead make your own challenge now!
+Everyone immediately rolls stat dice for the new type of conflict. 
 
-## Traits and Belongings
+Don't re-roll any stats you've already rolled, and don't discard any dice already in your pool. 
 
-## Help
+If you change the game to a type nobody's rolled yet, you do not need to respond, and can instead make your own [Challenge] now!
+
+## Traits and Belongings {.col-md-6}
+
+1. Describe how one of your [Traits] or [Belongings] helps you.
+2. Roll it and add the dice to your pool.
+
+> You can only use each trait or belonging once per [Conflict].
+
+## Help {.col-md-6}
 
 Anyone can help by describing and rolling a relevant trait or belonging, then giving you their single highest rolled die. The rest are discarded. They now can't use this trait or belonging in their next conflict.
 
@@ -255,21 +292,21 @@ Then take the two highest fallout dice you rolled and add them together.  Choose
 
 [Short-Term Harm] only lasts for one conflict, or as the story requires.
 
-#### Dazed {.col-md-3 .bg-danger .harm}
+#### Dazed {.col-md-3 .bg-danger .harm .content-box}
 
-![Dazed reduces the die size of your [Acuity] from **d6** to **d4**.](icons/lorc/originals/svg/six-eyes.svg) 
+![Dazed reduces the die size of your [Acuity] from `#`{.d6} to `#`{.d4}.](icons/lorc/originals/svg/six-eyes.svg) 
 
-#### Bound {.col-md-3 .bg-danger .harm}
+#### Bound {.col-md-3 .bg-danger .harm .content-box}
 
-![Bound reduces the die size of your [Body] from **d6** to **d4**.](icons/lorc/originals/svg/imprisoned.svg) 
+![Bound reduces the die size of your [Body] from `#`{.d6} to `#`{.d4}.](icons/lorc/originals/svg/imprisoned.svg) 
 
-#### Broken {.col-md-3 .bg-danger .harm}
+#### Broken {.col-md-3 .bg-danger .harm .content-box}
 
-![Broken reduces the die size of your [Will] from **d6** to **d4**.](icons/lorc/originals/svg/despair.svg) 
+![Broken reduces the die size of your [Will] from `#`{.d6} to `#`{.d4}.](icons/lorc/originals/svg/despair.svg) 
 
-#### Shamed {.col-md-3 .bg-danger .harm}
+#### Shamed {.col-md-3 .bg-danger .harm .content-box}
 
-![Shamed reduces the die size of your [Heart] from **d6** to **d4**.](icons/lorc/originals/svg/paranoia.svg) 
+![Shamed reduces the die size of your [Heart] from `#`{.d6} to `#`{.d4}.](icons/lorc/originals/svg/paranoia.svg) 
 
 ### Permanent Harm
 
@@ -281,37 +318,8 @@ Then take the two highest fallout dice you rolled and add them together.  Choose
 
 ----
 
-2. Roll it and add the dice to your pool.
-
-You can only use each trait or belonging once per conflict.
-
-Describe how you
-
-
-challenge.
-
-
-6
-Dice
-
-7 or
-more
-
-If you respond with 3 or more dice:
-
-1. Describe how the challenge harms or weakens you.
-2. Set aside the same number of fallout dice.
-
-Need more dice?
-
-* Get help, use traits & belongings, or change the
-game.
-
-* Or you can give in! (Giving in is great!)
-
 The last person in the conflict wins, and tells us what happens
 
-If you can't match the challenge's total, you lose the stakes.
 
 Everyone then discards all remaining dice, and rolls fallout.
 

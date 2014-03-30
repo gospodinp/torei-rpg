@@ -32,8 +32,9 @@ $endif$
 $for(header-includes)$
   $header-includes$
 $endfor$
-<script src="/usr/share/javascript/jquery/jquery.min.js"></script>
-<script src="bootstrap/js/affix.js"></script>
+<script src="jquery.min.js"></script>
+<script src="affix.js"></script>
+<script src="equalheight.js"></script>
 </head>
 <body>
 $for(include-before)$
@@ -56,7 +57,7 @@ $endif$
 $endif$
 $if(toc)$
 <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-3 pull-right">
         <nav id="$idprefix$TOC" data-spy="affix" data-offset-top="279">
 $toc$
         </nav>

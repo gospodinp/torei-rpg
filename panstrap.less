@@ -1,7 +1,11 @@
 @import "bootstrap/less/bootstrap.less";
-nav:extend(.nav all, .well all) {}
+nav:extend(.nav all) {}
 table:extend(.table all, .table-striped all) {}
-header:extend(.jumbotron all) {}
+header:extend(.jumbotron all) {
+    background-image:url('icons/lorc/originals/svg/wavy-chains.svg');
+    background-size: cover;
+    background-repeat:no-repeat;
+}
 
 blockquote:extend(.alert-info all) {}
 
@@ -13,22 +17,35 @@ section>p>img:extend(.img-rounded all, .pull-right all),
     margin-right: 0.5em;
 }
 section.harm:extend(.text-center all), section.action:extend(.text-center all), section.die:extend(.text-center all) { }
-section.harm h4 a:extend(.btn),
-section.die h4 a:extend(.btn) {}
-section.bg-success h4 a:extend(.btn-success) {}
-section.bg-info h4 a:extend(.btn-info) {}
-section.bg-warning h4 a:extend(.btn-warning) {}
-section.bg-danger h4 a:extend(.btn-danger) {}
+section.harm h4 a:extend(.label),
+section.die h4 a:extend(.label) {}
+section.bg-success h4 a:extend(.label, .label-success) {}
+section.bg-info h4 a:extend(.label, .label-info) {}
+section.bg-warning h4 a:extend(.label, .label-warning) {}
+section.bg-danger h4 a:extend(.label, .label-danger) {}
 section.bg-success figure img,
 section.bg-info figure img,
 section.bg-warning figure img,
-section.bg-danger figure img { opacity: 0.7; }
+//section.bg-danger figure img { opacity: 0.7; }
 figure img:extend(.img-rounded) { max-width: 8em;}
 
-nav ul { 
-    list-style: none;  
+code.d10:extend(.bg-success),
+code.d8:extend(.bg-info),
+code.d6:extend(.bg-warning),
+code.d4:extend(.bg-danger) { font-weight: bold; }
+
+code.d10:after { content: "d10"; }
+code.d8:after { content: "d8"; }
+code.d6:after { content: "d6"; }
+code.d4:after { content: "d4"; }
+
+nav > ul :extend(.list-group all) { }
+nav > ul > li:extend(.list-group-item all) { }
+nav > ul > li > a:extend(.btn all, .btn-lg all, .btn-block all) {}
+nav > ul > li > ul > li {
     margin-left: -30px;
-} 
+    list-style-type: none;
+}
 section.row { margin: 0; }
 
 @media (min-width: 767px) {
@@ -43,4 +60,27 @@ section.row { margin: 0; }
     }
 }
 
+@brand-primary:  #42ca8b;
+@state-success-bg:  darken(#dff0d8, 70%);
+@state-info-bg:  darken(#d9edf7, 70%);
+@state-warning-bg:  darken(#fcf8e3, 70%);
+@state-danger-bg:  darken(#f2dede, 70%);
+@state-success-border:           lighten(spin(@state-success-bg, -10), 10%);
+@state-info-border:           lighten(spin(@state-info-bg, -10), 10%);
+@state-warning-border:           lighten(spin(@state-warning-bg, -10), 10%);
+@state-danger-border:           lighten(spin(@state-danger-bg, -10), 10%);
 
+a:visited {
+    color: lighten(@brand-primary, 30%);
+}
+
+@body-bg: @gray-darker;
+@text-color: @gray-lighter;
+@well-bg: @gray-dark;
+@jumbotron-bg: @gray-dark;
+@table-bg-accent: @gray-dark;
+@table-bg-hover: @gray-dark;
+@list-group-bg: @well-bg;
+@list-group-border: @table-border-color;
+@code-color: @gray-lighter;
+@code-bg: @well-bg;
