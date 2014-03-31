@@ -8,6 +8,7 @@ section.level1 > figure:extend(.pull-right),
 section.level2 > figure:extend(.pull-right) {
         .make-md-column(4);
 }
+section.level1 > p, section.level2 > p { max-width: 40em; }
 section.level3 { .make-md-column(9); .make-md-column-offset(1); }
 section.level4 { .make-md-column(6) }
 section.level5 { .make-md-column(4) }
@@ -21,7 +22,8 @@ section.level6 { .make-md-column(3) }
 
 a[href$='#character-creation'] { .image-link('drama-masks'); }
 a[href$='#background'] { .image-link('journey');}
-a[href$='#why-did-you-come'] { .image-link('star-pupil');}
+a[href$='#male-or-female'] { .image-link('duality');}
+a[href$='#why-did-you-leave'] { .image-link('star-pupil');}
 a[href$='#where-are-you-from'] { .image-link('globe');}
 a[href$='#hierarchy'] { .image-link('minions');}
 a[href$='#stats'] { .image-link('suits');}
@@ -31,20 +33,24 @@ a[href$='#heart'] { .image-link('shining-heart');}
 a[href$='#will'] { .image-link('burning-passion');}
 a[href$='#traits'] { .image-link('poker-hand');}
 a[href$='#relationships'] { .image-link('telepathy');}
+a[href$='#allocate-your-dice'] { .image-link('checkbox-tree');}
 a[href$='#belongings'] { .image-link('knapsack');}
 a[href$='#initiation-to-torei'] { .image-link('slavery-whip');}
-a[href$='#roll-stats-and-relationships'] { .image-link('cubes');}
+a[href$='#roll-stats-and-relationships'], a[href$='#need-more-dice'], a[href$='#how-to-think-about-dice'] { .image-link('cubes');}
 
 a[href$='#conflict'] { .image-link('back-forth');}
 a[href$='#who-goes-first'] { .image-link('stopwatch');}
 a[href$='#who-wins'] { .image-link('life-in-the-balance');}
 a[href$='#challenge'] { .image-link('smoking-finger');}
 a[href$='#response'] { .image-link('checked-shield');}
-a[href$='#change-the-game'] { .image-link('magic-swirl');}
+a[href$='#change-the-game'], a[href$='#how-to-think-about-changing-the-game'] { .image-link('magic-swirl');}
+a[href$='#traits-and-belongings'] { .image-link('cubeforce');}
 a[href$='#help'] { .image-link('all-for-one');}
-a[href$='#give-in'] { .image-link('dove');}
+a[href$='#give-in'], a[href$='#giving-in-is-awesome'] { .image-link('prayer');}
 
-a[href$='#fallout'] { .image-link('thunder-struck');}
+a[href$='#fallout'], a[href$='#how-to-think-about-fallout'] { .image-link('thunder-struck');}
+a[href$='#short-term-harm'] { .image-link('cut-palm');}
+a[href$='#permanent-harm'] { .image-link('pummeled');}
 a[href$='#experience'] { .image-link('gift-of-knowledge');}
 
 a[href$='#play-advice'] { .image-link('light-bulb');}
@@ -68,6 +74,10 @@ section>p>img:extend(.img-rounded all, .pull-right all),
     max-width: 4em;
     margin-right: 0.5em;
 }
+.die > h5:extend(h3) {}
+.die > h6:extend(h3) {}
+.action > h6:extend(h3) {}
+.harm > h6:extend(h3) {}
 .stat > h6:extend(h1) {}
 section.harm:extend(.text-center all), section.action:extend(.text-center all), section.die:extend(.text-center all) { }
 section.harm h6 a:extend(.label),
@@ -83,6 +93,11 @@ code.d10:extend(.bg-success),
 code.d8:extend(.bg-info),
 code.d6:extend(.bg-warning),
 code.d4:extend(.bg-danger) { font-weight: bold; }
+code { 
+    -moz-box-shadow:    inset 0 0 2px @gray-lighter;
+    -webkit-box-shadow: inset 0 0 2px @gray-lighter;
+    box-shadow:         inset 0 0 2px @gray-lighter;
+}
 
 code.d10:after { content: "d10"; }
 code.d8:after { content: "d8"; }
@@ -91,6 +106,10 @@ code.d4:after { content: "d4"; }
 
 nav > ul :extend(.list-group all) { }
 nav > ul > li:extend(.list-group-item all) { }
+nav > ul > li > ul {
+    list-style: none;
+    margin-left: -20px;
+}
 
 @media (min-width: 767px) {
     .affix {
