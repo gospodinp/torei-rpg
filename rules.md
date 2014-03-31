@@ -1,5 +1,6 @@
 % Torei RPG
-% by Gospodin
+% by Gospodin <http://toreans.deviantart.com>
+  icons by Lorc and Delapouite <http://game-icons.net>
 
 
 Torei is a half-finished planet out in the empty space between the galaxies.  Vast inscrutable terraforming machines rule from their ziggurats at the poles, while humans scratch out what livelihood they can around the equator.
@@ -341,6 +342,8 @@ Per the circumstances of the story, choose one:
 * Gain a `1`{.d6} trait, relationship, or belonging.
 * Add one die to an existing trait, relationship, or belonging.
 * Add 2 to the die size (max: 10) of an existing trait, relationship, or belonging.
+
+> TODO: flesh out
 
 # Play Advice
 

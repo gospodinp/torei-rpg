@@ -32,9 +32,6 @@ $endif$
 $for(header-includes)$
   $header-includes$
 $endfor$
-<script src="jquery.min.js"></script>
-<script src="affix.js"></script>
-<script src="equalheight.js"></script>
 </head>
 <body>
 $for(include-before)$
