@@ -125,23 +125,29 @@ Your [Background] type determines what dice you have to allocate.  Remember that
                                                     `2`{.d10}
 ------------------------------------------------------------------------
 
+Table: Dice allocations for the five [Background] types.
+
 
 ## Belongings
 
 Does your character carry anything?  Tools of the trade?  Restraints?  Whips?  Vibrators?
 
 `1`{.d6}
-~    if it’s normal.
+~    if it’s Torean.
 `2`{.d6}
-~    if it’s excellent. It’s only excellent if people meeting your character would notice and comment on it: "Now that is a masterpiece of a whip!"
+~    if it’s excellent Torean equipment. It’s only excellent if people meeting your character would notice and comment on it: "Now that is a masterpiece of a whip!"
 `1`{.d8}
-~    if it’s big. Similarly: "holy smokes that’s a big knife."
+~    if it’s from off-world.
 `2`{.d8}
-~    if it’s excellent plus big.
+~    if it’s excellent off-world equipment.
 `1`{.d4}
-~    if it’s crap. Crap plus big is still just `1`{.d4}.
-
-> FIXME: adjust this for offworld/daemon tech.
+~    if it’s terrible.
+`2`{.d4}
+~    if it's Torean biotech.
+`3`{.d4}
+~    if it's excellent Torean biotech.
+`4`{.d4}
+~    if it's Torean biotech from the AIs.
 
 ## Initiation to Torei
 
