@@ -66,22 +66,22 @@ You're socially vulnerable, and your [Relationships] tend to be messy.  You may 
 
 Everyone has four Stats, represented as sets of six-sided dice to be rolled during play.
 
-###### Acuity {.stat .well .content-box}
+###### Acuity {.stat .content-box}
 Acuity represents your intellect, perception, fine motor control, and finesse.
 
 It comes into play when doing something that requires attention to detail or delicate accuracy (talking, shooting, difficult piloting, picking pockets).
 
-###### Body {.stat .well .content-box}
+###### Body {.stat .content-box}
 Body represents your health, lust, stamina, and physical ability.
 
 It comes into play when performing a physically demanding task (running, lifting, dancing, wrestling, swordfighting).
 
-###### Heart {.stat .well .content-box}
+###### Heart {.stat .content-box}
 Heart represents your empathy, motivation to improve, and desire to help others.
 
 It comes into play when competing in a more indirect or non-violent way (talking, racing, working, dancing).
 
-###### Will {.stat .well .content-box}
+###### Will {.stat .content-box}
 Will represents your determination, resolve, nerves, and desire to dominate others.
 
 It comes into play when competing directly against someone else in an attempt to best them (wrestling, swordfighting, shooting, dogfighting, breaking a slave).
@@ -130,7 +130,18 @@ Your [Background] type determines what dice you have to allocate.  Remember that
 
 Does your character carry anything?  Tools of the trade?  Restraints?  Whips?  Vibrators?
 
-> TODO: Give table for big/crap/good/AI tech
+`1`{.d6}
+~    if it’s normal.
+`2`{.d6}
+~    if it’s excellent. It’s only excellent if people meeting your character would notice and comment on it: "Now that is a masterpiece of a whip!"
+`1`{.d8}
+~    if it’s big. Similarly: "holy smokes that’s a big knife."
+`2`{.d8}
+~    if it’s excellent plus big.
+`1`{.d4}
+~    if it’s crap. Crap plus big is still just `1`{.d4}.
+
+> FIXME: adjust this for offworld/daemon tech.
 
 ## Initiation to Torei
 
@@ -157,19 +168,19 @@ The first step is to roll the dice from two of your [Stats].  All your rolls go 
 
 Which two [Stats] you roll depends on how you're trying to get what you want:
 
-###### Talking {.action .well .content-box}
+###### Talking {.action .content-box}
 
 ![If you're *talking*, everyone involved will roll [Acuity] + [Heart].](icons/lorc/originals/svg/conversation.svg) 
 
-###### Moving {.action .well .content-box}
+###### Moving {.action .content-box}
 
 ![If the competition is *physical*, you roll [Body] + [Heart].](icons/lorc/originals/svg/sprint.svg) 
 
-###### Fighting {.action .well .content-box}
+###### Fighting {.action .content-box}
 
 ![If it's *violent*, you roll [Body] + [Will].](icons/lorc/originals/svg/crossed-swords.svg) 
 
-###### Manoeuvring {.action .well .content-box}
+###### Manoeuvring {.action .content-box}
 
 ![ If it's a contest of *skill and finesse*, roll [Acuity] + [Will].](icons/lorc/originals/svg/on-target.svg)
 
@@ -274,7 +285,7 @@ Keep your 2 highest dice in your pool for your next conflict (don't re-roll them
 
 After a conflict, roll all your fallout dice (if any) together. 
 
-If any of these rolled dice come up 1, you gain an [Experience]!
+If any of these rolled dice come up `1`, you gain an [Experience]!
 
 
 > You only claim one experience per conflict.
@@ -282,13 +293,16 @@ If any of these rolled dice come up 1, you gain an [Experience]!
 
 Then take the two highest fallout dice you rolled and add them together.  Choose harm from the following table:
 
-  Roll    [Short-Term Harm]    [Permanent Harm]
-------   -------------------  ------------------
-   2-7            1
-  8-10            1                    1
- 11-15            1                    2
- 16-19            2                    3
-    20                              *Death!*
+2-7
+~    Take [Short-Term Harm]
+8-10
+~    Take [Permanent Harm]
+11-15
+~    Take [Short-Term Harm] *and* [Permanent Harm]
+16-19
+~    Take [Short-Term Harm] and [Permanent Harm], *and* enter a [Conflict] where the stakes are your own survival.
+20
+~    *Death!*
 
 ## Short-Term Harm
 

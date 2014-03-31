@@ -4,11 +4,7 @@ section.level1, section.level2 {
     .make-md-column(12);
     .make-row();
 }
-section.level1 > figure:extend(.pull-right),
-section.level2 > figure:extend(.pull-right) {
-        .make-md-column(4);
-}
-section.level1 > p, section.level2 > p { max-width: 40em; }
+section.level1 > p, section.level2 > p, dd { max-width: 40em; }
 section.level3 { .make-md-column(9); .make-md-column-offset(1); }
 section.level4 { .make-md-column(6) }
 section.level5 { .make-md-column(4) }
@@ -64,12 +60,14 @@ header:extend(.jumbotron all) {
     background-repeat:no-repeat;
     background-position: right;
 }
+dl:extend(.dl-horizontal all) {}
 
 blockquote:extend(.alert-info all) {}
 
 div[role=main] > p:extend(.lead) {}
 
 section>p>img:extend(.img-rounded all, .pull-right all), 
+.action:extend(.well all), .stat:extend(.well all) {}
 .stat img:extend(.img-circle all, .pull-left all) { 
     max-width: 4em;
     margin-right: 0.5em;
@@ -94,9 +92,14 @@ code.d8:extend(.bg-info),
 code.d6:extend(.bg-warning),
 code.d4:extend(.bg-danger) { font-weight: bold; }
 code { 
-    -moz-box-shadow:    inset 0 0 2px @gray-lighter;
-    -webkit-box-shadow: inset 0 0 2px @gray-lighter;
-    box-shadow:         inset 0 0 2px @gray-lighter;
+    -moz-box-shadow:    inset 0 0 5px @gray-lighter;
+    -webkit-box-shadow: inset 0 0 5px @gray-lighter;
+    box-shadow:         inset 0 0 5px @gray-lighter;
+}
+.jumbotron { 
+    -moz-box-shadow:    inset 0 0 20px @gray-darker;
+    -webkit-box-shadow: inset 0 0 20px @gray-darker;
+    box-shadow:         inset 0 0 20px @gray-darker;
 }
 
 code.d10:after { content: "d10"; }
