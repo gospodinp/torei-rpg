@@ -223,7 +223,7 @@ The target of the [Challenge] pushes forward enough dice to match the total from
 ![If you use three dice to meet the [Challenge], you're *Taking the Blow*.  Describe how the challenger's actions harmed you, and set aside three [Fallout] dice to roll after the [Conflict]!](icons/lorc/originals/svg/broken-shield.svg)
 
 ###### ..or more! {.die .bg-danger .content-box}
-![The more dice you use in your [Response], the more [Fallout] dice you need to roll. This can lead to greater harm, but also greater experience.](icons/lorc/originals/svg/broken-shield.svg)
+![The more dice you use in your [Response], the more [Fallout] dice you need to roll. This can lead to greater harm, but also greater [Experience].](icons/lorc/originals/svg/broken-shield.svg)
 
 ### Fewer Dice is Better
 
@@ -292,7 +292,7 @@ Then take the two highest fallout dice you rolled and add them together.  Choose
 
 ## Short-Term Harm
 
-[Short-Term Harm] only lasts for one conflict, or as the story requires.
+Short-Term Harm only lasts for one conflict, or as the story requires.
 
 ###### Dazed {.harm .bg-danger .content-box}
 
@@ -318,7 +318,7 @@ Then take the two highest fallout dice you rolled and add them together.  Choose
 
 Per the circumstances of the story, choose one:
 
-* Gain a 1d6 trait, relationship, or belonging.
+* Gain a `1`{.d6} trait, relationship, or belonging.
 * Add one die to an existing trait, relationship, or belonging.
 * Add 2 to the die size (max: 10) of an existing trait, relationship, or belonging.
 
@@ -326,13 +326,13 @@ Per the circumstances of the story, choose one:
 
 #### How to Think about Dice
 
-Lots of small dice can win you the stakes, but they're more likely to cause [Fallout]. It's true that `3`{.d4} can total up to 12 just as `2`{.d6} can, but needing 3 dice to respond instead of 2 increases your [Fallout]. So having that fistful of `#`{.d4} can win you the stakes, but you will pay for it later!
+Lots of small dice can win you the stakes, but they're more likely to harm you. It's true that `3`{.d4} can total up to 12 just as `2`{.d6} can, but needing 3 dice to respond instead of 2 increases your [Fallout]. So having that fistful of `#`{.d4} can win you the stakes, but you will pay for it later!
 
 #### How to Think about Fallout
 
 Fallout also has a die-size element to it, keyed to the type of conflict you're engaged in. The smaller dice used for the non-violent conflict types make it more likely that some of them will come up 1, earning you an [Experience]. We learn more consistently by talking or doing than we do by fighting, after all!
 
-### How to Think about Changing The Game
+#### How to Think about Changing The Game
 
 The original name for changing the game was "escalation", and that still confuses a lot of people who are new to Dogs or its offshoots.
 
@@ -341,7 +341,7 @@ It's true that you can escalate from peaceful approaches to more violent ones, b
 > A pirate who breaks from a swordfight to swing from the chandelier is changing the game every bit as much as a cowgirl who draws her pistol on an argument!
 
 
-### Giving In is Awesome
+#### Giving In is Awesome
 
 If you're willing to surrender the stakes, giving in can be one of the most powerful moves you have! You get to keep your two best rolls in your pool, and use them in your next [Conflict]. You also avoid any further risk of [Fallout], and this can help you aim for [Experience].
 
