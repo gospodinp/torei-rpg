@@ -31,12 +31,16 @@ a[href$='#traits'] { .image-link('poker-hand');}
 a[href$='#relationships'] { .image-link('telepathy');}
 a[href$='#allocate-your-dice'] { .image-link('checkbox-tree');}
 a[href$='#belongings'] { .image-link('knapsack');}
+a[href$='#torean-objects'] { .image-link('manacles');}
+a[href$='#off-world-objects'] { .image-link('circuitry');}
+a[href$='#biotech'] { .image-link('biohazard');}
 a[href$='#initiation-to-torei'] { .image-link('slavery-whip');}
-a[href$='#roll-stats-and-relationships'], a[href$='#need-more-dice'], a[href$='#how-to-think-about-dice'] { .image-link('cubes');}
+a[href$='#example-character'] { .image-link('aura');}
 
 a[href$='#conflict'] { .image-link('back-forth');}
 a[href$='#who-goes-first'] { .image-link('stopwatch');}
 a[href$='#who-wins'] { .image-link('life-in-the-balance');}
+a[href$='#roll-stats-and-relationships'], a[href$='#need-more-dice'], a[href$='#how-to-think-about-dice'] { .image-link('cubes');}
 a[href$='#challenge'] { .image-link('smoking-finger');}
 a[href$='#response'] { .image-link('checked-shield');}
 a[href$='#change-the-game'], a[href$='#how-to-think-about-changing-the-game'] { .image-link('magic-swirl');}
@@ -44,12 +48,22 @@ a[href$='#traits-and-belongings'] { .image-link('cubeforce');}
 a[href$='#help'] { .image-link('all-for-one');}
 a[href$='#give-in'], a[href$='#giving-in-is-awesome'] { .image-link('prayer');}
 
-a[href$='#fallout'], a[href$='#how-to-think-about-fallout'] { .image-link('thunder-struck');}
+a[href$='#fallout'], a[href$='#fallout-dice'], a[href$='#how-to-think-about-fallout'] { .image-link('thunder-struck');}
+figcaption > a[href$='#reversing-the-blow'], p > a[href$='#reversing-the-blow'] { .image-link('shield-reflect'); }
+figcaption > a[href$='#blocking'], p > a[href$='#blocking'] { .image-link('arrows-shield'); }
+figcaption > a[href$='#taking-the-blow'], p > a[href$='#taking-the-blow'] { .image-link('broken-shield'); }
 a[href$='#short-term-harm'] { .image-link('cut-palm');}
 a[href$='#permanent-harm'] { .image-link('pummeled');}
+a[href$='#serious-permanent-harm'] { .image-link('internal-injury');}
 a[href$='#experience'] { .image-link('gift-of-knowledge');}
 
 a[href$='#play-advice'] { .image-link('light-bulb');}
+a[href$='#gm-advice'] { .image-link('book-cover');}
+a[href$='#say-yes-or-roll-the-dice'] { .image-link('uncertainty');}
+a[href$='#build-situations-not-plots'] { .image-link('dark-squad');}
+a[href$='#share-the-setting'] { .image-link('fountain-pen');}
+a[href$='#drive-play-toward-conflict'] { .image-link('rally-the-troops');}
+a[href$='#keep-revealing'] { .image-link('magnifying-glass');}
 
 nav:extend(.nav all) {}
 table:extend(.table all, .table-striped all) {}
@@ -157,3 +171,4 @@ a:visited {
 @code-color: @gray-lighter;
 @code-bg: @well-bg;
 
+@icon-font-path:          "bootstrap/fonts/";
