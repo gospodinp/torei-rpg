@@ -1,4 +1,4 @@
-% Torei RPG
+% Torei, a Role-Playing Game
 % by Gospodin <http://toreans.deviantart.com>
   icons by Lorc and Delapouite <http://game-icons.net>
 
@@ -6,6 +6,59 @@
 Torei is a half-finished planet out in the empty space between the galaxies.  Vast inscrutable terraforming machines rule from their ziggurats at the poles, while humans scratch out what livelihood they can around the equator.
 
 But times have changed since the greater spacefaring society discovered Torei, and the new city-towers around the space elevator form a rich hub of intergalactic trade.  Now the powerful AIs struggle to keep the economy and ecology of the world in balance, fighting to keep their biological advances safe from scheming outsiders.  The visiting off-worlders, for their part, must learn to adjust to a society where slavery and sexual domination is the norm.
+
+# Torei
+
+Torei as a setting is meant to be evoked rather than defined.  It's a kinky BDSM planet, and exactly how that looks is best defined by your group during play.  Your games may result in a detailed sourcebook that lays out some amazing worldbuilding, or you may re-invent it constantly as you go. 
+
+This means that you shouldn't take this section too seriously.  If a player wants to know something about Torei, the GM should probably turn the question back to the group most of the time.
+
+That said, there are a few elements that are probably the most helpful in defining a shared understanding of the setting.  We'll start with those:
+
+#### High-tech and traditional BDSM are part of the Torean way of life
+
+Torei has various forms of formal institutionalised slavery, and human relationships are often viewed through the lens of dominance and submission.  It can be loving, twisted, adventurous, or abusive.
+
+#### The three AIs are inscrutable mad gods, keeping Torei a backwater while trying to finish its biosphere.
+
+Torei is relatively unchanged by the mainstream human culture partly due to the power of these thinking machines that struggle to finish the terraforming project that created the planet in the first place.
+
+#### Torean biotech can do some amazing things.
+
+The technology of the greater human society can do many things Toreans can't, but the biological sciences on Torei surpass anything else in the universe.
+
+#### Torei is hard to get to from the rest of the cosmos.
+
+Torei orbits a lonely star outside any colonised galaxy.  In a universe where travel between the stars is as routine as a train journey, going to Torei still feels like an adventure and takes a long time.
+
+#### Earth is gone and forgotten
+
+Human culture filled the Milky Way before Torei was even constructed, and is so vast that no one probably even knows for sure where we originated.  Dragging Earth into things just makes everything feel smaller.  After all, can you name the exact spot in Africa where the first human family lived?
+
+### The Star
+
+Torei orbits a lone hypervelocity star near Andromeda, which is why the greater spacefaring human civilisation didn't discover it for so long.  While it's reachable from Andromedan stars, the journey is expensive and time-consuming.  It should take at least a few months of subjective time for a character to cross the distance between Torei and anywhere else in the universe.
+
+### The Space Elevator
+
+Once in orbit around Torei, the first port of call is the space station at the top of Torei's single space elevator.  This station is run by an off-world business cartel, subject to a complex set of treaties.
+
+At the base of the elevator, the Toreans have (with help from off-worlders) built a number of arcology spires.  This cluster of towers is the most urbanised spot on the planet.
+
+### The Ringdoms
+
+The habitable part of Torei covers a fairly narrow band around the planet's equator.  Because of this "ring" shape, the nations on Torei are called "ringdoms".  Each is different, and the laws can change dramatically from ringdom to ringdom.
+
+### The Antipodes
+
+The farther you get from the space elevator on Torei, the more rural and relaxed the pace of life becomes.  That isn't to say that life is easy out in the farming ringdoms, but the contrast is striking.
+
+### The Badlands
+
+Most of the surface of the planet between the equatorial band and the poles is a harsh wasteland.  The terraforming project struggles to claim this area, bit by bit, for human settlement.
+
+
+### The Ziggurats
 
 # Character Creation
 
@@ -95,7 +148,11 @@ The most useful Traits are the ones that make the best narrative hooks.  The mor
 
 ## Relationships
 
-A relationship is a strong connection between your character and a person, place, organisation or fetish.  The GM decides when these grant you dice at the beginning of a conflict.
+A relationship is a strong connection between your character and a person, place, organisation or fetish.  The GM decides when these grant you dice at the beginning of a [Conflict].
+
+> Each character should take at least one Relationship with one of the other players' characters.
+
+[Relationship]: #relationships
 
 ### Allocate your dice
 
@@ -128,6 +185,13 @@ Your [Background] type determines what dice you have to allocate.  Remember that
 
 Table: Dice allocations for the five [Background] types.
 
+#### Don't roll these dice yet!  
+
+Your character sheet will actually list the sets of dice themselves next to your [Stats], [Traits], and [Relationships].  If this isn't clear, see the [Example Character] later on.
+
+#### Save Some Relationship Dice!
+
+Most characters should leave their [Relationship] dice largely unallocated.  You'll add them in as you meet people during play!
 
 ## Belongings
 
@@ -257,8 +321,11 @@ The target of the [Challenge] pushes forward enough dice to match the total from
 ![The more dice you use in your [Response], the more [Fallout Dice] you need to roll. This can lead to greater harm, but also greater [Experience].](icons/lorc/originals/svg/broken-shield.svg)
 
 [Reversing the Blow]: #reversing-the-blow
+[Reverses the Blow]: #reversing-the-blow
 [Blocking]: #blocking
 [Blocked]: #blocking
+[Block]: #blocking
+[Blocks]: #blocking
 [Taking the Blow]: #taking-the-blow
 [Take the Blow]: #taking-the-blow
 
@@ -504,72 +571,80 @@ Now it's time to use these results as currency to tell a story.  The Bully's rol
 
 [Who Goes First?]  Since the Bully's two highest dice (`10` `10`) beat Stella's (`4` `4`), he goes first.  He puts forth a [Challenge] with `3` `4`:
 
+Bully's [Challenge]
+:   `3` `4`
+
 > "Keep your off-world tongue to yourself!" the bully spits back.  "I'll train
 > it properly once I'm done with this meat here!" He leers at Stella.
 
-Now the bidding war starts back and forth.  Stella must do two things: push forward enough dice for her [Response] to meet or exceed `7` (the total from the Bully's [Challenge]), and then push forward a [Challenge] of her own.
+Now the bidding war starts back and forth.  Stella must do two things: push forward enough dice for her [Response] to meet or exceed `7` (the total from the Bully's [Challenge]), and then push forward a [Challenge] of her own.  Unfortunately, she can't do it with fewer than three dice, so she'll have to [Take the Blow].
 
-----
+Stella's [Response]
+:   `2`{.bg-danger} `4`{.bg-danger} `1`{.bg-danger}
+Stella's [Fallout Dice]
+:   `3`{.d4}
 
-> FIXME: This needs re-doing to format properly and to use the rules correctly!
+> Stella shrinks a bit under the bully's stare, clearly uncomfortable.
 
-"see" (match the total of the dice I put forth) and "raise" (put forth dice
-of his own).  Since he easily "sees" my **2** with only one die, he
-*reverses the blow*.  This means that he can re-use this die as part of his
-two-dice "raise".
+Stella can't succeed with these terrible dice.  It's time to use her [Traits and Belongings].  Stella calls on `2`{.d6} for *Years on Torei made me a fearless negotiator* and `1`{.d8} for *expert in Torean human rights and treaty law*.  These dice come up `6` `6` `6`, so the balance now looks like:
 
-Now we need to match **7** to stay in this conflict, but we can't do it with
-fewer than two dice, and we need those higher rolls for our raises if we
-want to make a dent in his dice.  We'll use three dice to meet this number,
-which means that not only do we not get to do the re-use trick the bully
-just did, but we must *take the blow*.  The "damage" from this is called
-fallout, and since this is just words we set aside `3`{.d4} in fallout dice.
+Stella
+:   ~~1 2 4~~ `4` `4` `1` `1` `1` `1` `6` `6` `6`
+Bully
+:   ~~3 4~~ `6` `6` `1` `7` `10` `10`
 
-> **See: 4 2 1 Fallout: `3`{.d4} Stella shrinks a bit under the bully's stare,
-> clearly uncomfortable.
 
-We can't keep playing out these terrible dice for Stella.  It's time to
-bring in more than just stats!  Stella calls on `2`{.d6} for *Years on Torei
-made me a fearless negotiator* and `1`{.d8} for *expert in Torean human
-rights and treaty law*.  These dice come up **6 6 6**, so the balance now
-looks like:
+Stella's [Challenge]
+:   `6` `6`
 
-* Stella: ~~1 1 1 2 4~~ **4 4 1 1 6 6 6**
-* Bully: ~~3 4~~ **6 6 1 7 10 10**
-
-> **Raise: 6 6** Stella narrows her eyes and snaps back, "That woman works
-> for the Motkan tourism board, and has a fully protected contract with the
+> Stella narrows her eyes and snaps back, "That woman works for the Motkan
+> tourism board, and has a fully protected contract with the
 > Tower Authority.  You have no right to cajole any consideration from her
 > that would be in conflict with the standards of conduct required by her
 > employer."
 
-The bully uses two dice to see, which is called either a *block* or a
-*dodge* depending on how you envision the reaction.
+The bully [Blocks] with two dice:
 
-> ***See: 6 6** "I am a red-blooded male of Torei.  Don't tell me my rights,
-> freewomb!"  **Raise: 7 1** The bully ignores Stella's legalese and begins
-> molesting the whimpering woman.*
+Bully's [Response]
+:   `6`{.bg-warning} `6`{.bg-warning}
 
-Again, this isn't working out with the dice we have.  We need to raise the
-stakes and try to stop him physically.  I can now roll `4`{.d6} `2`{.d6} to bring
-her body and will stats in for the fight, and I decide to tap `1`{.d6} for *I
-let my...frustration get the better of me.*  The result is **6 4 3 2 3 1 6**
-which takes the total to:
+> "I am a red-blooded male of Torei.  Don't tell me my rights,
+> freewomb!"  
 
-* Stella: (1 1 1 2 4 6 6) **4 4 1 1 6 6 4 3 2 3 1 6**
-* Bully: (3 4 6 6 1 7) **10 10**
+Bully's [Challenge]
+:   `7` `1`
 
-> **See: 4 4** Stella runs toward the man in frustration at being ignored.
-> **Raise: 6 4** She grabs the man by one arm in an attempt to pry him away
-> from the poor girl.
+> The bully ignores Stella's legalese and begins molesting the whimpering
+> woman.
 
-But since 10 was the biggest raise we could do, the bully *reverses the
-blow*
+Again, this isn't working out with the dice she has.  She needs to [Change the Game] and try to stop him physically.  She thus ignores the current [Challenge] and rolls `4`{.d6} `2`{.d6} to bring her [Body] and [Will] in for the fight, and decides to tap `1`{.d6} for *I let my...frustration get the better of me.*  The result of these rolls is `6` `4` `3` `2` `3` `1` `6` which takes the total to:
 
-> ***See: 10** The man twirls around the moment he is touched, and soon he
-> has Stella in his arms. **Raise: {10} 10** He spins her around and whips
-> some sort of handcuffs out of a back pocket of his trousers, forcing
-> Stella's arms around a pole behind her back!*
+Stella
+:   ~~1 2 4 6 6~~ `4` `4` `1` `1` `1` `1` `6` `6` `4` `3` `2` `3` `1` `6`
+Bully
+:   ~~3 4 6 6 1 7~~ `10` `10`
+
+Stella's Challenge
+:   `6` `4`
+
+> Stella runs toward the man in frustration at being ignored.  She grabs the
+> man by one arm in an attempt to pry him away from the poor girl.
+
+But since 10 was the biggest raise we could do, the bully [Reverses the Blow].
+
+Bully's [Response]
+:   `10`{.bg-success}
+
+> The man twirls around the moment he is touched, and soon he has Stella in his
+> arms. 
+
+Bully's [Challenge]
+:   `10`{.bg-success} `10`
+
+> He spins her around and whips some sort of handcuffs out of a back pocket of
+> his trousers, forcing Stella's arms around a pole behind her back!*
+
+----
 
 That's all of the bully's dice, so if we can see 20 and raise *anything*
 we'll save this poor girl.  Unfortunately our dice are so terrible that the
