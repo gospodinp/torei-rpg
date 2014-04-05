@@ -67,6 +67,12 @@ Humans live within these enormous hives, and the unluckiest of them are placed i
 
 You play humans from the greater intergalactic civilization, come to Torei for your own motives both public and secret.
 
+#### Male or Female?
+
+On Torei, your sex is extremely important.  Female Toreans outnumber males 9:1, and the whole economy runs on contracted and enslaved female labour.  Males often live lives of aristocratic privilege, but their status as breeding studs often complicates their [Relationships].
+
+As an outsider, your life will have been different from that of a native Torean.  Think of how your experience of being a man or a woman (or however you identify) was different from that on Torei.
+
 #### Where Are You From?
 
 Invent a new planet around some new star in a nearby galaxy, and make that your homeworld.  Or perhaps it's a union of worlds that you think of as your nationality.  Be creative!
@@ -79,12 +85,6 @@ Invent a new planet around some new star in a nearby galaxy, and make that your 
  2. What reason do you tell people?
 
 These are often two different things!
-
-#### Male or Female?
-
-On Torei, your sex is extremely important.  Female Toreans outnumber males 9:1, and the whole economy runs on contracted and enslaved female labour.  Males often live lives of aristocratic privilege, but their status as breeding studs often complicates their [Relationships].
-
-As an outsider, your life will have been different from that of a native Torean.  Think of how your experience of being a man or a woman (or however you identify) was different from that on Torei.
 
 ## Hierarchy
 
@@ -344,21 +344,29 @@ The outcome of the challenge depends on how many dice were used to respond.
 
 Each time you [Take the Blow], you need to set aside a number of dice equal to the number you used in your [Response].  The type of these dice depends on the type of blow you just took.
 
-###### Senses {.action .bg-success .content-box}
+###### Safe {.action .bg-success .content-box}
 
-![If the blow is *not physical*, set aside **at least** `3`{.d4}.](icons/lorc/originals/svg/screaming.svg)
+![If the blow is safe, set aside **at least** `3`{.d4}.](icons/lorc/originals/svg/screaming.svg)
 
-###### Blows {.action .bg-info .content-box}
+Safe blows are the sorts of things you come out of with little more than a lesson.  
 
-![If the blow *is physical* but *unarmed*, set aside **at least** `3`{.d6}.](icons/lorc/originals/svg/punch.svg)
+###### Risky {.action .bg-info .content-box}
 
-###### Wounds {.action .bg-warning .content-box}
+![If the blow is risky, set aside **at least** `3`{.d6}.](icons/lorc/originals/svg/punch.svg)
 
-![If the blow was made *with a weapon*, set aside **at least** `3`{.d8}.](icons/lorc/originals/svg/dripping-knife.svg)
+> FIXME
 
-###### Murder {.action .bg-danger .content-box}
+###### Dangerous {.action .bg-warning .content-box}
 
-![If the blow was an act of *deadly force*, set aside **at least** `3`{.d10}.](icons/lorc/originals/svg/backstab.svg)
+![If the blow is dangerous, set aside **at least** `3`{.d8}.](icons/lorc/originals/svg/dripping-knife.svg)
+
+> FIXME
+
+###### Perilous {.action .bg-danger .content-box}
+
+![If the blow is perilous, set aside **at least** `3`{.d10}.](icons/lorc/originals/svg/backstab.svg)
+
+> FIXME
 
 
 ## Need more Dice?

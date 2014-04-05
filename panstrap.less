@@ -67,7 +67,7 @@ section.level6 { .make-md-column(3) }
 .image-link(@filestem) {
     @filename: %('icons/lorc/originals/svg/%s.svg', @filestem);
     background: url(@filename) center left no-repeat;
-    padding-left: 1.428em;
+    padding-left: 1.4em;
 }
 
 
@@ -85,7 +85,7 @@ a[href$='#the-ziggurats'] { .image-link('artificial-hive'); }
 a[href$='#character-creation'] { .image-link('drama-masks'); }
 a[href$='#background'] { .image-link('journey');}
 a[href$='#male-or-female'] { .image-link('duality');}
-a[href$='#why-did-you-leave'] { .image-link('star-pupil');}
+a[href$='#why-did-you-leave'] { .image-link('rocket-flight');}
 a[href$='#where-are-you-from'] { .image-link('globe');}
 a[href$='#hierarchy'] { .image-link('minions');}
 a[href$='#stats'] { .image-link('suits');}
@@ -97,7 +97,7 @@ a[href$='#traits'] { .image-link('poker-hand');}
 a[href$='#relationships'] { .image-link('telepathy');}
 a[href$='#allocate-your-dice'] { .image-link('checkbox-tree');}
 a[href$='#belongings'] { .image-link('knapsack');}
-a[href$='#torean-objects'] { .image-link('manacles');}
+a[href$='#torean-objects'] { .image-link('whip');}
 a[href$='#off-world-objects'] { .image-link('circuitry');}
 a[href$='#biotech'] { .image-link('biohazard');}
 a[href$='#guns-are-complicated'] { .image-link('bolter-gun');}
@@ -213,7 +213,7 @@ nav > ul > li > ul {
     }
 }
 
-@brand-primary:  #eecc66;
+@brand-primary:  #c5b74b;
 @state-success-text:  lighten(#3c763d, 50%);
 @state-success-bg:  darken(#dff0d8, 70%);
 @state-info-text:   lighten(#31708f, 50%);
@@ -241,6 +241,13 @@ strong, em, a:visited {
 @list-group-border: @table-border-color;
 @code-color: @gray-lighter;
 @code-bg: @well-bg;
+
+@font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
+@font-size-h2:            floor((@font-size-base * 2.15)); // ~30px
+@font-size-h3:            ceil((@font-size-base * 1.7)); // ~24px
+@font-size-h4:            ceil((@font-size-base * 1.7)); // ~24px
+@font-size-h5:            ceil((@font-size-base * 1.25)); // ~18px
+@font-size-h6:            @font-size-base;
 
 @font-face {
     font-family: 'Junction';
