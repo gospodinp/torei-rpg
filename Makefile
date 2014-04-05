@@ -12,5 +12,4 @@ clean:
 	pandoc -t html5 --ascii --toc --toc-depth=2 -c panstrap.css --template=panstrap.html5 --include-in-header=header.html5 --section-divs --standalone --self-contained --smart -o $@ $<
 
 %.css: %.less Makefile
-	lessc $< > $@
-	#lessc $< | csstidy - --silent=true | yui-compressor --type css > $@
+	lessc $< | yui-compressor --type css > $@

@@ -54,7 +54,11 @@ section.level1, section.level2 {
     .make-md-column(12);
     .make-row();
 }
-section.level1 > p, section.level2 > p, dd { max-width: 40em; }
+section.level1 > p, section.level2 > p,
+section.level1 > ol, section.level2 > ol,
+section.level1 > ul, section.level2 > ul,
+section.level1 > dl, section.level2 > dl,
+section.level1 > blockquote, section.level2 > blockquote { .make-md-column(9); .make-md-column-offset(1); }
 section.level3 { .make-md-column(9); .make-md-column-offset(1); }
 section.level4 { .make-md-column(6) }
 section.level5 { .make-md-column(4) }
@@ -63,7 +67,7 @@ section.level6 { .make-md-column(3) }
 .image-link(@filestem) {
     @filename: %('icons/lorc/originals/svg/%s.svg', @filestem);
     background: url(@filename) center left no-repeat;
-    padding-left: 1.4em;
+    padding-left: 1.428em;
 }
 
 
@@ -122,7 +126,7 @@ a[href$='#experience'] { .image-link('gift-of-knowledge');}
 
 a[href$='#play-advice'] { .image-link('light-bulb');}
 a[href$='#gm-advice'] { .image-link('book-cover');}
-a[href$='#say-yes-or-roll-the-dice'] { .image-link('rally-the-troops');}
+a[href$='#say-yes-or-roll-the-dice'] { .image-link('uncertainty');}
 a[href$='#build-situations-not-plots'] { .image-link('dark-squad');}
 a[href$='#share-the-setting'] { .image-link('fountain-pen');}
 a[href$='#keep-revealing'] { .image-link('magnifying-glass');}
@@ -137,6 +141,7 @@ header:extend(.jumbotron all) {
     background-position: right;
     text-shadow: 1px 1px 1px #000;
     color: @brand-primary;
+    h2:extend(h4) {}
 }
 dl:extend(.dl-horizontal all) {}
 

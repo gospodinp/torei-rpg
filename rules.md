@@ -231,7 +231,7 @@ Try to work out where the belonging was made, and whether it's terrible or excel
 
 ### Guns are complicated
 
-Guns are the one place where die sizes are mixed: all guns get an extra `1`{.d4} in addition to whatever else they have.  This means that an excellent off-world gun would be `2`{.d8}`1`{.d4}, and an ordinary Torean gun would be `1`{.d6}`1`{.d4}.  A terrible gun would be `2`{.d4} no matter where it was made.
+Guns are the one place where die sizes are mixed: all guns get an extra `1`{.d4} in addition to whatever else they have.  This means that an excellent off-world gun would be `2`{.d8} `1`{.d4}, and an ordinary Torean gun would be `1`{.d6} `1`{.d4}.  A terrible gun would be `2`{.d4} no matter where it was made.
 
 ## Initiation to Torei
 
@@ -279,7 +279,7 @@ Which two [Stats] you roll depends on how you're trying to get what you want:
 
 Roll the dice now for any [Relationships] involved in the [Conflict].
 
-Don't roll your [Traits] or belongings yet!
+Don't roll your [Traits] or [Belongings] yet!
 
 #### Who Goes First?
 
@@ -590,7 +590,7 @@ Now the bidding war starts back and forth.  Stella must do two things: push forw
 
 Stella's [Response]
 :   `2`{.bg-danger} `4`{.bg-danger} `1`{.bg-danger}
-Stella's [Fallout Dice]
+[Fallout Dice]
 :   `3`{.d4}
 
 > Stella shrinks a bit under the bully's stare, clearly uncomfortable.
@@ -711,7 +711,7 @@ And with that, we've finished Stella's character!
 
 ## Say Yes or Roll the Dice
 
-If you take nothing else from this section, it should be this mantra.  *Say yes, or roll the dice!*  Write it at the top of your notes.
+This is critical for driving gameplay toward [Conflict].  If you take nothing else from this section, it should be this mantra.  *Say yes, or roll the dice!* Write it at the top of your notes.
 
 The role of GM in a story-building and world-building game like this one is a lot more participatory than in some popular systems.  Keeping players involved and having fun is more important than simulating a strict system of carefully-balanced statistics or plot elements.
 
