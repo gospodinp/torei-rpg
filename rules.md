@@ -11,7 +11,7 @@ But times have changed since the greater spacefaring society discovered Torei, a
 
 Torei as a setting is meant to be evoked rather than defined.  It's a kinky BDSM planet, and exactly how that looks is best defined by your group during play.  Your games may result in a detailed sourcebook that lays out some amazing worldbuilding, or you may re-invent it constantly as you go. 
 
-This means that you shouldn't take this section too seriously.  If a player wants to know something about Torei, the GM should probably turn the question back to the group most of the time.
+This means that you shouldn't take this section too seriously.  If a player wants to know something about Torei, the GM should probably turn the question back to the group most of the time.  Instead of asserting a veto on the group's idea via GM fiat, it's important to [Say Yes or Roll the Dice]!
 
 That said, there are a few elements that are probably the most helpful in defining a shared understanding of the setting.  We'll start with those:
 
@@ -51,14 +51,17 @@ The habitable part of Torei covers a fairly narrow band around the planet's equa
 
 ### The Antipodes
 
-The farther you get from the space elevator on Torei, the more rural and relaxed the pace of life becomes.  That isn't to say that life is easy out in the farming ringdoms, but the contrast is striking.
+The farther you get from the space elevator on Torei, the more rural and relaxed the pace of life becomes.  That isn't to say that life is easy out in the farming ringdoms, but there is a dramatic contrast with the dense urban core.
 
 ### The Badlands
 
 Most of the surface of the planet between the equatorial band and the poles is a harsh wasteland.  The terraforming project struggles to claim this area, bit by bit, for human settlement.
 
-
 ### The Ziggurats
+
+At Torei's two poles stand vast black artificial mountains built by the AIs that fashioned Torei.  The polar Ziggurats, Dahom to the North and Mazos to the South, house the that isolates elements from the planet's mantle to generate a breathable atmosphere.
+
+Humans live within these enormous hives, and the unluckiest of them are placed inside sensory control suits called *isolation laminates* to become the Emissaries of the AIs.  Equatorial Toreans often refer to these Emissaries as "dæmons".
 
 # Character Creation
 
@@ -66,12 +69,9 @@ You play humans from the greater intergalactic civilization, come to Torei for y
 
 #### Where Are You From?
 
->  Earth is gone and completely forgotten.
-
 Invent a new planet around some new star in a nearby galaxy, and make that your homeworld.  Or perhaps it's a union of worlds that you think of as your nationality.  Be creative!
 
-> There are no sapient aliens in this setting: you must play a human.
-
+> Remember that [Earth is gone and forgotten]!
 
 #### Why Did You Leave?
 
@@ -95,7 +95,6 @@ Torei is fond of hierarchy.  Everyone is beneath someone and above others.  What
 #### Who represents your power?
 
 Status on Torei comes from the people you command.  Are you a manager?  An officer?  A parent?  Do you have elected status in any organization, no matter how small?
-
 
 ## Background
 
@@ -197,15 +196,19 @@ Most characters should leave their [Relationship] dice largely unallocated.  You
 
 Does your character carry anything?  Tools of the trade?  Restraints?  Whips?  Vibrators?
 
+Your character starts out with **one** belonging.  *It must be something your character can wear with a catsuit*.  That means anything that would fit on a utility belt, in your boot, as a bracelet or pendant, tucked behind your ear, or however you might keep something on your person without having to hold on to it.
+
+Try to work out where the belonging was made, and whether it's terrible or excellent.
+
+> A belonging is only excellent if people meeting your character would notice
+> and comment on it: "Now that is a masterpiece of a whip!" or "Aren't you
+> worried someone will steal that?"
+
 ##### Torean Objects
 
 ---------    -------------------------------------------------------
  `1`{.d6}    if it’s Torean.
-
- `2`{.d6}    if it’s excellent Torean equipment. It’s only excellent 
-             if people meeting your character would notice and comment on it:
-             "Now that is a masterpiece of a whip!"
-
+ `2`{.d6}    if it’s excellent Torean equipment. 
  `1`{.d4}    if it’s terrible.
 --------------------------------------------------------------------
 
@@ -225,6 +228,10 @@ Does your character carry anything?  Tools of the trade?  Restraints?  Whips?  V
  `4`{.d4}    if it's Torean biotech from the AIs.
  `1`{.d4}    if it’s terrible.
 --------------------------------------------------------------------
+
+### Guns are complicated
+
+Guns are the one place where die sizes are mixed: all guns get an extra `1`{.d4} in addition to whatever else they have.  This means that an excellent off-world gun would be `2`{.d8}`1`{.d4}, and an ordinary Torean gun would be `1`{.d6}`1`{.d4}.  A terrible gun would be `2`{.d4} no matter where it was made.
 
 ## Initiation to Torei
 
@@ -380,6 +387,8 @@ Don't re-roll any stats you've already rolled, and don't discard any dice alread
 
 If you change the game to a type nobody's rolled yet, you do not need to respond, and can instead make your own [Challenge] now!
 
+[Changing the Game]: #change-the-game
+
 #### Traits and Belongings
 
 1. Describe how one of your [Traits] or [Belongings] helps you.
@@ -413,13 +422,13 @@ Then take the two highest fallout dice you rolled and add them together.  Choose
 2-7
 ~    Take [Short-Term Harm]
 8-10
-~    Take [Permanent Harm]
+~    Take [Short-Term Harm] and [Permanent Harm]
 11-15
-~    Take [Serious Permanent Harm]
+~    Take [Short-Term Harm] and [Serious Permanent Harm]
 16-19
 ~    Take [Short-Term Harm] and [Serious Permanent Harm], *and* enter a [Conflict] where the stakes are your own survival.
 20
-~    *Death!*
+~    *Death!*  Describe how you exit the game.
 
 ## Short-Term Harm
 
@@ -468,11 +477,11 @@ Per the circumstances of the story, choose one:
 
 #### How to Think about Dice
 
-Lots of small dice can win you the stakes, but they're more likely to harm you. It's true that `3`{.d4} can total up to 12 just as `2`{.d6} can, but needing 3 dice to respond instead of 2 increases your [Fallout]. So having that fistful of `#`{.d4} can win you the stakes, but you will pay for it later!
+Lots of small dice can win you the stakes, but they're more likely to harm you. It's true that `3`{.d4} can total up to `12` just as `2`{.d6} can, but needing 3 dice to respond instead of 2 increases your [Fallout]. So having that fistful of `#`{.d4} can win you the stakes, but you will pay for it later!
 
 #### How to Think about Fallout
 
-Fallout also has a die-size element to it, keyed to the type of conflict you're engaged in. The smaller dice used for the non-violent conflict types make it more likely that some of them will come up 1, earning you an [Experience]. We learn more consistently by talking or doing than we do by fighting, after all!
+Fallout also has a die-size element to it, keyed to the type of conflict you're engaged in. The smaller dice used for the non-violent conflict types make it more likely that some of them will come up `1`, earning you an [Experience]. We learn more consistently by talking or doing than we do by fighting, after all!
 
 #### How to Think about Changing The Game
 
@@ -480,7 +489,7 @@ The original name for changing the game was "escalation", and that still confuse
 
 It's true that you can escalate from peaceful approaches to more violent ones, but what's most important is that the current approach won't work for you and you're not willing to give up the stakes.
 
-> A pirate who breaks from a swordfight to swing from the chandelier is changing the game every bit as much as a cowgirl who draws her pistol on an argument!
+> A pirate who breaks from a swordfight to swing from the chandelier is [Changing the Game] every bit as much as a cowgirl who draws her pistol on an argument!
 
 
 #### Giving In is Awesome
@@ -512,7 +521,7 @@ Table: Stella's [Stats]
 #####
 
 ---------   -------------------------------------------------------
- `1`{.d8}   Graduated law school on Amalthea with honors,
+ `1`{.d8}   Graduated law school on Amalthea with honours,
             but never passed the bar
 
  `1`{.d8}   Hired by the Amalthean Embassy on Torei as an expert
@@ -537,7 +546,7 @@ Table: Stella's [Traits]
   `2`{.d4}   That Truant Officer Gird has it in for me!
   `2`{.d6}   My ex-wife Sophie is the Amalthean Ambassador to Torei.
   `1`{.d8}   I own a "soubrette" maid-slave in Sophie's apartment
- `1`{.d10}   I know some powerful people in the Abolition League
+ `1`{.d10}   *unallocated*
 ----------   -------------------------------------------------------
 
 Table: Stella's [Relationships]
@@ -630,7 +639,7 @@ Stella's Challenge
 > Stella runs toward the man in frustration at being ignored.  She grabs the
 > man by one arm in an attempt to pry him away from the poor girl.
 
-But since 10 was the biggest raise we could do, the bully [Reverses the Blow].
+But since `10` was the biggest raise we could do, the bully [Reverses the Blow].
 
 Bully's [Response]
 :   `10`{.bg-success}
@@ -644,14 +653,11 @@ Bully's [Challenge]
 > He spins her around and whips some sort of handcuffs out of a back pocket of
 > his trousers, forcing Stella's arms around a pole behind her back!*
 
-----
+### FIXME: Bogus old notes follow
 
-That's all of the bully's dice, so if we can see 20 and raise *anything*
-we'll save this poor girl.  Unfortunately our dice are so terrible that the
-fallout will be considerable (and it's d6es because this is now physical
-combat!).
+That's all of the bully's dice, so if we can see `20` and raise *anything* we'll save this poor girl.  Unfortunately our dice are so terrible that the fallout will be considerable (and it's d6es because this is now physical combat!).
 
-> **See: 6 6 2 3 3 Fallout: `5`{.d6}  Stella grunts in pain as her shoulders
+> **See: 6 6 2 3 3 Fallout: `5`{.d6}**  Stella grunts in pain as her shoulders
 > are wrenched roughly back, her elbows pinned together behind the pole.
 > She withers under the bully's breath as he gloats in her face.
 > **Raise: 1 1** Gasping with despair, she sees her opportunity when the
@@ -663,22 +669,22 @@ Now *everyone* is out of dice, but the important thing is that Stella put
 forth a *raise* that the bully can't *see*.  He's lost the stakes (whether
 or not he bullies the girl)!
 
-> *Stella's kick hits true, and the bully stumbles and trips as he tries to
+> Stella's kick hits true, and the bully stumbles and trips as he tries to
 > regain his balance.  He tumbles drunkenly out of the train, and takes just
 > a little too long to stand up: by the time he's on his feet, the train
 > doors have closed.  Stella gasps with adrenaline rush and grins widely as
 > she and the casino girl watch the gesticulating man and the platform he
-> stands on zip out of sight together.*
+> stands on zip out of sight together.
 >
-> *"That was so very brave of you!" coos the girl, draping her arms over
+> "That was so very brave of you!" coos the girl, draping her arms over
 > Stella's tortured shoulders.  "Of course, I'll bet someone as clever as
 > you already worked it out, but you just won me in honest combat.  I'm
-> yours for an elevenight."*
+> yours for an elevenight."
 >
-> *The girl leans in and plants a kiss on Stella's lips that starts soft and
+> The girl leans in and plants a kiss on Stella's lips that starts soft and
 > tender, but melts quickly into fiery passion.  Stella strains against her
 > bonds, but she isn't sure if it's to push the girl away or to hold her
-> closer.*
+> closer.
 
 So Stella won!  What now?  Well now she gets a new *Trait*:
 
@@ -703,14 +709,42 @@ And with that, we've finished Stella's character!
 
 # GM Advice
 
-#### Say Yes or Roll the Dice
+## Say Yes or Roll the Dice
+
+If you take nothing else from this section, it should be this mantra.  *Say yes, or roll the dice!*  Write it at the top of your notes.
+
+The role of GM in a story-building and world-building game like this one is a lot more participatory than in some popular systems.  Keeping players involved and having fun is more important than simulating a strict system of carefully-balanced statistics or plot elements.
+
+So when one or more of your players want to do something that you don't think is a good idea, that should mean that one or more *NPCs* object.  Have them declare a [Conflict] and start rolling dice.  You will be pleasantly surprised where the story takes you!
+
+And if you're not willing to get out the dice and turn it into a [Conflict], then just say yes!  It obviously wasn't that important, or you'd have made the players work for it.
+
+This idea is so central that I'll repeat it once more:
+
+> Say yes, or roll the dice!
 
 #### Build Situations, Not Plots
 
+It's tempting to think like an author, building a story with a beginning middle and end.  Unfortunately that rarely results in a satisfying gameplay experience.
+
+Players want to feel that they're exploring a world and building a story as they go.  The plot should be the product of everybody's participation, and not just a secret tale the GM reveals as the players pass certain tests.
+
+So instead of laying out what should happen during the game, build a few NPCs and some [Relationships] between them.  Find what forces and obligations would drive one of them to desperation, and their desperate act will be the kernel of a situation that affects the NPCs they share [Relationships] with.
+
+Build a rough sketch of events leading up to the appearance of the players, and let them discover the dilemmas and crises as the NPCs react to their problems.
+
 #### Share the Setting
 
-#### Drive Play Toward Conflict
+Another common mistake is to spend time drawing out elaborate maps and city plans for the players to explore.  Or to itemise all of the social rules for a new type of NPC you've introduced.
 
-#### Keep Revealing
+It's far better to invite the players to narrate setting details.  If a player is running through a city, have her describe the neighbourhood she's sprinted into.  If a player is at a street market, let him invent a whole ringdom from which the other trader hails.  The more colour your players add to the story, the more inspiration you may find for the NPCs.
 
+Ask idle players for input on the details of the active player's interactions.  Keep everyone alert and involved in the story.
 
+Let the players describe Torei itself as they interact with it.  Then you should [Say Yes or Roll the Dice]!
+
+### Keep Revealing
+
+If you [Build Situations, Not Plots], then you may be surprised to learn that even your situations shouldn't be that secret.  It's tempting to present the crises you've created as a puzzle for the players to solve.  But mystery stories only work because the author presents the clues and discoveries to the reader at a steady pace.
+
+Don't leave the players in the dark, chasing red herrings or scratching their heads trying to find the next clue.  NPCs may be cagey or duplicitous, but they should at least send the players to an NPC who will reveal more of the facts of the situation.  Run your games as "howcatchems", not "whodunnits"!

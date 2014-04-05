@@ -1,4 +1,54 @@
-@import "bootstrap/less/bootstrap.less";
+// Core variables and mixins
+@import "bootstrap/less/variables.less";
+@import "bootstrap/less/mixins.less";
+
+// Reset and dependencies
+@import "bootstrap/less/normalize.less";
+@import "bootstrap/less/print.less";
+//@import "glyphicons.less";
+
+// Core CSS
+@import "bootstrap/less/scaffolding.less";
+@import "bootstrap/less/type.less";
+@import "bootstrap/less/code.less";
+@import "bootstrap/less/grid.less";
+@import "bootstrap/less/tables.less";
+//@import "forms.less";
+@import "bootstrap/less/buttons.less";
+
+// Components
+//@import "component-animations.less";
+//@import "dropdowns.less";
+//@import "button-groups.less";
+//@import "input-groups.less";
+@import "bootstrap/less/navs.less";
+//@import "navbar.less";
+//@import "breadcrumbs.less";
+@import "bootstrap/less/pagination.less";
+@import "bootstrap/less/pager.less";
+@import "bootstrap/less/labels.less";
+@import "bootstrap/less/badges.less";
+@import "bootstrap/less/jumbotron.less";
+@import "bootstrap/less/thumbnails.less";
+@import "bootstrap/less/alerts.less";
+//@import "progress-bars.less";
+//@import "media.less";
+@import "bootstrap/less/list-group.less";
+@import "bootstrap/less/panels.less";
+//@import "responsive-embed.less";
+@import "bootstrap/less/wells.less";
+//@import "close.less";
+
+// Components w/ JavaScript
+@import "bootstrap/less/modals.less";
+@import "bootstrap/less/tooltip.less";
+@import "bootstrap/less/popovers.less";
+@import "bootstrap/less/carousel.less";
+
+// Utility classes
+@import "bootstrap/less/utilities.less";
+@import "bootstrap/less/responsive-utilities.less";
+
 
 section.level1, section.level2 {
     .make-md-column(12);
@@ -46,6 +96,7 @@ a[href$='#belongings'] { .image-link('knapsack');}
 a[href$='#torean-objects'] { .image-link('manacles');}
 a[href$='#off-world-objects'] { .image-link('circuitry');}
 a[href$='#biotech'] { .image-link('biohazard');}
+a[href$='#guns-are-complicated'] { .image-link('bolter-gun');}
 a[href$='#initiation-to-torei'] { .image-link('slavery-whip');}
 a[href$='#example-character'] { .image-link('aura');}
 
@@ -71,10 +122,9 @@ a[href$='#experience'] { .image-link('gift-of-knowledge');}
 
 a[href$='#play-advice'] { .image-link('light-bulb');}
 a[href$='#gm-advice'] { .image-link('book-cover');}
-a[href$='#say-yes-or-roll-the-dice'] { .image-link('uncertainty');}
+a[href$='#say-yes-or-roll-the-dice'] { .image-link('rally-the-troops');}
 a[href$='#build-situations-not-plots'] { .image-link('dark-squad');}
 a[href$='#share-the-setting'] { .image-link('fountain-pen');}
-a[href$='#drive-play-toward-conflict'] { .image-link('rally-the-troops');}
 a[href$='#keep-revealing'] { .image-link('magnifying-glass');}
 
 nav:extend(.nav all) {}
@@ -94,6 +144,9 @@ blockquote:extend(.alert-info all) {}
 
 div[role=main] > p:extend(.lead) {}
 
+body { font-family: 'Junction'; }
+h1,h2,h3,h4,h5,h6,a { font-family: 'Orbitron'; }
+
 section>p>img:extend(.img-rounded all, .pull-right all), 
 .action:extend(.well all), .stat:extend(.well all) {}
 .stat img:extend(.img-circle all, .pull-left all) { 
@@ -107,19 +160,20 @@ section>p>img:extend(.img-rounded all, .pull-right all),
 .stat > h6:extend(h1) {}
 section.harm:extend(.text-center all), section.action:extend(.text-center all), section.die:extend(.text-center all) { }
 section.harm h6 a:extend(.label),
-section.die h5 a:extend(.label) {}
-section.bg-success h6 a:extend(.label, .label-success) {}
-section.bg-info h5 a:extend(.label, .label-info) {}
-section.bg-info h6 a:extend(.label, .label-info) {}
-section.bg-warning h6 a:extend(.label, .label-warning) {}
-section.bg-danger h6 a:extend(.label, .label-danger) {}
+section.die h5 a:extend(.label) {text-shadow: 1px 1px 1px #000;}
+section.bg-success h6 a:extend(.label, .label-success) {text-shadow: 1px 1px 1px #000;}
+section.bg-info h5 a:extend(.label, .label-info),
+section.bg-info h6 a:extend(.label, .label-info) {text-shadow: 1px 1px 1px #000;}
+section.bg-warning h6 a:extend(.label, .label-warning) {text-shadow: 1px 1px 1px #000;}
+section.bg-danger h6 a:extend(.label, .label-danger) {text-shadow: 1px 1px 1px #000;}
 figure img:extend(.img-rounded) { max-width: 8em;}
 
 code.d10:extend(.bg-success),
 code.d8:extend(.bg-info),
 code.d6:extend(.bg-warning),
-code.d4:extend(.bg-danger) { font-weight: bold; }
+code.d4:extend(.bg-danger) {}
 code { 
+    font-family: 'Orbitron'; 
     -moz-box-shadow:    inset 0 0 5px @gray-lighter;
     -webkit-box-shadow: inset 0 0 5px @gray-lighter;
     box-shadow:         inset 0 0 5px @gray-lighter;
@@ -154,7 +208,7 @@ nav > ul > li > ul {
     }
 }
 
-@brand-primary:  #42ca8b;
+@brand-primary:  #eecc66;
 @state-success-text:  lighten(#3c763d, 50%);
 @state-success-bg:  darken(#dff0d8, 70%);
 @state-info-text:   lighten(#31708f, 50%);
@@ -168,8 +222,8 @@ nav > ul > li > ul {
 @state-warning-border:           lighten(spin(@state-warning-bg, -10), 10%);
 @state-danger-border:           lighten(spin(@state-danger-bg, -10), 10%);
 
-a:visited {
-    color: lighten(@brand-primary, 30%);
+strong, em, a:visited {
+    color: lighten(@brand-primary, 10%);
 }
 
 @body-bg: @gray-darker;
@@ -183,4 +237,14 @@ a:visited {
 @code-color: @gray-lighter;
 @code-bg: @well-bg;
 
-@icon-font-path:          "bootstrap/fonts/";
+@font-face {
+    font-family: 'Junction';
+    src: url('junction/webfonts/junction-regular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url('junction/webfonts/junction-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url('orbitron/webfonts/orbitron-bold-webfont.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url('orbitron/webfonts/orbitron-bold-webfont.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}

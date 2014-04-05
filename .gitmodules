@@ -1,3 +1,9 @@
 [submodule "bootstrap"]
 	path = bootstrap
 	url = git://github.com/twitter/bootstrap.git
+[submodule "orbitron"]
+	path = orbitron
+	url = https://github.com/theleagueof/orbitron.git
+[submodule "junction"]
+	path = junction
+	url = https://github.com/theleagueof/junction.git
