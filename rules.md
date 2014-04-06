@@ -383,6 +383,7 @@ Each time you [Take the Blow], you need to set aside a number of dice equal to t
 A *safe* blow is one where the worst long-term outcome is that you learn from the experience.  These may result from:
 
 * A conversation in private
+* Light discipline
 * A simulated training exercise
 * A low-impact physical exertion
 
@@ -391,6 +392,7 @@ A *safe* blow is one where the worst long-term outcome is that you learn from th
 A *risky* blow is one that could leave a scar of some sort, whether on your body, your mind, or your reputation or status.  These may result from:
 
 * A public debate
+* Intense training
 * A contract negotiation
 * A fistfight
 
@@ -398,7 +400,8 @@ A *risky* blow is one that could leave a scar of some sort, whether on your body
 
 A *dangerous* blow is one that could result in the undoing of some part of yourself.  These might result from:
 
-* Intense indoctrination training
+* Formal public disgrace
+* Thorough indoctrination
 * A high-stakes contract negotiation
 * A swordfight
 
@@ -406,6 +409,7 @@ A *dangerous* blow is one that could result in the undoing of some part of yours
 
 A *perilous* blow is one that could immediately take you out of the game altogether.  These could result from:
 
+* Banishment
 * Mind-wiping techniques
 * Enslavement
 * A gunfight
