@@ -1,6 +1,7 @@
 % Torei, a Role-Playing Game
 % by Gospodin <http://toreans.deviantart.com>
   icons by Lorc and Delapouite <http://game-icons.net>
+% DRAFT VERSION
 
 
 Torei is a half-finished planet out in the empty space between the galaxies.  Vast inscrutable terraforming machines rule from their ziggurats at the poles, while humans scratch out what livelihood they can around the equator.
