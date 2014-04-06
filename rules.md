@@ -448,9 +448,12 @@ Then take the two highest fallout dice you rolled and add them together.  Choose
 20
 ~    *Death!*  Describe how you exit the game.
 
+> *Death!* doesn't need to be literal death.  Anything that takes your
+> character out of the story permanently will do.
+
 ## Short-Term Harm
 
-Short-Term harm reduces the die size of one of your [Stats] for at least the next [Conflict], or until you've succeeded at some attempt to clear it.
+Short-Term Harm reduces the die size of one of your [Stats] for at least the next [Conflict], or until you've succeeded at some attempt to clear it.  Choose the one that is most likely to have resulted from the blows you took:
 
 ###### Dazed {.harm .bg-danger .content-box}
 
