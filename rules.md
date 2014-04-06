@@ -21,15 +21,15 @@ Torei has various forms of formal institutionalised slavery, and human relations
 
 #### The three AIs are inscrutable mad gods, keeping Torei a backwater while trying to finish its biosphere.
 
-Torei is relatively unchanged by the mainstream human culture partly due to the power of these thinking machines that struggle to finish the terraforming project that created the planet in the first place.
-
-#### Torean biotech can do some amazing things.
-
-The technology of the greater human society can do many things Toreans can't, but the biological sciences on Torei surpass anything else in the universe.
+Torei is relatively unchanged by the mainstream human culture partly due to the power of these thinking machines.  Every unfathomable action they take appears to serve the struggle to finish the terraforming project that created the planet in the first place.
 
 #### Torei is hard to get to from the rest of the cosmos.
 
 Torei orbits a lonely star outside any colonised galaxy.  In a universe where travel between the stars is as routine as a train journey, going to Torei still feels like an adventure and takes a long time.
+
+#### Torean biotech can do some amazing things.
+
+The technology of the greater human society can do many things Toreans can't, but the biological sciences on Torei surpass anything else in the universe.  Much of this comes from the AIs' research while developing the Torean ecosystem.
 
 #### Earth is gone and forgotten
 
@@ -77,7 +77,7 @@ Most of the surface of the planet between the equatorial band and the poles is a
 
 ### The Ziggurats
 
-At Torei's two poles stand vast black artificial mountains built by the AIs that fashioned Torei.  The polar Ziggurats, Dahom to the North and Mazos to the South, house the that isolates elements from the planet's mantle to generate a breathable atmosphere.
+At Torei's two poles stand vast black artificial mountains built by the AIs that fashioned Torei.  The polar Ziggurats, Dahom to the North and Mazos to the South, house the biomechanical engines that isolate elements from the planet's mantle to generate a breathable atmosphere.
 
 Humans live within these enormous hives, and the unluckiest of them are placed inside sensory control suits called *isolation laminates* to become the Emissaries of the AIs.  Equatorial Toreans often refer to these Emissaries as "dæmons".
 
@@ -380,7 +380,7 @@ Each time you [Take the Blow], you need to set aside a number of dice equal to t
 
 #### Safe Blows
 
-A *safe* blow is one where the worst long-term outcome is that you learn from the experience.  These may result from:
+A *safe* blow is one where the worst long-term outcome is that you *learn* from the experience.  These may result from:
 
 * A conversation in private
 * Light discipline
@@ -389,7 +389,7 @@ A *safe* blow is one where the worst long-term outcome is that you learn from th
 
 #### Risky Blows
 
-A *risky* blow is one that could leave a scar of some sort, whether on your body, your mind, or your reputation or status.  These may result from:
+A *risky* blow is one that could leave a *scar* of some sort, whether on your body, your mind, or your reputation or status.  These may result from:
 
 * A public debate
 * Intense training
@@ -398,7 +398,7 @@ A *risky* blow is one that could leave a scar of some sort, whether on your body
 
 #### Dangerous Blows
 
-A *dangerous* blow is one that could result in the undoing of some part of yourself.  These might result from:
+A *dangerous* blow is one that could cause the *undoing* of some part of yourself.  These might result from:
 
 * Formal public disgrace
 * Thorough indoctrination
@@ -407,7 +407,7 @@ A *dangerous* blow is one that could result in the undoing of some part of yours
 
 #### Perilous Blows
 
-A *perilous* blow is one that could immediately take you out of the game altogether.  These could result from:
+A *perilous* blow is one that could immediately take you *out of the game* altogether.  These could result from:
 
 * Banishment
 * Mind-wiping techniques

@@ -158,7 +158,7 @@ h1,h2,h3,h4,h5,h6,a { font-family: 'Orbitron'; }
 
 section>p>img:extend(.img-rounded all, .pull-right all), 
 .action:extend(.well all), .stat:extend(.well all) {}
-.die > h5:extend(h3), .die > h6:extend(h3), .action > h6:extend(h3),
+.die > h5:extend(h3), .die > h6:extend(h3), .action > h6:extend(h4),
 .harm > h6:extend(h3), .stat > h6:extend(h3) { text-align: center;}
 section.stat > figure:extend(.text-center all), section.harm:extend(.text-center all), section.action:extend(.text-center all), section.die:extend(.text-center all) { }
 section.harm h6 a:extend(.label),
@@ -240,8 +240,8 @@ strong, em, a:visited {
 @code-bg: @well-bg;
 
 @font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
-@font-size-h2:            floor((@font-size-base * 2.15)); // ~30px
-@font-size-h3:            ceil((@font-size-base * 1.7)); // ~24px
+@font-size-h2:            floor((@font-size-base * 2.6)); // ~36px
+@font-size-h3:            floor((@font-size-base * 2.15)); // ~30px
 @font-size-h4:            ceil((@font-size-base * 1.7)); // ~24px
 @font-size-h5:            ceil((@font-size-base * 1.25)); // ~18px
 @font-size-h6:            @font-size-base;
