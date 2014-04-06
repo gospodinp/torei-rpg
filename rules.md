@@ -9,7 +9,7 @@ But times have changed since the greater spacefaring society discovered Torei, a
 
 # Torei
 
-Torei as a setting is meant to be evoked rather than defined.  It's a kinky BDSM planet, and exactly how that looks is best defined by your group during play.  Your games may result in a detailed sourcebook that lays out some amazing worldbuilding, or you may re-invent it constantly as you go. 
+Torei as a setting is meant to be evoked rather than defined.  It's a kinky BDSM planet inspired by both Æon Flux and Gor, but exactly how that looks is best defined by your group during play.  Your games may result in a detailed sourcebook that lays out some amazing worldbuilding, or you may re-invent it constantly as you go. 
 
 This means that you shouldn't take this section too seriously.  If a player wants to know something about Torei, the GM should probably turn the question back to the group most of the time.  Instead of asserting a veto on the group's idea via GM fiat, it's important to [Say Yes or Roll the Dice]!
 
@@ -53,9 +53,27 @@ The habitable part of Torei covers a fairly narrow band around the planet's equa
 
 The farther you get from the space elevator on Torei, the more rural and relaxed the pace of life becomes.  That isn't to say that life is easy out in the farming ringdoms, but there is a dramatic contrast with the dense urban core.
 
+### The Ministries
+
+Despite the differences in ringdoms, they all have common international institutions known as ministries.  Local management may differ radically, but the various ministries do try to coordinate worldwide.
+
+Here's a few of the most common ones:
+
+#### Ministry of Truants
+
+This organisation manages the capture and punishment of those found to be in violation of slavery or curfew laws.  They manage the return of runaway slaves, and perform the role of a local police force in many ringdoms.
+
+#### Ministry of Improvements
+
+This organisation is a sort of hospital infrastructure that makes heavy use of Torean [Biotech].  It is most commonly associated with cosmetic enhancements, performance improvements, and the installation of devious implants.
+
+#### Ministry of Wombs
+
+This organisation tracks the status and records of women on Torei.  They regulate trade unions, issue travel passes to applicants, register debts, and perform appraisals for the slave markets.
+
 ### The Badlands
 
-Most of the surface of the planet between the equatorial band and the poles is a harsh wasteland.  The terraforming project struggles to claim this area, bit by bit, for human settlement.
+Most of the surface of the planet between the equatorial band and the poles is a harsh wasteland.  The terraforming project struggles to claim this area, bit by bit, for human settlement.  For anyone looking to hide, the badlands are an obvious (if dangerous) choice.
 
 ### The Ziggurats
 
@@ -120,22 +138,22 @@ You're socially vulnerable, and your [Relationships] tend to be messy.  You may 
 Everyone has four Stats, represented as sets of six-sided dice to be rolled during play.
 
 ###### Acuity {.stat .content-box}
-Acuity represents your intellect, perception, fine motor control, and finesse.
+![Acuity represents your intellect, perception, fine motor control, and finesse.](icons/lorc/originals/svg/brainstorm.svg)
 
 It comes into play when doing something that requires attention to detail or delicate accuracy (talking, shooting, difficult piloting, picking pockets).
 
 ###### Body {.stat .content-box}
-Body represents your health, lust, stamina, and physical ability.
+![Body represents your health, lust, stamina, and physical ability.](icons/lorc/originals/svg/strong.svg)
 
 It comes into play when performing a physically demanding task (running, lifting, dancing, wrestling, swordfighting).
 
 ###### Heart {.stat .content-box}
-Heart represents your empathy, motivation to improve, and desire to help others.
+![Heart represents your empathy, motivation to improve, and desire to help others.](icons/lorc/originals/svg/shining-heart.svg)
 
 It comes into play when competing in a more indirect or non-violent way (talking, racing, working, dancing).
 
 ###### Will {.stat .content-box}
-Will represents your determination, resolve, nerves, and desire to dominate others.
+![Will represents your determination, resolve, nerves, and desire to dominate others.](icons/lorc/originals/svg/burning-passion.svg)
 
 It comes into play when competing directly against someone else in an attempt to best them (wrestling, swordfighting, shooting, dogfighting, breaking a slave).
 
@@ -340,34 +358,57 @@ The target of the [Challenge] pushes forward enough dice to match the total from
 
 The outcome of the challenge depends on how many dice were used to respond.
 
-### Fallout Dice
+## Fallout Dice
 
-Each time you [Take the Blow], you need to set aside a number of dice equal to the number you used in your [Response].  The type of these dice depends on the type of blow you just took.
+Each time you [Take the Blow], you need to set aside a number of dice equal to the number you used in your [Response].  The type of these dice depends on the riskiness of blow you just took.
 
 ###### Safe {.action .bg-success .content-box}
 
-![If the blow is safe, set aside **at least** `3`{.d4}.](icons/lorc/originals/svg/screaming.svg)
-
-Safe blows are the sorts of things you come out of with little more than a lesson.  
+![If the blow is *safe*, set aside **at least** `3`{.d4}.](icons/lorc/originals/svg/screaming.svg)
 
 ###### Risky {.action .bg-info .content-box}
 
-![If the blow is risky, set aside **at least** `3`{.d6}.](icons/lorc/originals/svg/punch.svg)
-
-> FIXME
+![If the blow is *risky*, set aside **at least** `3`{.d6}.](icons/lorc/originals/svg/punch.svg)
 
 ###### Dangerous {.action .bg-warning .content-box}
 
-![If the blow is dangerous, set aside **at least** `3`{.d8}.](icons/lorc/originals/svg/dripping-knife.svg)
-
-> FIXME
+![If the blow is *dangerous*, set aside **at least** `3`{.d8}.](icons/lorc/originals/svg/dripping-knife.svg)
 
 ###### Perilous {.action .bg-danger .content-box}
 
-![If the blow is perilous, set aside **at least** `3`{.d10}.](icons/lorc/originals/svg/backstab.svg)
+![If the blow is *perilous*, set aside **at least** `3`{.d10}.](icons/lorc/originals/svg/backstab.svg)
 
-> FIXME
+#### Safe Blows
 
+A *safe* blow is one where the worst long-term outcome is that you learn from the experience.  These may result from:
+
+* A conversation in private
+* A simulated training exercise
+* A low-impact physical exertion
+
+#### Risky Blows
+
+A *risky* blow is one that could leave a scar of some sort, whether on your body, your mind, or your reputation or status.  These may result from:
+
+* A public debate
+* A contract negotiation
+* A fistfight
+
+#### Dangerous Blows
+
+A *dangerous* blow is one that could result in the undoing of some part of yourself.  These might result from:
+
+* Intense indoctrination training
+* A high-stakes contract negotiation
+* A swordfight
+
+#### Perilous Blows
+
+A *perilous* blow is one that could immediately take you out of the game altogether.  These could result from:
+
+* Mind-wiping techniques
+* Enslavement
+* A gunfight
 
 ## Need more Dice?
 
@@ -514,6 +555,8 @@ Consenting to submit as a beneficial game mechanic: it's one of the reasons the 
 Stellanova is a character from the *Stella of the Bailey* series of stories.  Since the stories are largely about how Stella's friends and relations drag her into complex situations, I'll just pick [Complicated Connections] for her template.
 
 Stella's a paralegal of some sort: highly professional, highly skilled at negotiation. She's got a strong force of personality and a clever wit. She was married to the Amalthean ambassador to Torei, her ex-wife Sophie. Sophie has two nieces she takes care of, who have just come of age. Stella purchased a slave maid for Sophie's apartment a long time ago, after they broke up. Sophie comes from a mixed family: her (late) father was from Hotchkiss, and her mother from Amalthea. She lives in Motka tower, but Sophie's family lives in Alem tower.
+
+> FIXME: Why did she come to Torei?
 
 ######
 
