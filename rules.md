@@ -363,7 +363,7 @@ The outcome of the challenge depends on how many dice were used to respond.
 
 Each time you [Take the Blow], you need to set aside a number of dice equal to the number you used in your [Response].  The type of these dice depends on the riskiness of blow you just took.
 
-###### Sensory {.action .bg-success .content-box}
+###### Safe {.action .bg-success .content-box}
 
 ![If the blow is *not physical*, set aside **at least** `3`{.d4}.](icons/lorc/originals/svg/screaming.svg)
 
