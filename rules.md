@@ -363,57 +363,21 @@ The outcome of the challenge depends on how many dice were used to respond.
 
 Each time you [Take the Blow], you need to set aside a number of dice equal to the number you used in your [Response].  The type of these dice depends on the riskiness of blow you just took.
 
-###### Safe {.action .bg-success .content-box}
+###### Senses {.action .bg-success .content-box}
 
-![If the blow is *safe*, set aside **at least** `3`{.d4}.](icons/lorc/originals/svg/screaming.svg)
+![If the blow is *not physical*, set aside **at least** `3`{.d4}.](icons/lorc/originals/svg/screaming.svg)
 
-###### Risky {.action .bg-info .content-box}
+###### Physical {.action .bg-info .content-box}
 
-![If the blow is *risky*, set aside **at least** `3`{.d6}.](icons/lorc/originals/svg/punch.svg)
+![If the blow *is physical* but *non-violent*, set aside **at least** `3`{.d6}.](icons/lorc/originals/svg/grab.svg)
 
-###### Dangerous {.action .bg-warning .content-box}
+###### Violent {.action .bg-warning .content-box}
 
-![If the blow is *dangerous*, set aside **at least** `3`{.d8}.](icons/lorc/originals/svg/dripping-knife.svg)
+![If the blow is *violent*, set aside **at least** `3`{.d8}.](icons/lorc/originals/svg/dripping-knife.svg)
 
 ###### Perilous {.action .bg-danger .content-box}
 
-![If the blow is *perilous*, set aside **at least** `3`{.d10}.](icons/lorc/originals/svg/backstab.svg)
-
-#### Safe Blows
-
-A *safe* blow is one where the worst long-term outcome is that you *learn* from the experience.  These may result from:
-
-* A conversation in private
-* Light discipline
-* A simulated training exercise
-* A low-impact physical exertion
-
-#### Risky Blows
-
-A *risky* blow is one that could leave a *scar* of some sort, whether on your body, your mind, or your reputation or status.  These may result from:
-
-* A public debate
-* Intense training
-* A contract negotiation
-* A fistfight
-
-#### Dangerous Blows
-
-A *dangerous* blow is one that could cause the *undoing* of some part of yourself.  These might result from:
-
-* Formal public disgrace
-* Thorough indoctrination
-* A high-stakes contract negotiation
-* A swordfight
-
-#### Perilous Blows
-
-A *perilous* blow is one that could immediately take you *out of the game* altogether.  These could result from:
-
-* Banishment
-* Mind-wiping techniques
-* Enslavement
-* A gunfight
+![If the blow is an act of *deadly force*, set aside **at least** `3`{.d10}.](icons/lorc/originals/svg/backstab.svg)
 
 ## Need more Dice?
 
@@ -476,11 +440,11 @@ Then take the two highest fallout dice you rolled and add them together.  Choose
 2-7
 ~    Take [Short-Term Harm]
 8-10
-~    Take [Short-Term Harm] and [Permanent Harm]
+~    Take [Short-Term Harm] and one [Scar]
 11-15
-~    Take [Short-Term Harm] and [Serious Permanent Harm]
+~    Take [Short-Term Harm] and [Trauma]
 16-19
-~    Take [Short-Term Harm] and [Serious Permanent Harm], *and* enter a [Conflict] where the stakes are your own survival.
+~    Take [Short-Term Harm] and [Trauma], *and* enter a [Conflict] where the stakes are your own survival.
 20
 ~    *Death!*  Describe how you exit the game.
 
@@ -504,16 +468,16 @@ Short-Term harm reduces the die size of one of your [Stats] for at least the nex
 
 ![Shamed reduces the die size of your [Heart] from `#`{.d6} to `#`{.d4}.](icons/lorc/originals/svg/paranoia.svg)
 
-## Permanent Harm
+## Scar
 
-When you take Permanent Harm, your character gains a scar.
+The gentlest form of permanent harm is a Scar.
 
 * Take a new `1`{.d4} Trait or Relationship.
 * Or add `1`{.d4} to an existing Trait or Relationship.
 
-## Serious Permanent Harm
+## Trauma
 
-Serious Permanent Harm is what begins to undo you as a character.
+Trauma is what begins to undo you as a character.
 
 * Remove `1`{.d6}, `1`{.d8}, or `1`{.d10} from anywhere on your sheet.
 * Or reduce the die size of a Trait or Relationship by 2.
