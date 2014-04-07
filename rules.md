@@ -162,11 +162,15 @@ It comes into play when competing directly against someone else in an attempt to
 
 Your Traits are aspects of your character that help you get what you want.  You can express Traits as narrative descriptions, skills, quotes, or even flaws. There are no set Traits to choose from. You make them up!
 
-The most useful Traits are the ones that make the best narrative hooks.  The more ways you can justify a trait's relevance in a given situation, the more often you will be able to bring your trait into play.  Therefore, good traits are phrased to be applicable often (but without being omnipresent).  You might want to check out the [Example Character] to see how its done.
+The most useful Traits are the ones that make the best narrative hooks.  The more ways you can justify a trait's relevance in a given situation, the more often you will be able to bring your trait into play.  A good trait will be evocative, without being too specific to be useful or too generic to describe your character.  
+
+> You might want to check out the [Example Character] to get some ideas.
 
 ## Relationships
 
-A relationship is a strong connection between your character and a person, place, organisation or fetish.  Technically, they are very similar to traits in that they grant you dice that you may use to master a given conflict, but only if the relationship comes into play in some way. The GM decides when these grant you dice at the beginning of a [Conflict]. Usually, this simply means that the person is present at the start of the conflict. If he or she is not, you may be able to call on them later, like you can do with traits and belongings, provided of course, that things are not moving too fast for them to give you help or advise.
+A relationship is a strong connection between your character and a person, place, organisation or fetish.  Relationships are very similar to [Traits] in that they grant you dice for use in a [Conflict], but only if the relationship is involved in the *stakes*. 
+
+The GM will tell you when you should roll a Relationship's dice at the beginning of a [Conflict], typically because the target of your Relationship is already directly involved.
 
 > Each character should take at least one Relationship with one of the other players' characters.
 
@@ -248,7 +252,11 @@ Try to work out where the belonging was made, and whether it's terrible or excel
 --------------------------------------------------------------------
 
 
-Your character starts out with **one** special belonging of your choice.  *It must be something your character can wear with a catsuit*.  That means anything that would fit on a utility belt, in your boot, as a bracelet or pendant, tucked behind your ear, or however you might keep something on your person without having to hold on to it.  Anything else, you need to find, steal, buy or borrow.  On the whole, the game is about your *character*, not your gear, though.  Most of the time, we can simply assume that you have the tools of your trade, or that you will just use what is at hand. 
+Your character starts out with **one** special belonging of your choice.  *It must be something your character can wear with a catsuit*.  That means anything that would fit on a utility belt, in your boot, as a bracelet or pendant, tucked behind your ear, or however you might keep something on your person without having to hold on to it.  
+
+Anything else, you need to find, steal, buy or borrow.  Most of the time, we can just assume that you use what is at hand. 
+
+> The game is about your *character*, not your gear, so don't get too caught up in Belongings!
 
 
 ### Guns are complicated
@@ -311,7 +319,7 @@ The person with the 2 highest rolled dice makes the first [Challenge]. If multip
 
 The last person in the [Conflict] wins, and tells us what happens to the stakes.
 
-Everyone then discards all remaining dice, and rolls fallout.  Fallout are negative consequences for participants who took a blow or two in the course of the conflict.  *Fallout does not stop you from winning the stakes*.  A general can win a battle, but die in his moment of glory.  
+Everyone then discards all remaining dice, and rolls [Fallout]. 
 
 ## Challenge
 
@@ -333,7 +341,7 @@ Everyone then discards all remaining dice, and rolls fallout.  Fallout are negat
 3) Each target makes a [Response].
 4) After all responses are done, discard these dice.
 
-When narrating your action, remember that pushing forward high numbers would represent powerful actions with good chances for success while low numbers are more bumbling attempts at getting what you want that might open you to counterattack... or counterargument.
+When narrating your [Challenge], remember that pushing forward high numbers would represent powerful actions with excellent chances for success.   Low numbers are described by more bumbling attempts that might open you to counterattack (or counterargument).
 
 ## Response
 
@@ -362,7 +370,9 @@ The target of the [Challenge] pushes forward enough dice to match the total from
 
 ### Fewer Dice is Better
 
-The outcome of the challenge depends on how many dice were used to respond.  Usually, you will try to avoid taking fallout but sometimes, when the stakes are too high, you have to throw in everything you have, no matter the cost.
+The outcome of the challenge depends on how many dice were used to respond.
+
+Most of the time you will try to avoid taking [Fallout].  But sometimes, when the stakes are too high, you have to give it all you've got no matter the cost!
 
 ## Fallout Dice
 
@@ -432,6 +442,8 @@ Keep your 2 highest dice in your pool for your next conflict (don't re-roll them
 
 # Fallout
 
+Fallout represents the negative consequences for participants who took a blow or two in the course of the conflict.  *Fallout does not stop you from winning the stakes*.  A general can win a battle, but die in his moment of glory.  
+
 After a conflict, roll all your fallout dice (if any) together.
 
 If any of these rolled dice come up `1`, you gain an [Experience]!
@@ -478,7 +490,7 @@ Short-Term Harm reduces the die size of one of your [Stats] for at least the nex
 
 ## Scar
 
-The gentlest form of permanent harm is a Scar, physical or emotional.  It will make things more complicated for you in the future, but you also learned from the experience.
+The gentlest form of permanent harm is a Scar, physical or emotional.  It will complicate your struggles in the future, but can build slowly into a reserve of strength.
 
 * Take a new `1`{.d4} Trait or Relationship.
 * Or add `1`{.d4} to an existing Trait or Relationship.
@@ -511,7 +523,7 @@ Fallout also has a die-size element to it, keyed to the type of conflict you're 
 
 #### How to Think about Changing The Game
 
-The original name for changing the game was "escalation", and that still confuses a lot of people who are new to Dogs or its offshoots.
+The original games that inspired this one called [Changing the Game] *escalation*, and that confused a lot of new players.
 
 It's true that you can escalate from peaceful approaches to more violent ones, but what's most important is that the current approach won't work for you and you're not willing to give up the stakes.
 
