@@ -771,3 +771,7 @@ Let the players describe Torei itself as they interact with it.  Then you should
 If you [Build Situations, Not Plots], then you may be surprised to learn that even your situations shouldn't be that secret.  It's tempting to present the crises you've created as a puzzle for the players to solve.  But mystery stories only work because the author presents the clues and discoveries to the reader at a steady pace.
 
 Don't leave the players in the dark, chasing red herrings or scratching their heads trying to find the next clue.  NPCs may be cagey or duplicitous, but they should at least send the players to an NPC who will reveal more of the facts of the situation.  Run your games as "howcatchems", not "whodunnits"!
+
+## Creating NPCs
+
+> FIXME
