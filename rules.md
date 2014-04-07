@@ -251,6 +251,7 @@ Try to work out where the belonging was made, and whether it's terrible or excel
  `1`{.d4}    if it’s terrible.
 --------------------------------------------------------------------
 
+### Starting Equipment
 
 Your character starts out with **one** special belonging of your choice.  *It must be something your character can wear with a catsuit*.  That means anything that would fit on a utility belt, in your boot, as a bracelet or pendant, tucked behind your ear, or however you might keep something on your person without having to hold on to it.  
 
