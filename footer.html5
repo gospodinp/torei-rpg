@@ -1,6 +1,21 @@
 <script src="jquery.min.js"></script>
 <script src="bootstrap/js/affix.js"></script>
 <script type="text/javascript">
+//wrap example section body text in a div
+$('section.example').each( function () {
+        $(this).children().not(':header').wrapAll('<div class="collapse" />');
+    }
+);
+// Start out hidden
+$('div.collapse').hide();
+
+// Clicking on the heading toggles the div's expanded state
+$('section.example :header:first-child').click( function() {
+        $(this).parent().find('div.collapse').slideToggle('slow');
+    }
+);
+</script>
+<script type="text/javascript">
 //equal height plugin
 $.fn.max = function(selector) {
     return Math.max.apply(null, this.map(function(index, el) {return selector.apply(el);}).get() );

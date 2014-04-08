@@ -162,7 +162,6 @@ section>p>img:extend(.img-rounded all, .pull-right all),
 .action:extend(.well all), .stat:extend(.well all) {}
 .die > h5:extend(h3), .die > h6:extend(h3), .action > h6:extend(h4),
 .harm > h6:extend(h3), .stat > h6:extend(h3) { text-align: center;}
-section.stat > figure:extend(.text-center all), section.harm:extend(.text-center all), section.action:extend(.text-center all), section.die:extend(.text-center all) { }
 section.harm h6 a:extend(.label),
 section.die h5 a:extend(.label) {text-shadow: 1px 1px 1px #000;}
 section.bg-success h6 a:extend(.label, .label-success) {text-shadow: 1px 1px 1px #000;}
@@ -170,7 +169,11 @@ section.bg-info h5 a:extend(.label, .label-info),
 section.bg-info h6 a:extend(.label, .label-info) {text-shadow: 1px 1px 1px #000;}
 section.bg-warning h6 a:extend(.label, .label-warning) {text-shadow: 1px 1px 1px #000;}
 section.bg-danger h6 a:extend(.label, .label-danger) {text-shadow: 1px 1px 1px #000;}
-figure img:extend(.img-rounded) { max-width: 8em !important;}
+figure img:extend(.center-block, .img-rounded) { max-width: 8em !important;}
+
+section.example:extend(blockquote) {
+    > h3 a:before { content: 'Example: '; };
+}
 
 code.d10:extend(.bg-success),
 code.d8:extend(.bg-info),
@@ -193,12 +196,10 @@ code.d8:after { content: "d8"; }
 code.d6:after { content: "d6"; }
 code.d4:after { content: "d4"; }
 
-nav > ul :extend(.list-group all) { }
+nav > ul:extend(.list-group all) { }
+nav  ul:extend(.list-unstyled all) { }
 nav > ul > li:extend(.list-group-item all) { }
-nav > ul > li > ul {
-    list-style: none;
-    margin-left: -20px;
-}
+nav > ul > li > a:extend(.btn) { padding-left: 3em !important;}
 
 @media (min-width: 767px) {
     .affix {
