@@ -694,7 +694,12 @@ Bully's [Challenge]
 > He spins her around and whips some sort of handcuffs out of a back pocket of
 > his trousers, forcing Stella's arms around a pole behind her back!*
 
-### FIXME: Bogus old notes follow
+### FIXME: Bogus old notes {.example}
+
+> This section has a bunch of old crap from a forum thread.  Unfortunately this
+> example isn't fully finished, and the end doesn't match the beginning.  It
+> needs serious re-tooling before we can release any of it.  This probably
+> needs to be pushed out into smaller chunks.
 
 That's all of the bully's dice, so if we can see `20` and raise *anything* we'll save this poor girl.  Unfortunately our dice are so terrible that the fallout will be considerable (and it's d6es because this is now physical combat!).
 
