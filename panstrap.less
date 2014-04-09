@@ -171,9 +171,14 @@ section.bg-warning h6 a:extend(.label, .label-warning) {text-shadow: 1px 1px 1px
 section.bg-danger h6 a:extend(.label, .label-danger) {text-shadow: 1px 1px 1px #000;}
 figure img:extend(.center-block, .img-rounded) { max-width: 8em !important;}
 
-section.example:extend(blockquote) {
-    > h3 a:before { content: 'Example: '; };
-    blockquote:extend(.well) {};
+section.example:extend(.well-sm, .well) {
+    > h3:extend(h4) {
+        a:extend(.center-block, .label) {
+            background-color: @state-info-bg;
+            text-shadow: 1px 1px 1px #000;
+        };
+        a:before { content: 'Example: '; };
+    }
 }
 
 code.d10:extend(.bg-success),
