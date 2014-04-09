@@ -10,7 +10,7 @@ But times have changed since the greater spacefaring society discovered Torei, a
 
 # Torei
 
-Torei as a setting is meant to be evoked rather than defined.  It's a kinky BDSM planet inspired by both Æon Flux and Gor, but exactly how that looks is best defined by your group during play.  Your games may result in a detailed sourcebook that lays out some amazing worldbuilding, or you may re-invent it constantly as you go. 
+Torei as a setting is meant to be evoked rather than defined.  It's a kinky BDSM planet inspired by both Æon Flux and Gor, but exactly how that looks is best defined by your group during play.  Your games may result in a detailed sourcebook that lays out some amazing worldbuilding, or you may re-invent it constantly as you go.
 
 This means that you shouldn't take this section too seriously.  If a player wants to know something about Torei, the GM should probably turn the question back to the group most of the time.  Instead of asserting a veto on the group's idea via GM fiat, it's important to [Say Yes or Roll the Dice]!
 
@@ -105,6 +105,12 @@ Invent a new planet around some new star in a nearby galaxy, and make that your 
 
 These are often two different things!
 
+### Stellanova {.example}
+
+Stellanova is a woman from Amalthea, which was for most of its history part of a colonial commonwealth of stars.  Her father, though, was from Hotchkiss and she has dual citizenship in the Commonweal and in the Confederacy to which Hotchkiss belongs.
+
+The official story is that she went to Torei to follow her wife Sophietta's posting as an ambassador, and that her background in human rights law was in demand there.  In truth, the idea of being a mistress appealed to her rather more than she let on.
+
 ## Hierarchy
 
 #### Whose power do you represent?
@@ -114,6 +120,10 @@ Torei is fond of hierarchy.  Everyone is beneath someone and above others.  What
 #### Who represents your power?
 
 Status on Torei comes from the people you command.  Are you a manager?  An officer?  A parent?  Do you have elected status in any organization, no matter how small?
+
+### Stellanova's Authority {.example}
+
+Stella works for the Amalthean embassy, on contract work.  As a freelancer, she has very little authority beyond negotiation.  That said, she did purchase a maid slave to spy on her ex-wife after their divorce, and legally she holds title over one slave.
 
 ## Background
 
@@ -133,6 +143,10 @@ You're socially adept and a good former of friendships and alliances.  You may h
 
 ##### Complicated Connections
 You're socially vulnerable, and your [Relationships] tend to be messy.  You may have gone to Torei to get away from someone, or to try and heal a bond with others who came before you.
+
+### Stellanova's Background {.example}
+
+Stella's competent, but her background isn't particularly special or troubled.  Her friends tend to drag her into messy situations, which suggests [Complicated Connections] as the best option.
 
 ## Stats
 
@@ -162,13 +176,13 @@ It comes into play when competing directly against someone else in an attempt to
 
 Your Traits are aspects of your character that help you get what you want.  You can express Traits as narrative descriptions, skills, quotes, or even flaws. There are no set Traits to choose from. You make them up!
 
-The most useful Traits are the ones that make the best narrative hooks.  The more ways you can justify a trait's relevance in a given situation, the more often you will be able to bring your trait into play.  A good trait will be evocative, without being too specific to be useful or too generic to describe your character.  
+The most useful Traits are the ones that make the best narrative hooks.  The more ways you can justify a trait's relevance in a given situation, the more often you will be able to bring your trait into play.  A good trait will be evocative, without being too specific to be useful or too generic to describe your character.
 
 > You might want to check out the [Example Character] to get some ideas.
 
 ## Relationships
 
-A relationship is a strong connection between your character and a person, place, organisation or fetish.  Relationships are very similar to [Traits] in that they grant you dice for use in a [Conflict], but only if the relationship is involved in the *stakes*. 
+A relationship is a strong connection between your character and a person, place, organisation or fetish.  Relationships are very similar to [Traits] in that they grant you dice for use in a [Conflict], but only if the relationship is involved in the *stakes*.
 
 The GM will tell you when you should roll a Relationship's dice at the beginning of a [Conflict], typically because the target of your Relationship is already directly involved.
 
@@ -207,13 +221,62 @@ Your [Background] type determines what dice you have to allocate.  Remember that
 
 Table: Dice allocations for the five [Background] types.
 
-#### Don't roll these dice yet!  
+#### Don't roll these dice yet!
 
 Your character sheet will actually list the sets of dice themselves next to your [Stats], [Traits], and [Relationships].  If this isn't clear, see the [Example Character] later on.
 
 #### Save Some Relationship Dice!
 
 Most characters should leave their [Relationship] dice largely unallocated.  You'll add them in as you meet people during play!
+
+### Stellanova's Traits and Relationships {.example}
+
+Since Stella's background is [Complicated Connections], she has `15`{.d6} for [Stats], `6`{.d6} `2`{.d8} for [Traits], and `4`{.d4} `2`{.d6} `2`{.d8} `2`{.d10} for [Relationships].
+
+#####
+
+---------  ---------
+ `4`{.d6}  [Heart]
+ `5`{.d6}  [Acuity]
+ `4`{.d6}  [Body]
+ `2`{.d6}  [Will]
+---------  ---------
+
+Table: Stella's [Stats]
+
+#### {.pull-right}
+
+---------   -------------------------------------------------------
+ `1`{.d8}   Graduated law school on Amalthea with a distinction
+            in human rights and treaty law,
+            but never passed the bar.
+
+ `1`{.d8}
+
+ `2`{.d6}   Years on Torei made me a fearless negotiator.
+
+ `1`{.d6}   I've spent my single life
+            as a lusty and aggressive cruiser.
+
+ `2`{.d6}   I can spot a trap a mile away...but not two miles.
+
+ `1`{.d6}   I let my jealousy and frustration get the better of me.
+-------------------------------------------------------------------
+
+Table: Stella's [Traits]
+
+####
+
+----------   -------------------------------------------------------
+  `2`{.d4}   Sophie's twin nieces are double trouble!
+  `2`{.d4}   I own a "soubrette" maid-slave in Sophie's apartment.
+  `2`{.d6}   My ex-wife Sophie is the Amalthean Ambassador to Torei.
+  `1`{.d8}   *unallocated*
+ `1`{.d10}   *unallocated*
+----------   -------------------------------------------------------
+
+Table: Stella's [Relationships]
+
 
 ## Belongings
 
@@ -230,7 +293,7 @@ Try to work out where the belonging was made, and whether it's terrible or excel
 
 ---------    -------------------------------------------------------
  `1`{.d6}    if it’s Torean.
- `2`{.d6}    if it’s excellent Torean equipment. 
+ `2`{.d6}    if it’s excellent Torean equipment.
  `1`{.d4}    if it’s terrible.
 --------------------------------------------------------------------
 
@@ -253,9 +316,9 @@ Try to work out where the belonging was made, and whether it's terrible or excel
 
 ### Starting Equipment
 
-Your character starts out with **one** special belonging of your choice.  *It must be something your character can wear with a catsuit*.  That means anything that would fit on a utility belt, in your boot, as a bracelet or pendant, tucked behind your ear, or however you might keep something on your person without having to hold on to it.  
+Your character starts out with **one** special belonging of your choice.  *It must be something your character can wear with a catsuit*.  That means anything that would fit on a utility belt, in your boot, as a bracelet or pendant, tucked behind your ear, or however you might keep something on your person without having to hold on to it.
 
-Anything else, you need to find, steal, buy or borrow.  Most of the time, we can just assume that you use what is at hand. 
+Anything else, you need to find, steal, buy or borrow.  Most of the time, we can just assume that you use what is at hand.
 
 > The game is about your *character*, not your gear, so don't get too caught up in Belongings!
 
@@ -263,6 +326,13 @@ Anything else, you need to find, steal, buy or borrow.  Most of the time, we can
 ### Guns are complicated
 
 Guns are the one place where die sizes are mixed: all guns get an extra `1`{.d4} in addition to whatever else they have.  This means that an excellent off-world gun would be `2`{.d8} `1`{.d4}, and an ordinary Torean gun would be `1`{.d6} `1`{.d4}.  A terrible gun would be `2`{.d4} no matter where it was made.
+
+### Stellanova's Belongings {.example}
+
+As a legal professional, Stella needs access to documents and records quickly.  Since information technology in this setting is ubiquitous to the point of being part of nearly every reflective surface, she keeps a gemstone of Amathean jet on her person at all times.  This can be used for calling up contracts and performing automated analysis.
+
+`1`{.d8}
+:   Pendant gem information device.
 
 ## Initiation to Torei
 
@@ -272,6 +342,15 @@ Perhaps you hope that you got out of debt, or broke a slave's will, or resisted 
 
 The GM will run a [Conflict] between your character and `4`{.d6} `4`{.d10} in opposition.  The result will be a new `1`{.d6} trait, such as "I stayed debt-free ever since the belt came off" or "I never did earn my slave's respect."
 
+### Stellanova's Initiation {.example}
+
+Stella's a slightly idealistic champion for the underdog, so she chose "I hope I protected someone from a bully" as her hope for the [Initiation to Torei] [Conflict].
+
+> Stella is on a train late at night, and a young man boards.  He's got an eye
+> for a young woman who's travelling to work graveyard shift at one of the
+> tower casinos, and he steps over to her to have a word.  The casino girl does
+> her best to respectfully decline his advances, but he ignores this and grabs
+> her.
 
 # Conflict
 
@@ -320,7 +399,25 @@ The person with the 2 highest rolled dice makes the first [Challenge]. If multip
 
 The last person in the [Conflict] wins, and tells us what happens to the stakes.
 
-Everyone then discards all remaining dice, and rolls [Fallout]. 
+Everyone then discards all remaining dice, and rolls [Fallout].
+
+### Stellanova's Initiation Conflict {.example}
+
+Now we're in the situation, and it's time for Stella to react!  Being a legal mind, she tries to persuade this man that he doesn't want to keep molesting this working girl.
+
+> Stella shouts to the bully: "Leave her alone!"
+
+Since this persuasion is just [Talking], that means that Stella rolls her [Heart] and [Acuity] dice now for a total of `9`{.d6}.  None of her [Relationships] are at stake, so she leaves those alone.
+
+Because this is part of [Character Creation], the GM doesn't build a character for this one-off bully but instead rolls `4`{.d6} `4`{.d10}.  So the results are:
+
+Stella
+:   `1` `1` `2` `4` `1` `4` `4` `1` `1`
+Bully
+:   `6` `6` `3` `4` `1` `7` `10` `10`
+
+Ouch!  Unlucky roll for Stella, and lucky for the bully!
+
 
 ## Challenge
 
@@ -343,6 +440,18 @@ Everyone then discards all remaining dice, and rolls [Fallout].
 4) After all responses are done, discard these dice.
 
 When narrating your [Challenge], remember that pushing forward high numbers would represent powerful actions with excellent chances for success.   Low numbers are described by more bumbling attempts that might open you to counterattack (or counterargument).
+
+### The Bully's Challenge {.example}
+
+Now it's time to use these results as currency to tell a story.  The Bully's roll is vastly better than Stella's, but Stella still has [Traits] she can use to add more dice as necessary.
+
+[Who Goes First?]  Since the Bully's two highest dice (`10` `10`) beat Stella's (`4` `4`), he goes first.  He puts forth a [Challenge] with `3` `4`:
+
+Bully's [Challenge]
+:   `3` `4`
+
+> "Keep your off-world tongue to yourself!" the bully spits back.  "I'll train
+> it properly once I'm done with this meat here!" He leers at Stella.
 
 ## Response
 
@@ -368,12 +477,22 @@ The target of the [Challenge] pushes forward enough dice to match the total from
 [Blocks]: #blocking
 [Taking the Blow]: #taking-the-blow
 [Take the Blow]: #taking-the-blow
+[Took the Blow]: #taking-the-blow
 
 ### Fewer Dice is Better
 
 The outcome of the challenge depends on how many dice were used to respond.
 
 Most of the time you will try to avoid taking [Fallout].  But sometimes, when the stakes are too high, you have to give it all you've got no matter the cost!
+
+### Stellanova's First Response {.example}
+
+Now the bidding war starts back and forth.  Stella must do two things: push forward enough dice for her [Response] to meet or exceed `7` (the total from [The Bully's Challenge]), and then push forward a [Challenge] of her own.  Unfortunately, she can't do it with fewer than three dice, so she'll have to [Take the Blow].
+
+Stella's [Response]
+:   `2`{.bg-danger} `4`{.bg-danger} `1`{.bg-danger}
+
+> Stella shrinks a bit under the bully's stare, clearly uncomfortable.
 
 ## Fallout Dice
 
@@ -394,6 +513,15 @@ Each time you [Take the Blow], you need to set aside a number of dice equal to t
 ###### Perilous {.action .bg-danger .content-box}
 
 ![If the blow is an act of *deadly force*, set aside **at least** `3`{.d10}.](icons/lorc/originals/svg/backstab.svg)
+
+### Stellanova's First Fallout Dice {.example}
+
+Stella [Took the Blow] with three dice, and the bully's blow was [Safe]. This means she must set aside the following dice:
+
+[Fallout Dice]
+:   `3`{.d4}
+
+She will roll these at the end of the [Conflict], but right now they just build up in a [Fallout] pool for later.
 
 ## Need more Dice?
 
@@ -422,6 +550,7 @@ Don't re-roll any stats you've already rolled, and don't discard any dice alread
 If you change the game to a type nobody's rolled yet, you do not need to respond, and can instead make your own [Challenge] now!
 
 [Changing the Game]: #change-the-game
+[Changed the Game]: #change-the-game
 
 #### Traits and Belongings
 
@@ -440,10 +569,73 @@ You can give in the stakes at any time, even when someone is challenging you. Th
 
 Keep your 2 highest dice in your pool for your next conflict (don't re-roll them!) You can't help in this same conflict.
 
+### Stella Uses her Traits {.example}
+
+Stella can't succeed with these terrible dice.  It's time to use her [Traits and Belongings].  Stella calls on `2`{.d6} for *Years on Torei made me a fearless negotiator*. These dice come up `6` `6`, so the balance now looks like:
+
+Stella
+:   ~~1 2 4~~ `4` `4` `1` `1` `1` `1` `6` `6`
+Bully
+:   ~~3 4~~ `6` `6` `1` `7` `10` `10`
+
+
+Stella's [Challenge]
+:   `6` `6`
+
+> Stella narrows her eyes and snaps back, "That woman works for the Motkan
+> tourism board, and has a fully protected contract with the
+> Tower Authority.  You have no right to cajole any consideration from her
+> that would be in conflict with the standards of conduct required by her
+> employer."
+
+The bully [Blocks] with two dice:
+
+Bully's [Response]
+:   `6`{.bg-warning} `6`{.bg-warning}
+
+> "I am a red-blooded male of Torei.  Don't tell me my rights,
+> freewomb!"
+
+Bully's [Challenge]
+:   `7` `1`
+
+> The bully ignores Stella's legalese and begins molesting the whimpering
+> woman.
+
+### Stella Changes The Game {.example}
+
+Again, this isn't working out with the dice she has.  She needs to [Change the Game] and try to stop him physically.  She thus ignores the current [Challenge] and rolls `4`{.d6} `2`{.d6} to bring her [Body] and [Will] in for the fight, and decides to tap `1`{.d6} for *I let my...frustration get the better of me.*  The result of these rolls is `5` `4` `3` `2` `3` `1` `5` which takes the total to:
+
+Stella
+:   ~~1 2 4 6 6~~ `4` `4` `1` `1` `1` `1` `5` `4` `3` `2` `3` `1` `5`
+Bully
+:   ~~3 4 6 6 1 7~~ `10` `10`
+
+Now we're talking!  And since she [Changed the Game], she can ignore the Bully's [Challenge] and surprise him with a brand new type of [Conflict].
+
+Stella's [Challenge]
+:   `5` `5`
+
+> Stella runs toward the man in frustration at being ignored.  She grabs the
+> man by one arm in an attempt to pry him away from the poor girl.
+
+But since `10` was the biggest raise we could do, the bully [Reverses the Blow].
+
+Bully's [Response]
+:   `10`{.bg-success}
+
+> The man twirls around the moment he is touched, and soon he has Stella in his
+> arms.
+
+Bully's [Challenge]
+:   `10`{.bg-success} `10`
+
+> He spins her around and whips some sort of handcuffs out of a back pocket of
+> his trousers, forcing Stella's arms around a pole behind her back!
 
 # Fallout
 
-Fallout represents the negative consequences for participants who took a blow or two in the course of the conflict.  *Fallout does not stop you from winning the stakes*.  A general can win a battle, but die in his moment of glory.  
+Fallout represents the negative consequences for participants who took a blow or two in the course of the conflict.  *Fallout does not stop you from winning the stakes*.  A general can win a battle, but die in his moment of glory.
 
 After a conflict, roll all your fallout dice (if any) together.
 
@@ -538,220 +730,6 @@ If you're willing to surrender the stakes, giving in can be one of the most powe
 A submissive character may well play a long game of rope-a-dope, giving in to a dominant character regularly just to gain the upper hand on the next [Conflict].
 
 Consenting to submit as a beneficial game mechanic: it's one of the reasons the Torei RPG uses these rules!
-
-## Example Character
-
-
-Stellanova is a character from the *Stella of the Bailey* series of stories.  Since the stories are largely about how Stella's friends and relations drag her into complex situations, I'll just pick [Complicated Connections] for her template.
-
-Stella's a paralegal of some sort: highly professional, highly skilled at negotiation. She's got a strong force of personality and a clever wit. She was married to the Amalthean ambassador to Torei, her ex-wife Sophie. Sophie has two nieces she takes care of, who have just come of age. Stella purchased a slave maid for Sophie's apartment a long time ago, after they broke up. Sophie comes from a mixed family: her (late) father was from Hotchkiss, and her mother from Amalthea. She lives in Motka tower, but Sophie's family lives in Alem tower.
-
-> FIXME: Why did she come to Torei?
-
-######
-
----------  ---------
- `4`{.d6}  [Heart]
- `5`{.d6}  [Acuity]
- `4`{.d6}  [Body]
- `2`{.d6}  [Will]
----------  ---------
-
-Table: Stella's [Stats]
-
-#####
-
----------   -------------------------------------------------------
- `1`{.d8}   Graduated law school on Amalthea with honours,
-            but never passed the bar
-
- `1`{.d8}   Hired by the Amalthean Embassy on Torei as an expert
-            in Torean human rights and treaty law.
-
- `2`{.d6}   Years on Torei made me a fearless negotiator.
-
- `1`{.d6}   I've spent my single life
-            as a lusty and aggressive cruiser.
-
- `2`{.d6}   I can spot a trap a mile away, but not two miles.
-
- `1`{.d6}   I let my jealousy and frustration get the better of me.
--------------------------------------------------------------------
-
-Table: Stella's [Traits]
-
-#####
-
-----------   -------------------------------------------------------
-  `2`{.d4}   Sophie's twin nieces are double trouble!
-  `2`{.d4}   That Truant Officer Gird has it in for me!
-  `2`{.d6}   My ex-wife Sophie is the Amalthean Ambassador to Torei.
-  `1`{.d8}   I own a "soubrette" maid-slave in Sophie's apartment
- `1`{.d10}   *unallocated*
-----------   -------------------------------------------------------
-
-Table: Stella's [Relationships]
-
-### I Hope I Protected Someone From a Bully
-
-Stella's a slightly idealistic champion for the underdog, so she chose "I hope I protected someone from a bully" as her hope for the [Initiation to Torei] [Conflict].
-
-> Stella is on a train late at night, and a young man boards.  He's got an eye
-> for a young woman who's travelling to work graveyard shift at one of the
-> tower casinos, and he steps over to her to have a word.  The casino girl does
-> her best to respectfully decline his advances, but he ignores this and grabs
-> her.
-
-Now we're in the situation, and it's time for Stella to react!  Being a legal mind, she tries to persuade this man that he doesn't want to keep molesting this working girl.
-
-> Stella shouts to the bully: "Leave her alone!"
-
-Since this persuasion is just [Talking], that means that Stella rolls her [Heart] and [Acuity] dice now for a total of `9`{.d6}.  None of her [Relationships] are at stake, so she leaves those alone.
-
-Because this is part of [Character Creation], the GM doesn't build a character for this one-off bully but instead rolls `4`{.d6} `4`{.d10}.  So the results are:
-
-Stella
-:   `1` `1` `2` `4` `1` `4` `4` `1` `1`
-Bully
-:   `6` `6` `3` `4` `1` `7` `10` `10`
-
-Ouch!  Unlucky roll for Stella, and lucky for the bully!
-
-Now it's time to use these results as currency to tell a story.  The Bully's roll is vastly better than Stella's, but Stella still has [Traits] she can use to add more dice as necessary.
-
-[Who Goes First?]  Since the Bully's two highest dice (`10` `10`) beat Stella's (`4` `4`), he goes first.  He puts forth a [Challenge] with `3` `4`:
-
-Bully's [Challenge]
-:   `3` `4`
-
-> "Keep your off-world tongue to yourself!" the bully spits back.  "I'll train
-> it properly once I'm done with this meat here!" He leers at Stella.
-
-Now the bidding war starts back and forth.  Stella must do two things: push forward enough dice for her [Response] to meet or exceed `7` (the total from the Bully's [Challenge]), and then push forward a [Challenge] of her own.  Unfortunately, she can't do it with fewer than three dice, so she'll have to [Take the Blow].
-
-Stella's [Response]
-:   `2`{.bg-danger} `4`{.bg-danger} `1`{.bg-danger}
-[Fallout Dice]
-:   `3`{.d4}
-
-> Stella shrinks a bit under the bully's stare, clearly uncomfortable.
-
-Stella can't succeed with these terrible dice.  It's time to use her [Traits and Belongings].  Stella calls on `2`{.d6} for *Years on Torei made me a fearless negotiator* and `1`{.d8} for *expert in Torean human rights and treaty law*.  These dice come up `6` `6` `6`, so the balance now looks like:
-
-Stella
-:   ~~1 2 4~~ `4` `4` `1` `1` `1` `1` `6` `6` `6`
-Bully
-:   ~~3 4~~ `6` `6` `1` `7` `10` `10`
-
-
-Stella's [Challenge]
-:   `6` `6`
-
-> Stella narrows her eyes and snaps back, "That woman works for the Motkan
-> tourism board, and has a fully protected contract with the
-> Tower Authority.  You have no right to cajole any consideration from her
-> that would be in conflict with the standards of conduct required by her
-> employer."
-
-The bully [Blocks] with two dice:
-
-Bully's [Response]
-:   `6`{.bg-warning} `6`{.bg-warning}
-
-> "I am a red-blooded male of Torei.  Don't tell me my rights,
-> freewomb!"  
-
-Bully's [Challenge]
-:   `7` `1`
-
-> The bully ignores Stella's legalese and begins molesting the whimpering
-> woman.
-
-Again, this isn't working out with the dice she has.  She needs to [Change the Game] and try to stop him physically.  She thus ignores the current [Challenge] and rolls `4`{.d6} `2`{.d6} to bring her [Body] and [Will] in for the fight, and decides to tap `1`{.d6} for *I let my...frustration get the better of me.*  The result of these rolls is `6` `4` `3` `2` `3` `1` `6` which takes the total to:
-
-Stella
-:   ~~1 2 4 6 6~~ `4` `4` `1` `1` `1` `1` `6` `6` `4` `3` `2` `3` `1` `6`
-Bully
-:   ~~3 4 6 6 1 7~~ `10` `10`
-
-Stella's Challenge
-:   `6` `4`
-
-> Stella runs toward the man in frustration at being ignored.  She grabs the
-> man by one arm in an attempt to pry him away from the poor girl.
-
-But since `10` was the biggest raise we could do, the bully [Reverses the Blow].
-
-Bully's [Response]
-:   `10`{.bg-success}
-
-> The man twirls around the moment he is touched, and soon he has Stella in his
-> arms. 
-
-Bully's [Challenge]
-:   `10`{.bg-success} `10`
-
-> He spins her around and whips some sort of handcuffs out of a back pocket of
-> his trousers, forcing Stella's arms around a pole behind her back!*
-
-### FIXME: Bogus old notes {.example}
-
-> This section has a bunch of old crap from a forum thread.  Unfortunately this
-> example isn't fully finished, and the end doesn't match the beginning.  It
-> needs serious re-tooling before we can release any of it.  This probably
-> needs to be pushed out into smaller chunks.
-
-That's all of the bully's dice, so if we can see `20` and raise *anything* we'll save this poor girl.  Unfortunately our dice are so terrible that the fallout will be considerable (and it's d6es because this is now physical combat!).
-
-> **See: 6 6 2 3 3 Fallout: `5`{.d6}**  Stella grunts in pain as her shoulders
-> are wrenched roughly back, her elbows pinned together behind the pole.
-> She withers under the bully's breath as he gloats in her face.
-> **Raise: 1 1** Gasping with despair, she sees her opportunity when the
-> train comes into a station: the doors open, and the bully turns around
-> briefly to resume tormenting the working girl.  Grasping the pole behind
-> her with her hands, Stella lifts up her knees and kicks out at the man.
-
-Now *everyone* is out of dice, but the important thing is that Stella put
-forth a *raise* that the bully can't *see*.  He's lost the stakes (whether
-or not he bullies the girl)!
-
-> Stella's kick hits true, and the bully stumbles and trips as he tries to
-> regain his balance.  He tumbles drunkenly out of the train, and takes just
-> a little too long to stand up: by the time he's on his feet, the train
-> doors have closed.  Stella gasps with adrenaline rush and grins widely as
-> she and the casino girl watch the gesticulating man and the platform he
-> stands on zip out of sight together.
->
-> "That was so very brave of you!" coos the girl, draping her arms over
-> Stella's tortured shoulders.  "Of course, I'll bet someone as clever as
-> you already worked it out, but you just won me in honest combat.  I'm
-> yours for an elevenight."
->
-> The girl leans in and plants a kiss on Stella's lips that starts soft and
-> tender, but melts quickly into fiery passion.  Stella strains against her
-> bonds, but she isn't sure if it's to push the girl away or to hold her
-> closer.
-
-So Stella won!  What now?  Well now she gets a new *Trait*:
-
- * `1`{.d6} I once saved a girl from a bully.
-
-But it didn't come easy: we *took the blow* twice, earning `1`{.d4} `5`{.d6} in
-fallout!  I roll them and come up with **3 3 2 2 3 6**.  I take the two
-highest which total **9**.  Since this is more than 8, I need to mark down
-some permanent harm: I could reduce die sizes or subtract dice from stats or
-traits, but an appealing alternative is to take on `1`{.d4} for a trait or
-relationship.
-
-The two things that would make the most sense given this scene would be to
-take a trait about the after-effects of the elbow cuffs, or to take the
-working girl as a relationship.  As fitting as the relationship seems (given
-that it was the stakes of the conflict) I think I'll go with:
-
- * `1`{.d4} I once spent the whole night bound uncomfortably in a train
-   carriage.
-
-And with that, we've finished Stella's character!
 
 # GM Advice
 
