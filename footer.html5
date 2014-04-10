@@ -8,6 +8,7 @@ $('section.example').each( function () {
 );
 // Start out hidden
 $('div.collapse').hide();
+$('section.example > :header:first-child > a').removeAttr("href").css("cursor","pointer");
 
 // Clicking on the heading toggles the div's expanded state
 $('section.example :header:first-child').click( function() {
