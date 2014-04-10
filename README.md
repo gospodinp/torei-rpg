@@ -13,3 +13,8 @@ This project builds a rulebook as a single HTML file complete with all embedded 
 This repository has [Twitter Bootstrap](http://github.com/twitter/bootstrap) as a submodule, along with the [Junction](http://github.com/theleagueof/junction) and [Orbitron](http://github.com/theleagueof/orbitron) fonts from [The League of Movable Type](https://www.theleagueofmoveabletype.com/).
 
 In addition, it includes a copy of the excellent SVG icons from <http://game-icons.net/>.  Unfortunately they're [not yet available as a git repository](http://forum.game-icons.net/github), but at some point I hope to be able to make this a submodule as well.
+
+Published Copy
+--------------
+
+There's a copy of the HTML output semi-regularly published to <http://www.asstr.org/~Gospodin/rules.html>.  Despite being hosted on the Web, it is a self-contained file that will work even when offline.  Because of that, it tends to clock in at just under 700KB, so have patience when loading!
