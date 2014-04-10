@@ -178,7 +178,7 @@ Your Traits are aspects of your character that help you get what you want.  You 
 
 The most useful Traits are the ones that make the best narrative hooks.  The more ways you can justify a trait's relevance in a given situation, the more often you will be able to bring your trait into play.  A good trait will be evocative, without being too specific to be useful or too generic to describe your character.
 
-> You might want to check out the [Example Character] to get some ideas.
+> You might want to check out the [Stellanova's Traits and Relationships] to get some ideas.
 
 ## Relationships
 
@@ -223,7 +223,7 @@ Table: Dice allocations for the five [Background] types.
 
 #### Don't roll these dice yet!
 
-Your character sheet will actually list the sets of dice themselves next to your [Stats], [Traits], and [Relationships].  If this isn't clear, see the [Example Character] later on.
+Your character sheet will actually list the sets of dice themselves next to your [Stats], [Traits], and [Relationships].
 
 #### Save Some Relationship Dice!
 
