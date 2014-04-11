@@ -111,7 +111,7 @@ Stellanova is a woman from Amalthea, which was for most of its history part of a
 
 The official story is that she went to Torei to follow her wife Sophietta's posting as an ambassador, and that her background in human rights law was in demand there.  In truth, the idea of being a mistress appealed to her rather more than she let on.
 
-## Hierarchy
+### Hierarchy
 
 #### Whose power do you represent?
 
