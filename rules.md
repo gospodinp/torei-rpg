@@ -775,4 +775,76 @@ Don't leave the players in the dark, chasing red herrings or scratching their he
 
 ## Creating NPCs
 
-> FIXME
+NPCs have the same four [Stats] that player characters do; but instead of hand-crafting characteristic [Traits], every NPC has these four:
+
+###### I am taking this very seriously {.action .content-box}
+
+The NPC has a personal interest in the [Conflict], and *wants* to get involved for some reason.
+
+Write down any quick interests or desires you think of immediately when you imagine this NPC.
+
+###### This falls within my expertise {.action .content-box}
+
+The NPC is well trained or skilled in something relevant to the [Conflict], regardless of motivation.
+
+Write down the primary areas of expertise the NPC would have.
+
+###### My life depends on this {.action .content-box}
+
+The NPC is compelled by some outside force to take part in the [Conflict].
+
+Either the [Conflict] is a direct threat against the NPC's health or freedom, or some external threat makes this [Conflict] and obstacle to same.  Jot down any debts, masters, diseases, or other forces that could drive the NPC to desperation.
+
+###### I am fighting for someone I love {.action .content-box}
+
+The NPC is in the [Conflict] voluntarily on behalf of someone else.  This love can be personal and emotional, or it can be the loyal devotion of a dedicated servant.
+
+Feel free to link this to one of the NPC's [Relationships], or to leave it until the [Conflict] occurs.
+
+### NPC Trait Dice
+
+Every NPC has the four traits above, but allocates dice to the use of each trait in a given conflict type ([Safe], [Physical], [Violent] and [Perilous]).  So an NPC may have "[My life depends on this]: `2`{.d6} [Safe], `1`{.d4} [Violent], `1`{.d10} [Perilous]"
+
+For an NPC's trait dice, roll `1`{.d10}, and assign them to various conflict types in the four NPC traits.
+
+1
+:   `1`{.d4} `1`{.d4} `1`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `2`{.d8} `1`{.d10}
+2
+:   `1`{.d4} `1`{.d6} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `2`{.d8} `1`{.d10}
+3
+:   `1`{.d4} `1`{.d4} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `1`{.d8} `2`{.d8} `1`{.d10}
+4
+:   `1`{.d4} `2`{.d4} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `1`{.d8} `2`{.d8} `1`{.d10} `1`{.d10}
+5
+:   `1`{.d4} `1`{.d4} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `2`{.d8} `2`{.d8} `1`{.d10} `2`{.d10}
+6
+:   `1`{.d4} `2`{.d4} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `1`{.d8} `2`{.d8} `1`{.d10} `1`{.d10} `1`{.d10}
+7
+:   `1`{.d4} `2`{.d4} `1`{.d6} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `1`{.d8} `2`{.d8} `1`{.d10} `1`{.d10} `2`{.d10}
+8
+:   `1`{.d4} `2`{.d4} `1`{.d6} `2`{.d6} `2`{.d6} `2`{.d6} `3`{.d6} `1`{.d8} `2`{.d8} `1`{.d10} `1`{.d10} `2`{.d10}
+9
+:   `1`{.d4} `2`{.d4} `1`{.d6} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `1`{.d8} `2`{.d8} `1`{.d10} `2`{.d10} `2`{.d10}
+10
+:   `1`{.d4} `2`{.d4} `1`{.d6} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `1`{.d8} `2`{.d8} `2`{.d8} `1`{.d10} `2`{.d10} `2`{.d10}
+
+### NPC Stats
+
+For an NPC's [Stats], roll `1`{.d6}, and then assign the results from the list to [Acuity], [Body], [Heart] and [Will] as you think best fits the NPC.
+
+1
+:   `2`{.d6} `2`{.d6} `3`{.d6} `4`{.d6}
+2
+:   `2`{.d6} `3`{.d6} `3`{.d6} `4`{.d6}
+3
+:   `2`{.d6} `2`{.d6} `4`{.d6} `5`{.d6}
+4
+:   `3`{.d6} `3`{.d6} `4`{.d6} `4`{.d6}
+5
+:   `2`{.d6} `3`{.d6} `5`{.d6} `5`{.d6}
+6
+:   `3`{.d6} `4`{.d6} `4`{.d6} `5`{.d6}
+
+### NPC Relationships
+
+## NPC Crowds
