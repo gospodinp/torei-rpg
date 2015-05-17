@@ -66,82 +66,86 @@ section.level6 { .make-md-column(3) }
 
 .image-link(@filestem) {
     @filename: %('icons/lorc/originals/svg/%s.svg', @filestem);
-    background: url(@filename) center left no-repeat;
-    padding-left: 1.2em;
+    height: 1.2em;
+    width: 1.2em;
+    padding-right: 0.2em;
+    content: url(@filename);
+    display: inline-block;
 }
 
+svg { max-height: 100%; }
 
-#torei > *:first-child, [href$='#torei'] { 
+#torei > *:first-child::before, [href$='#torei']::before {
     background: url('ziggurat.svg') center left no-repeat;
     padding-left: 1.2em;
 }
-#the-star > *:first-child, [href$='#the-star'] { .image-link('orbital') }
-#the-space-elevator > *:first-child, [href$='#the-space-elevator'] { .image-link('lift'); }
-#the-ringdoms > *:first-child, [href$='#the-ringdoms'] { .image-link('spiked-collar'); }
-#the-antipodes > *:first-child, [href$='#the-antipodes'] { .image-link('wheat'); }
-#the-ministries > *:first-child, [href$='#the-ministries'] { .image-link('capitol'); }
-#ministry-of-truants > *:first-child, [href$='#ministry-of-truants'] { .image-link('handcuffs'); }
-#ministry-of-improvements > *:first-child, [href$='#ministry-of-improvements'] { .image-link('doctor-face'); }
-#ministry-of-wombs > *:first-child, [href$='#ministry-of-wombs'] { .image-link('tied-scroll'); }
-#the-badlands > *:first-child, [href$='#the-badlands'] { .image-link('earth-spit'); }
-#the-ziggurats > *:first-child, [href$='#the-ziggurats'] { .image-link('artificial-hive'); }
+#the-star > *:first-child::before, [href$='#the-star']::before { .image-link('orbital') }
+#the-space-elevator > *:first-child::before, [href$='#the-space-elevator']::before { .image-link('lift'); }
+#the-ringdoms > *:first-child::before, [href$='#the-ringdoms']::before { .image-link('spiked-collar'); }
+#the-antipodes > *:first-child::before, [href$='#the-antipodes']::before { .image-link('wheat'); }
+#the-ministries > *:first-child::before, [href$='#the-ministries']::before { .image-link('capitol'); }
+#ministry-of-truants > *:first-child::before, [href$='#ministry-of-truants']::before { .image-link('handcuffs'); }
+#ministry-of-improvements > *:first-child::before, [href$='#ministry-of-improvements']::before { .image-link('doctor-face'); }
+#ministry-of-wombs > *:first-child::before, [href$='#ministry-of-wombs']::before { .image-link('tied-scroll'); }
+#the-badlands > *:first-child::before, [href$='#the-badlands']::before { .image-link('earth-spit'); }
+#the-ziggurats > *:first-child::before, [href$='#the-ziggurats']::before { .image-link('artificial-hive'); }
 
-#the-game > *:first-child, [href$='#the-game'] { .image-link('book-cover');}
-#character-creation > *:first-child, [href$='#character-creation'] { .image-link('drama-masks'); }
-#background > *:first-child, [href$='#background'] { .image-link('journey');}
-#male-or-female > *:first-child, [href$='#male-or-female'] { .image-link('duality');}
-#why-did-you-leave > *:first-child, [href$='#why-did-you-leave'] { .image-link('rocket-flight');}
-#where-are-you-from > *:first-child, [href$='#where-are-you-from'] { .image-link('globe');}
-#hierarchy > *:first-child, [href$='#hierarchy'] { .image-link('minions');}
-#stats > *:first-child, [href$='#stats'] { .image-link('suits');}
-p > a[href$='#acuity'] { .image-link('brainstorm');}
-p > a[href$='#body'] { .image-link('strong');}
-p > a[href$='#heart'] { .image-link('shining-heart');}
-p > a[href$='#will'] { .image-link('burning-passion');}
-#traits > *:first-child, [href$='#traits'] { .image-link('poker-hand');}
-#relationships > *:first-child, [href$='#relationships'] { .image-link('telepathy');}
-#allocate-your-dice > *:first-child, [href$='#allocate-your-dice'] { .image-link('checkbox-tree');}
-#belongings > *:first-child, [href$='#belongings'] { .image-link('knapsack');}
-#torean-objects > *:first-child, [href$='#torean-objects'] { .image-link('whip');}
-#off-world-objects > *:first-child, [href$='#off-world-objects'] { .image-link('circuitry');}
-#biotech > *:first-child, [href$='#biotech'] { .image-link('biohazard');}
-#starting-equipment > *:first-child, [href$='#starting-equipment'] { .image-link('belt-buckles');}
-#guns-are-complicated > *:first-child, [href$='#guns-are-complicated'] { .image-link('bolter-gun');}
-#initiation-to-torei > *:first-child, [href$='#initiation-to-torei'] { .image-link('slavery-whip');}
-#example-character > *:first-child, [href$='#example-character'] { .image-link('aura');}
+#the-game > *:first-child::before, [href$='#the-game']::before { .image-link('book-cover');}
+#character-creation > *:first-child::before, [href$='#character-creation']::before { .image-link('drama-masks'); }
+#background > *:first-child::before, [href$='#background']::before { .image-link('journey');}
+#male-or-female > *:first-child::before, [href$='#male-or-female']::before { .image-link('duality');}
+#why-did-you-leave > *:first-child::before, [href$='#why-did-you-leave']::before { .image-link('rocket-flight');}
+#where-are-you-from > *:first-child::before, [href$='#where-are-you-from']::before { .image-link('globe');}
+#hierarchy > *:first-child::before, [href$='#hierarchy']::before { .image-link('minions');}
+#stats > *:first-child::before, [href$='#stats']::before { .image-link('suits');}
+p > a[href$='#acuity']::before { .image-link('brainstorm');}
+p > a[href$='#body']::before { .image-link('strong');}
+p > a[href$='#heart']::before { .image-link('shining-heart');}
+p > a[href$='#will']::before { .image-link('burning-passion');}
+#traits > *:first-child::before, [href$='#traits']::before { .image-link('poker-hand');}
+#relationships > *:first-child::before, [href$='#relationships']::before { .image-link('telepathy');}
+#allocate-your-dice > *:first-child::before, [href$='#allocate-your-dice']::before { .image-link('checkbox-tree');}
+#belongings > *:first-child::before, [href$='#belongings']::before { .image-link('knapsack');}
+#torean-objects > *:first-child::before, [href$='#torean-objects']::before { .image-link('whip');}
+#off-world-objects > *:first-child::before, [href$='#off-world-objects']::before { .image-link('circuitry');}
+#biotech > *:first-child::before, [href$='#biotech']::before { .image-link('biohazard');}
+#starting-equipment > *:first-child::before, [href$='#starting-equipment']::before { .image-link('belt-buckles');}
+#guns-are-complicated > *:first-child::before, [href$='#guns-are-complicated']::before { .image-link('bolter-gun');}
+#initiation-to-torei > *:first-child::before, [href$='#initiation-to-torei']::before { .image-link('slavery-whip');}
+#example-character > *:first-child::before, [href$='#example-character']::before { .image-link('aura');}
 
-#conflict > *:first-child, [href$='#conflict'] { .image-link('back-forth');}
-#who-goes-first > *:first-child, [href$='#who-goes-first'] { .image-link('stopwatch');}
-#who-wins > *:first-child, [href$='#who-wins'] { .image-link('life-in-the-balance');}
-#roll-stats-and-relationships > *:first-child, [href$='#roll-stats-and-relationships'], a[href$='#need-more-dice'], a[href$='#how-to-think-about-dice'] { .image-link('cubes');}
-#challenge > *:first-child, [href$='#challenge'] { .image-link('smoking-finger');}
-#response > *:first-child, [href$='#response'] { .image-link('checked-shield');}
-#change-the-game > *:first-child, [href$='#change-the-game'], a[href$='#how-to-think-about-changing-the-game'] { .image-link('magic-swirl');}
-#traits-and-belongings > *:first-child, [href$='#traits-and-belongings'] { .image-link('cubeforce');}
-#help > *:first-child, [href$='#help'] { .image-link('all-for-one');}
-#give-in > *:first-child, [href$='#give-in'], a[href$='#giving-in-is-awesome'] { .image-link('prayer');}
+#conflict > *:first-child::before, [href$='#conflict']::before { .image-link('back-forth');}
+#who-goes-first > *:first-child::before, [href$='#who-goes-first']::before { .image-link('stopwatch');}
+#who-wins > *:first-child::before, [href$='#who-wins']::before { .image-link('life-in-the-balance');}
+#roll-stats-and-relationships > *:first-child::before, [href$='#roll-stats-and-relationships']::before, a[href$='#need-more-dice']::before, a[href$='#how-to-think-about-dice']::before { .image-link('cubes');}
+#challenge > *:first-child::before, [href$='#challenge']::before { .image-link('smoking-finger');}
+#response > *:first-child::before, [href$='#response']::before { .image-link('checked-shield');}
+#change-the-game > *:first-child::before, [href$='#change-the-game']::before, a[href$='#how-to-think-about-changing-the-game']::before { .image-link('magic-swirl');}
+#traits-and-belongings > *:first-child::before, [href$='#traits-and-belongings']::before { .image-link('cubeforce');}
+#help > *:first-child::before, [href$='#help']::before { .image-link('all-for-one');}
+#give-in > *:first-child::before, [href$='#give-in']::before, a[href$='#giving-in-is-awesome']::before { .image-link('prayer');}
 
-#fallout > *:first-child, [href$='#fallout'], a[href$='#fallout-dice'], a[href$='#how-to-think-about-fallout'] { .image-link('thunder-struck');}
-p > a[href$='#safe'] { .image-link('screaming'); }
-p > a[href$='#physical'] { .image-link('grab'); }
-p > a[href$='#violent'] { .image-link('dripping-knife'); }
-p > a[href$='#perilous'] { .image-link('backstab'); }
-figcaption > a[href$='#reversing-the-blow'], p > a[href$='#reversing-the-blow'] { .image-link('shield-reflect'); }
-figcaption > a[href$='#blocking'], p > a[href$='#blocking'] { .image-link('arrows-shield'); }
-figcaption > a[href$='#taking-the-blow'], p > a[href$='#taking-the-blow'] { .image-link('broken-shield'); }
-#short-term-harm > *:first-child, [href$='#short-term-harm'] { .image-link('cut-palm');}
-#scar > *:first-child, [href$='#scar'] { .image-link('stitched-wound');}
-#trauma > *:first-child, [href$='#trauma'] { .image-link('internal-injury');}
-#experience > *:first-child, [href$='#experience'] { .image-link('gift-of-knowledge');}
+#fallout > *:first-child::before, [href$='#fallout']::before, a[href$='#fallout-dice']::before, a[href$='#how-to-think-about-fallout']::before { .image-link('thunder-struck');}
+p > a[href$='#safe']::before { .image-link('screaming'); }
+p > a[href$='#physical']::before { .image-link('grab'); }
+p > a[href$='#violent']::before { .image-link('dripping-knife'); }
+p > a[href$='#perilous']::before { .image-link('backstab'); }
+figcaption > a[href$='#reversing-the-blow'], p > a[href$='#reversing-the-blow']::before { .image-link('shield-reflect'); }
+figcaption > a[href$='#blocking'], p > a[href$='#blocking']::before { .image-link('arrows-shield'); }
+figcaption > a[href$='#taking-the-blow'], p > a[href$='#taking-the-blow']::before { .image-link('broken-shield'); }
+#short-term-harm > *:first-child::before, [href$='#short-term-harm']::before { .image-link('cut-palm');}
+#scar > *:first-child::before, [href$='#scar']::before { .image-link('stitched-wound');}
+#trauma > *:first-child::before, [href$='#trauma']::before { .image-link('internal-injury');}
+#experience > *:first-child::before, [href$='#experience']::before { .image-link('gift-of-knowledge');}
 
-#play-advice > *:first-child, [href$='#play-advice'] { .image-link('light-bulb');}
-#gm-advice > *:first-child, [href$='#gm-advice'] { .image-link('evil-book');}
-#say-yes-or-roll-the-dice > *:first-child, [href$='#say-yes-or-roll-the-dice'] { .image-link('uncertainty');}
-#build-situations-not-plots > *:first-child, [href$='#build-situations-not-plots'] { .image-link('dark-squad');}
-#share-the-setting > *:first-child, [href$='#share-the-setting'] { .image-link('fountain-pen');}
-#keep-revealing > *:first-child, [href$='#keep-revealing'] { .image-link('magnifying-glass');}
-#creating-npcs > *:first-child, [href$='#creating-npcs'] { .image-link('backup');}
-#npc-crowds > *:first-child, [href$='#npc-crowds'] { .image-link('dozen');}
+#play-advice > *:first-child::before, [href$='#play-advice']::before { .image-link('light-bulb');}
+#gm-advice > *:first-child::before, [href$='#gm-advice']::before { .image-link('evil-book');}
+#say-yes-or-roll-the-dice > *:first-child::before, [href$='#say-yes-or-roll-the-dice']::before { .image-link('uncertainty');}
+#build-situations-not-plots > *:first-child::before, [href$='#build-situations-not-plots']::before { .image-link('dark-squad');}
+#share-the-setting > *:first-child::before, [href$='#share-the-setting']::before { .image-link('fountain-pen');}
+#keep-revealing > *:first-child::before, [href$='#keep-revealing']::before { .image-link('magnifying-glass');}
+#creating-npcs > *:first-child::before, [href$='#creating-npcs']::before { .image-link('backup');}
+#npc-crowds > *:first-child::before, [href$='#npc-crowds']::before { .image-link('dozen');}
 
 nav:extend(.nav all) {}
 table:extend(.table all, .table-striped all) {}
@@ -193,14 +197,14 @@ code.d10:extend(.bg-success),
 code.d8:extend(.bg-info),
 code.d6:extend(.bg-warning),
 code.d4:extend(.bg-danger) {}
-code { 
-    font-family: 'Orbitron'; 
+code {
+    font-family: 'Orbitron';
     font-weight: normal !important;
     -moz-box-shadow:    inset 0 0 5px @gray-lighter;
     -webkit-box-shadow: inset 0 0 5px @gray-lighter;
     box-shadow:         inset 0 0 5px @gray-lighter;
 }
-.jumbotron { 
+.jumbotron {
     -moz-box-shadow:    inset 0 0 20px @gray-darker;
     -webkit-box-shadow: inset 0 0 20px @gray-darker;
     box-shadow:         inset 0 0 20px @gray-darker;
