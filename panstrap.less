@@ -130,9 +130,9 @@ p > a[href$='#safe']::before { .image-link('screaming'); }
 p > a[href$='#physical']::before { .image-link('grab'); }
 p > a[href$='#violent']::before { .image-link('dripping-knife'); }
 p > a[href$='#perilous']::before { .image-link('backstab'); }
-figcaption > a[href$='#reversing-the-blow'], p > a[href$='#reversing-the-blow']::before { .image-link('shield-reflect'); }
-figcaption > a[href$='#blocking'], p > a[href$='#blocking']::before { .image-link('arrows-shield'); }
-figcaption > a[href$='#taking-the-blow'], p > a[href$='#taking-the-blow']::before { .image-link('broken-shield'); }
+figcaption > a[href$='#reversing-the-blow']::before, p > a[href$='#reversing-the-blow']::before { .image-link('shield-reflect'); }
+figcaption > a[href$='#blocking']::before, p > a[href$='#blocking']::before { .image-link('arrows-shield'); }
+figcaption > a[href$='#taking-the-blow']::before, p > a[href$='#taking-the-blow']::before { .image-link('broken-shield'); }
 #short-term-harm > *:first-child::before, [href$='#short-term-harm']::before { .image-link('cut-palm');}
 #scar > *:first-child::before, [href$='#scar']::before { .image-link('stitched-wound');}
 #trauma > *:first-child::before, [href$='#trauma']::before { .image-link('internal-injury');}
