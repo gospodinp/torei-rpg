@@ -76,8 +76,11 @@ section.level6 { .make-md-column(3) }
 svg { max-height: 100%; }
 
 #torei > *:first-child::before, [href$='#torei']::before {
-    background: url('ziggurat.svg') center left no-repeat;
-    padding-left: 1.2em;
+    height: 1.2em;
+    width: 1.2em;
+    padding-right: 0.2em;
+    content: url('ziggurat.svg');
+    display: inline-block;
 }
 #the-star > *:first-child::before, [href$='#the-star']::before { .image-link('orbital') }
 #the-space-elevator > *:first-child::before, [href$='#the-space-elevator']::before { .image-link('lift'); }
@@ -134,8 +137,9 @@ figcaption > a[href$='#reversing-the-blow']::before, p > a[href$='#reversing-the
 figcaption > a[href$='#blocking']::before, p > a[href$='#blocking']::before { .image-link('arrows-shield'); }
 figcaption > a[href$='#taking-the-blow']::before, p > a[href$='#taking-the-blow']::before { .image-link('broken-shield'); }
 #short-term-harm > *:first-child::before, [href$='#short-term-harm']::before { .image-link('cut-palm');}
-#scar > *:first-child::before, [href$='#scar']::before { .image-link('stitched-wound');}
-#trauma > *:first-child::before, [href$='#trauma']::before { .image-link('internal-injury');}
+#permanent-harm > *:first-child::before, [href$='#permanent-harm']::before { .image-link('broken-bone');}
+[href$='#scar']::before { .image-link('stitched-wound');}
+[href$='#trauma']::before { .image-link('internal-injury');}
 #experience > *:first-child::before, [href$='#experience']::before { .image-link('gift-of-knowledge');}
 
 #play-advice > *:first-child::before, [href$='#play-advice']::before { .image-link('light-bulb');}
@@ -172,7 +176,7 @@ section>p>img:extend(.img-rounded all, .pull-right all),
 .action:extend(.well all), .stat:extend(.well all) {}
 .die, .harm {padding-bottom: 15px;}
 .die > h5:extend(h3), .die > h6:extend(h3), .action > h6:extend(h4),
-.harm > h6:extend(h3), .stat > h6:extend(h3) { text-align: center;}
+.harm > h5:extend(h3), .harm > h6:extend(h3), .stat > h6:extend(h3) { text-align: center;}
 section.harm h6 a:extend(.label),
 section.die h5 a:extend(.label) {text-shadow: 1px 1px 1px #000;}
 section.bg-success h6 a:extend(.label, .label-success) {text-shadow: 1px 1px 1px #000;}

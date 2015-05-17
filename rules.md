@@ -684,16 +684,18 @@ Short-Term Harm reduces the die size of one of your [Stats] for at least the nex
 
 ![Shamed reduces the die size of your [Heart] from `#`{.d6} to `#`{.d4}.](icons/lorc/originals/svg/paranoia.svg)
 
-## Scar
+## Permanent Harm
 
-The gentlest form of permanent harm is a Scar, physical or emotional.  It will complicate your struggles in the future, but can build slowly into a reserve of strength.
+##### Scar {.col-md-offset-2 .harm .bg-danger .content-box}
+
+![The gentlest form of permanent harm is a *scar*, physical or emotional.  It will complicate your struggles in the future, but can build slowly into a reserve of strength.](icons/lorc/originals/svg/stitched-wound.svg)
 
 * Take a new `1`{.d4} Trait or Relationship.
 * Or add `1`{.d4} to an existing Trait or Relationship.
 
-## Trauma
+##### Trauma {.harm .bg-danger .content-box}
 
-Trauma is what begins to undo you as a character.
+![Far more serious forms of permanent harm manifest as *trauma*.  Trauma is what begins to undo you as a character.](icons/lorc/originals/svg/internal-injury.svg)
 
 * Remove `1`{.d6}, `1`{.d8}, or `1`{.d10} from anywhere on your sheet.
 * Or reduce the die size of a Trait or Relationship by 2.
