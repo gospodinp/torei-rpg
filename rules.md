@@ -20,43 +20,54 @@ That said, there are a few elements that are probably the most helpful in defini
 
 Torei has various forms of formal institutionalised slavery, and human relationships are often viewed through the lens of dominance and submission.  It can be loving, twisted, adventurous, or abusive.
 
-#### The three AIs are inscrutable mad gods, keeping Torei a backwater while trying to finish its biosphere.
+#### The three AIs are inscrutable mad gods, keeping Torei a backwater while trying to finish its biosphere
 
 Torei is relatively unchanged by the mainstream human culture partly due to the power of these thinking machines.  Every unfathomable action they take appears to serve the struggle to finish the terraforming project that created the planet in the first place.
 
-#### Torei is hard to get to from the rest of the cosmos.
-
-Torei orbits a lonely star outside any colonised galaxy.  In a universe where travel between the stars is as routine as a train journey, going to Torei still feels like an adventure and takes a long time.
-
-#### Torean biotech can do some amazing things.
+#### Torean biotech can do some amazing things
 
 The technology of the greater human society can do many things Toreans can't, but the biological sciences on Torei surpass anything else in the universe.  Much of this comes from the AIs' research while developing the Torean ecosystem.
 
-#### Earth is gone and forgotten
+#### Torei is hard to get to from the rest of the cosmos
+
+Torei orbits a lonely star outside any colonised galaxy.  In a universe where travel between the stars is as routine as a train journey, going to Torei still feels like an adventure and takes a long time.
+
+#### Earth is gone and forgotten {.col-md-offset-3}
 
 Human culture filled the Milky Way before Torei was even constructed, and is so vast that no one probably even knows for sure where we originated.  Dragging Earth into things just makes everything feel smaller.  After all, can you name the exact spot in Africa where the first human family lived?
 
-### The Star
+
+#### The Star
 
 Torei orbits a lone hypervelocity star near Andromeda, which is why the greater spacefaring human civilisation didn't discover it for so long.  While it's reachable from Andromedan stars, the journey is expensive and time-consuming.  It should take at least a few months of subjective time for a character to cross the distance between Torei and anywhere else in the universe.
 
-### The Space Elevator
+#### The Space Elevator
 
 Once in orbit around Torei, the first port of call is the space station at the top of Torei's single space elevator.  This station is run by an off-world business cartel, subject to a complex set of treaties.
 
 At the base of the elevator, the Toreans have (with help from off-worlders) built a number of arcology spires.  This cluster of towers is the most urbanised spot on the planet.
 
-### The Ringdoms
+#### The Ringdoms
 
 The habitable part of Torei covers a fairly narrow band around the planet's equator.  Because of this "ring" shape, the nations on Torei are called "ringdoms".  Each is different, and the laws can change dramatically from ringdom to ringdom.
 
-### The Antipodes
+#### The Antipodes
 
 The farther you get from the space elevator on Torei, the more rural and relaxed the pace of life becomes.  That isn't to say that life is easy out in the farming ringdoms, but there is a dramatic contrast with the dense urban core.
 
+#### The Badlands
+
+Most of the surface of the planet between the equatorial band and the poles is a harsh wasteland.  The terraforming project struggles to claim this area, bit by bit, for human settlement.  For anyone looking to hide, the badlands are an obvious (if dangerous) choice.
+
+#### The Ziggurats
+
+At Torei's two poles stand vast black artificial mountains built by the AIs that fashioned Torei.  The polar Ziggurats, Dahom to the North and Mazos to the South, house the biomechanical engines that isolate elements from the planet's mantle to generate a breathable atmosphere.
+
+Humans live within these enormous hives, and the unluckiest of them are placed inside sensory control suits called *isolation laminates* to become the Emissaries of the AIs.  Equatorial Toreans often refer to these Emissaries as "dæmons".
+
 ### The Ministries
 
-Despite the differences in ringdoms, they all have common international institutions known as ministries.  Local management may differ radically, but the various ministries do try to coordinate worldwide.
+Despite the differences in ringdoms, they all have common international institutions known as *ministries*.  Local management may differ radically, but the various ministries do try to coordinate worldwide.
 
 Here's a few of the most common ones:
 
@@ -72,18 +83,16 @@ This organisation is a sort of hospital infrastructure that makes heavy use of T
 
 This organisation tracks the status and records of women on Torei.  They regulate trade unions, issue travel passes to applicants, register debts, and perform appraisals for the slave markets.
 
-### The Badlands
-
-Most of the surface of the planet between the equatorial band and the poles is a harsh wasteland.  The terraforming project struggles to claim this area, bit by bit, for human settlement.  For anyone looking to hide, the badlands are an obvious (if dangerous) choice.
-
-### The Ziggurats
-
-At Torei's two poles stand vast black artificial mountains built by the AIs that fashioned Torei.  The polar Ziggurats, Dahom to the North and Mazos to the South, house the biomechanical engines that isolate elements from the planet's mantle to generate a breathable atmosphere.
-
-Humans live within these enormous hives, and the unluckiest of them are placed inside sensory control suits called *isolation laminates* to become the Emissaries of the AIs.  Equatorial Toreans often refer to these Emissaries as "dæmons".
 
 ## The Game
 
+This is a game for collaborative storytelling.  You will create a character that will become involved in a story that you create together with the GM and your fellow players.  When your characters can't agree on something, you'll roll dice according to the rules for a [Conflict].
+
+Many similar systems you may already be familiar with started their lives as combat simulators, and added other things only for completeness.  Your characters in those games are armed to the teeth, and the GM might say "well I guess you could put something about cooking or singing on there, if you want to waste the slot."  And so everything that does not contribute to effectiveness in battle gets pushed off into "character notes" and used as colour during the telling.
+
+This game is not one of those.  Games set on Torei will be 
+
+> FIXME: clean this up and finish it.
 
 # Character Creation
 
@@ -156,7 +165,7 @@ Stella's competent, but her background isn't particularly special or troubled.  
 Everyone has four Stats, represented as sets of six-sided dice to be rolled during play.
 
 ###### Acuity {.stat .content-box}
-![Acuity represents your intellect, perception, fine motor control, and finesse.](icons/lorc/originals/svg/000000/transparent/brainstorm.svg)
+![Acuity represents your intellect, perception, fine motor control, and finesse.](icons/lorc/originals/svg/000000/transparent/frontal-lobe.svg)
 
 It comes into play when doing something that requires attention to detail or delicate accuracy (talking, shooting, difficult piloting, picking pockets).
 
@@ -808,25 +817,25 @@ NPCs have the same four [Stats] that player characters do; but instead of hand-c
 
 ###### I am taking this very seriously {.action .content-box}
 
-The NPC has a personal interest in the [Conflict], and *wants* to get involved for some reason.
+![The NPC has a personal interest in the [Conflict], and *wants* to get involved for some reason.](icons/lorc/originals/svg/000000/transparent/meditation.svg)
 
 Write down any quick interests or desires you think of immediately when you imagine this NPC.
 
 ###### This falls within my expertise {.action .content-box}
 
-The NPC is well trained or skilled in something relevant to the [Conflict], regardless of motivation.
+![The NPC is well trained or skilled in something relevant to the [Conflict], regardless of motivation.](icons/lorc/originals/svg/000000/transparent/juggler.svg)
 
 Write down the primary areas of expertise the NPC would have.
 
 ###### My life depends on this {.action .content-box}
 
-The NPC is compelled by some outside force to take part in the [Conflict].
+![The NPC is compelled by some outside force to take part in the [Conflict].](icons/delapouite/originals/svg/000000/transparent/jump-across.svg)
 
 Either the [Conflict] is a direct threat against the NPC's health or freedom, or some external threat makes this [Conflict] and obstacle to same.  Jot down any debts, masters, diseases, or other forces that could drive the NPC to desperation.
 
 ###### I am fighting for someone I love {.action .content-box}
 
-The NPC is in the [Conflict] voluntarily on behalf of someone else.  This love can be personal and emotional, or it can be the loyal devotion of a dedicated servant.
+![The NPC is in the [Conflict] voluntarily on behalf of someone else.  This love can be personal and emotional, or it can be the loyal devotion of a dedicated servant.](icons/lorc/originals/svg/000000/transparent/transfuse.svg)
 
 Feel free to link this to one of the NPC's [Relationships], or to leave it until the [Conflict] occurs.
 
@@ -877,6 +886,6 @@ For *each* of an NPC's relationships, roll `1`{.d8}:
 | 7  |   `1`{.d10} |
 | 8  |   `2`{.d10} |
 
-## NPC Crowds and 
+## NPC Crowds
 
-Crowds of 
+> FIXME: add the bulk NPC creation rules, and maybe mention assisting
