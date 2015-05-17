@@ -9,6 +9,9 @@ Each subfolders in this archive correspond to a different contributor :
 - John Redman, http://www.uniquedicetowers.com
 - Carl Olsen, https://twitter.com/unstoppableCarl
 - Sbed, http://opengameart.org/content/95-game-icons
+- PriorBlue
+- Willdabeast, http://wjbstories.blogspot.com
+- Viscious Speed, http://viscious-speed.deviantart.com
 
 Please, include a mention "Icons made by {author}" in your derivative work.
 
