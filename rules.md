@@ -156,22 +156,22 @@ Stella's competent, but her background isn't particularly special or troubled.  
 Everyone has four Stats, represented as sets of six-sided dice to be rolled during play.
 
 ###### Acuity {.stat .content-box}
-![Acuity represents your intellect, perception, fine motor control, and finesse.](icons/lorc/originals/svg/brainstorm.svg)
+![Acuity represents your intellect, perception, fine motor control, and finesse.](icons/lorc/originals/svg/000000/transparent/brainstorm.svg)
 
 It comes into play when doing something that requires attention to detail or delicate accuracy (talking, shooting, difficult piloting, picking pockets).
 
 ###### Body {.stat .content-box}
-![Body represents your health, lust, stamina, and physical ability.](icons/lorc/originals/svg/strong.svg)
+![Body represents your health, lust, stamina, and physical ability.](icons/lorc/originals/svg/000000/transparent/strong.svg)
 
 It comes into play when performing a physically demanding task (running, lifting, dancing, wrestling, swordfighting).
 
 ###### Heart {.stat .content-box}
-![Heart represents your empathy, motivation to improve, and desire to help others.](icons/lorc/originals/svg/shining-heart.svg)
+![Heart represents your empathy, motivation to improve, and desire to help others.](icons/lorc/originals/svg/000000/transparent/shining-heart.svg)
 
 It comes into play when competing in a more indirect or non-violent way (talking, racing, working, dancing).
 
 ###### Will {.stat .content-box}
-![Will represents your determination, resolve, nerves, and desire to dominate others.](icons/lorc/originals/svg/burning-passion.svg)
+![Will represents your determination, resolve, nerves, and desire to dominate others.](icons/lorc/originals/svg/000000/transparent/burning-passion.svg)
 
 It comes into play when competing directly against someone else in an attempt to best them (wrestling, swordfighting, shooting, dogfighting, breaking a slave).
 
@@ -374,19 +374,19 @@ Which two [Stats] you roll depends on how you're trying to get what you want:
 
 ###### Talking {.action .content-box}
 
-![If you're *talking*, everyone involved will roll [Acuity] + [Heart].](icons/lorc/originals/svg/conversation.svg)
+![If you're *talking*, everyone involved will roll [Acuity] + [Heart].](icons/lorc/originals/svg/000000/transparent/conversation.svg)
 
 ###### Moving {.action .content-box}
 
-![If the competition is *physical*, you roll [Body] + [Heart].](icons/lorc/originals/svg/sprint.svg)
+![If the competition is *physical*, you roll [Body] + [Heart].](icons/lorc/originals/svg/000000/transparent/sprint.svg)
 
 ###### Fighting {.action .content-box}
 
-![If it's *violent*, you roll [Body] + [Will].](icons/lorc/originals/svg/crossed-swords.svg)
+![If it's *violent*, you roll [Body] + [Will].](icons/lorc/originals/svg/000000/transparent/crossed-swords.svg)
 
 ###### Manoeuvring {.action .content-box}
 
-![ If it's a contest of *skill and finesse*, roll [Acuity] + [Will].](icons/lorc/originals/svg/on-target.svg)
+![ If it's a contest of *skill and finesse*, roll [Acuity] + [Will].](icons/lorc/originals/svg/000000/transparent/on-target.svg)
 
 ### Are Your Relationships at Stake?
 
@@ -425,10 +425,10 @@ Ouch!  Unlucky roll for Stella, and lucky for the bully!
 ## Challenge
 
 ##### 1st Die {.col-md-offset-2 .die .bg-info .content-box}
-![Push one die if that's all you have left.](icons/delapouite/dice/svg/perspective-dice-six-faces-random.svg)
+![Push one die if that's all you have left.](icons/delapouite/dice/svg/000000/transparent/perspective-dice-six-faces-random.svg)
 
 ##### 2nd Die {.die .bg-info .content-box}
-![But if you have at least two dice, you must push two.](icons/delapouite/dice/svg/perspective-dice-six-faces-random.svg)
+![But if you have at least two dice, you must push two.](icons/delapouite/dice/svg/000000/transparent/perspective-dice-six-faces-random.svg)
 
 ### Push forward any 2 dice from your pool.
 
@@ -461,16 +461,16 @@ Bully's [Challenge]
 The target of the [Challenge] pushes forward enough dice to match the total from the [Challenge].
 
 ###### 1 Die {#reversing-the-blow .die .bg-success .content-box}
-![If you met the challenge with only one die, you're [Reversing The Blow].  Describe how you turn your challenger's actions to your advantage, and then re-use this die in your next [Challenge]!](icons/lorc/originals/svg/shield-reflect.svg)
+![If you met the challenge with only one die, you're [Reversing The Blow].  Describe how you turn your challenger's actions to your advantage, and then re-use this die in your next [Challenge]!](icons/lorc/originals/svg/000000/transparent/shield-reflect.svg)
 
 ###### 2 Dice {#blocking .die .bg-warning .content-box}
-![If you met the challenge with exactly two dice, you've [Blocked].  Describe how you prevented the challenger from affecting you.](icons/lorc/originals/svg/arrows-shield.svg)
+![If you met the challenge with exactly two dice, you've [Blocked].  Describe how you prevented the challenger from affecting you.](icons/lorc/originals/svg/000000/transparent/arrows-shield.svg)
 
 ###### 3 Dice {#taking-the-blow .die .bg-danger .content-box}
-![If you use three dice to meet the [Challenge], you're [Taking the Blow].  Describe how the challenger's actions harmed you, and set aside three [Fallout Dice] to roll after the [Conflict]!](icons/lorc/originals/svg/broken-shield.svg)
+![If you use three dice to meet the [Challenge], you're [Taking the Blow].  Describe how the challenger's actions harmed you, and set aside three [Fallout Dice] to roll after the [Conflict]!](icons/lorc/originals/svg/000000/transparent/broken-shield.svg)
 
 ###### ..or more! {.die .bg-danger .content-box}
-![The more dice you use in your [Response], the more [Fallout Dice] you need to roll. This can lead to greater harm, but also greater [Experience].](icons/lorc/originals/svg/broken-shield.svg)
+![The more dice you use in your [Response], the more [Fallout Dice] you need to roll. This can lead to greater harm, but also greater [Experience].](icons/lorc/originals/svg/000000/transparent/broken-shield.svg)
 
 [Reversing the Blow]: #reversing-the-blow
 [Reverses the Blow]: #reversing-the-blow
@@ -503,19 +503,19 @@ Each time you [Take the Blow], you need to set aside a number of dice equal to t
 
 ###### Safe {.action .bg-success .content-box}
 
-![If the blow is *not physical*, set aside **at least** `3`{.d4}.](icons/lorc/originals/svg/screaming.svg)
+![If the blow is *not physical*, set aside **at least** `3`{.d4}.](icons/lorc/originals/svg/000000/transparent/screaming.svg)
 
 ###### Physical {.action .bg-info .content-box}
 
-![If the blow *is physical* but *non-violent*, set aside **at least** `3`{.d6}.](icons/lorc/originals/svg/grab.svg)
+![If the blow *is physical* but *non-violent*, set aside **at least** `3`{.d6}.](icons/lorc/originals/svg/000000/transparent/grab.svg)
 
 ###### Violent {.action .bg-warning .content-box}
 
-![If the blow is *violent*, set aside **at least** `3`{.d8}.](icons/lorc/originals/svg/dripping-knife.svg)
+![If the blow is *violent*, set aside **at least** `3`{.d8}.](icons/lorc/originals/svg/000000/transparent/dripping-knife.svg)
 
 ###### Perilous {.action .bg-danger .content-box}
 
-![If the blow is an act of *deadly force*, set aside **at least** `3`{.d10}.](icons/lorc/originals/svg/backstab.svg)
+![If the blow is an act of *deadly force*, set aside **at least** `3`{.d10}.](icons/lorc/originals/svg/000000/transparent/backstab.svg)
 
 ### Stellanova's First Fallout Dice {.example}
 
@@ -670,32 +670,32 @@ Short-Term Harm reduces the die size of one of your [Stats] for at least the nex
 
 ###### Dazed {.harm .bg-danger .content-box}
 
-![Dazed reduces the die size of your [Acuity] from `#`{.d6} to `#`{.d4}.](icons/lorc/originals/svg/six-eyes.svg)
+![Dazed reduces the die size of your [Acuity] from `#`{.d6} to `#`{.d4}.](icons/lorc/originals/svg/000000/transparent/six-eyes.svg)
 
 ###### Bound {.harm .bg-danger .content-box}
 
-![Bound reduces the die size of your [Body] from `#`{.d6} to `#`{.d4}.](icons/lorc/originals/svg/imprisoned.svg)
+![Bound reduces the die size of your [Body] from `#`{.d6} to `#`{.d4}.](icons/lorc/originals/svg/000000/transparent/imprisoned.svg)
 
 ###### Broken {.harm .bg-danger .content-box}
 
-![Broken reduces the die size of your [Will] from `#`{.d6} to `#`{.d4}.](icons/lorc/originals/svg/despair.svg)
+![Broken reduces the die size of your [Will] from `#`{.d6} to `#`{.d4}.](icons/lorc/originals/svg/000000/transparent/despair.svg)
 
 ###### Shamed {.bg-danger .harm .content-box}
 
-![Shamed reduces the die size of your [Heart] from `#`{.d6} to `#`{.d4}.](icons/lorc/originals/svg/paranoia.svg)
+![Shamed reduces the die size of your [Heart] from `#`{.d6} to `#`{.d4}.](icons/lorc/originals/svg/000000/transparent/paranoia.svg)
 
 ## Permanent Harm
 
 ##### Scar {.col-md-offset-2 .harm .bg-danger .content-box}
 
-![The gentlest form of permanent harm is a *scar*, physical or emotional.  It will complicate your struggles in the future, but can build slowly into a reserve of strength.](icons/lorc/originals/svg/stitched-wound.svg)
+![The gentlest form of permanent harm is a *scar*, physical or emotional.  It will complicate your struggles in the future, but can build slowly into a reserve of strength.](icons/lorc/originals/svg/000000/transparent/stitched-wound.svg)
 
 * Take a new `1`{.d4} Trait or Relationship.
 * Or add `1`{.d4} to an existing Trait or Relationship.
 
 ##### Trauma {.harm .bg-danger .content-box}
 
-![Far more serious forms of permanent harm manifest as *trauma*.  Trauma is what begins to undo you as a character.](icons/lorc/originals/svg/internal-injury.svg)
+![Far more serious forms of permanent harm manifest as *trauma*.  Trauma is what begins to undo you as a character.](icons/lorc/originals/svg/000000/transparent/internal-injury.svg)
 
 * Remove `1`{.d6}, `1`{.d8}, or `1`{.d10} from anywhere on your sheet.
 * Or reduce the die size of a Trait or Relationship by 2.
