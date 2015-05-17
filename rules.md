@@ -82,6 +82,9 @@ At Torei's two poles stand vast black artificial mountains built by the AIs that
 
 Humans live within these enormous hives, and the unluckiest of them are placed inside sensory control suits called *isolation laminates* to become the Emissaries of the AIs.  Equatorial Toreans often refer to these Emissaries as "dæmons".
 
+## The Game
+
+
 # Character Creation
 
 You play humans from the greater intergalactic civilization, come to Torei for your own motives both public and secret.
@@ -733,6 +736,21 @@ Consenting to submit as a beneficial game mechanic: it's one of the reasons the 
 
 # GM Advice
 
+> "When we want to let our characters off the hook, we need rules to threaten them; when we want to kill our characters, we need rules to protect them." -- [Vincent Baker](http://lumpley.com)
+
+The mechanics of this game are based on those of [Afraid], the horror-themed variant of [Dogs in the Vineyard], by Vincent Baker.  The rules may be surprising to new players, but you can use the [Initiation to Torei] as a gentle introduction.
+
+[Afraid]: http://lumpley.com/index.php/anyway/thread/201
+[Dogs in the Vineyard]: http://nightskygames.com/welcome/game/DogsInTheVineyard
+
+> FIXME: 
+> 
+>  * Be Bold, and don't fear fallout
+>  * Play Episodically
+>  * Hone in and test your group's limits and desires
+> 
+> But once you're in play, don't be timid!  The [Fallout] system may not be as [deadly](http://anydice.com/program/3932) as it first appears,
+
 ## Say Yes or Roll the Dice
 
 This is critical for driving gameplay toward [Conflict].  If you take nothing else from this section, it should be this mantra.  *Say yes, or roll the dice!* Write it at the top of your notes.
@@ -773,6 +791,15 @@ If you [Build Situations, Not Plots], then you may be surprised to learn that ev
 
 Don't leave the players in the dark, chasing red herrings or scratching their heads trying to find the next clue.  NPCs may be cagey or duplicitous, but they should at least send the players to an NPC who will reveal more of the facts of the situation.  Run your games as "howcatchems", not "whodunnits"!
 
+## Creating Situations
+
+> * Desire
+> * Limit
+> * History
+> * Connections
+
+> One character's desire is another character's limit.  When one side wins conclusively, neither feel constrained.  
+
 ## Creating NPCs
 
 NPCs have the same four [Stats] that player characters do; but instead of hand-crafting characteristic [Traits], every NPC has these four:
@@ -807,44 +834,47 @@ Every NPC has the four traits above, but allocates dice to the use of each trait
 
 For an NPC's trait dice, roll `1`{.d10}, and assign them to various conflict types in the four NPC traits.
 
-1
-:   `1`{.d4} `1`{.d4} `1`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `2`{.d8} `1`{.d10}
-2
-:   `1`{.d4} `1`{.d6} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `2`{.d8} `1`{.d10}
-3
-:   `1`{.d4} `1`{.d4} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `1`{.d8} `2`{.d8} `1`{.d10}
-4
-:   `1`{.d4} `2`{.d4} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `1`{.d8} `2`{.d8} `1`{.d10} `1`{.d10}
-5
-:   `1`{.d4} `1`{.d4} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `2`{.d8} `2`{.d8} `1`{.d10} `2`{.d10}
-6
-:   `1`{.d4} `2`{.d4} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `1`{.d8} `2`{.d8} `1`{.d10} `1`{.d10} `1`{.d10}
-7
-:   `1`{.d4} `2`{.d4} `1`{.d6} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `1`{.d8} `2`{.d8} `1`{.d10} `1`{.d10} `2`{.d10}
-8
-:   `1`{.d4} `2`{.d4} `1`{.d6} `2`{.d6} `2`{.d6} `2`{.d6} `3`{.d6} `1`{.d8} `2`{.d8} `1`{.d10} `1`{.d10} `2`{.d10}
-9
-:   `1`{.d4} `2`{.d4} `1`{.d6} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `1`{.d8} `2`{.d8} `1`{.d10} `2`{.d10} `2`{.d10}
-10
-:   `1`{.d4} `2`{.d4} `1`{.d6} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `1`{.d8} `2`{.d8} `2`{.d8} `1`{.d10} `2`{.d10} `2`{.d10}
+|Roll|Dice                                                                      |
+|---:|:-------------------------------------------------------------------------|
+| 1  | `1`{.d4} `1`{.d4} `1`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `2`{.d8} `1`{.d10} |
+| 2  | `1`{.d4} `1`{.d6} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `2`{.d8} `1`{.d10} |
+| 3  | `1`{.d4} `1`{.d4} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `1`{.d8} `2`{.d8} `1`{.d10} |
+| 4  | `1`{.d4} `2`{.d4} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `1`{.d8} `2`{.d8} `1`{.d10} `1`{.d10} |
+| 5  | `1`{.d4} `1`{.d4} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `2`{.d8} `2`{.d8} `1`{.d10} `2`{.d10} |
+| 6  | `1`{.d4} `2`{.d4} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `1`{.d8} `2`{.d8} `1`{.d10} `1`{.d10} `1`{.d10} |
+| 7  | `1`{.d4} `2`{.d4} `1`{.d6} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `1`{.d8} `2`{.d8} `1`{.d10} `1`{.d10} `2`{.d10} |
+| 8  | `1`{.d4} `2`{.d4} `1`{.d6} `2`{.d6} `2`{.d6} `2`{.d6} `3`{.d6} `1`{.d8} `2`{.d8} `1`{.d10} `1`{.d10} `2`{.d10} |
+| 9  | `1`{.d4} `2`{.d4} `1`{.d6} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `1`{.d8} `2`{.d8} `1`{.d10} `2`{.d10} `2`{.d10} |
+| 10 | `1`{.d4} `2`{.d4} `1`{.d6} `2`{.d6} `2`{.d6} `2`{.d6} `1`{.d8} `1`{.d8} `2`{.d8} `2`{.d8} `1`{.d10} `2`{.d10} `2`{.d10}|
 
-### NPC Stats
+#### NPC Stats
 
 For an NPC's [Stats], roll `1`{.d6}, and then assign the results from the list to [Acuity], [Body], [Heart] and [Will] as you think best fits the NPC.
 
-1
-:   `2`{.d6} `2`{.d6} `3`{.d6} `4`{.d6}
-2
-:   `2`{.d6} `3`{.d6} `3`{.d6} `4`{.d6}
-3
-:   `2`{.d6} `2`{.d6} `4`{.d6} `5`{.d6}
-4
-:   `3`{.d6} `3`{.d6} `4`{.d6} `4`{.d6}
-5
-:   `2`{.d6} `3`{.d6} `5`{.d6} `5`{.d6}
-6
-:   `3`{.d6} `4`{.d6} `4`{.d6} `5`{.d6}
+|Roll|Dice                                   |
+|---:|:--------------------------------------|
+| 1  |   `2`{.d6} `2`{.d6} `3`{.d6} `4`{.d6} |
+| 2  |   `2`{.d6} `3`{.d6} `3`{.d6} `4`{.d6} |
+| 3  |   `2`{.d6} `2`{.d6} `4`{.d6} `5`{.d6} |
+| 4  |   `3`{.d6} `3`{.d6} `4`{.d6} `4`{.d6} |
+| 5  |   `2`{.d6} `3`{.d6} `5`{.d6} `5`{.d6} |
+| 6  |   `3`{.d6} `4`{.d6} `4`{.d6} `5`{.d6} |
 
-### NPC Relationships
+#### NPC Relationships
 
-## NPC Crowds
+For *each* of an NPC's relationships, roll `1`{.d8}:
+
+|Roll|Dice         |
+|---:|:------------|
+| 1  |   `1`{.d4}  |
+| 2  |   `2`{.d4}  |
+| 3  |   `1`{.d6}  |
+| 4  |   `2`{.d6}  |
+| 5  |   `1`{.d8}  |
+| 6  |   `2`{.d8}  |
+| 7  |   `1`{.d10} |
+| 8  |   `2`{.d10} |
+
+## NPC Crowds and 
+
+Crowds of 
