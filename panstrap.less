@@ -65,26 +65,27 @@ section.level5 { .make-md-column(4) }
 section.level6 { .make-md-column(3) }
 
 .image-link(@filestem) {
-    @filename: %('icons/lorc/originals/svg/%s.svg', @filestem);
-    height: 1.2em;
-    width: 1.2em;
+    @filename: %('icons/lorc/originals/svg/000000/transparent/%s.svg', @filestem);
+    height: 1em;
+    width: 1em;
     padding-right: 0.2em;
     content: url(@filename);
     display: inline-block;
 }
+section > *:first-child::before {
+    height: 2em !important;
+    width: 2em !important;
+    float: left;
+}
+section > *:nth-child(2) {
+    clear: left;
+}
 
 svg { max-height: 100%; }
 
-#torei > *:first-child::before, [href$='#torei']::before {
-    height: 1.2em;
-    width: 1.2em;
-    padding-right: 0.2em;
-    content: url('ziggurat.svg');
-    display: inline-block;
-}
 #the-star > *:first-child::before, [href$='#the-star']::before { .image-link('orbital') }
 #the-space-elevator > *:first-child::before, [href$='#the-space-elevator']::before { .image-link('lift'); }
-#the-ringdoms > *:first-child::before, [href$='#the-ringdoms']::before { .image-link('spiked-collar'); }
+#the-ringdoms > *:first-child::before, [href$='#the-ringdoms']::before { .image-link('zigzag-cage'); }
 #the-antipodes > *:first-child::before, [href$='#the-antipodes']::before { .image-link('wheat'); }
 #the-ministries > *:first-child::before, [href$='#the-ministries']::before { .image-link('capitol'); }
 #ministry-of-truants > *:first-child::before, [href$='#ministry-of-truants']::before { .image-link('handcuffs'); }
