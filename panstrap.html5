@@ -37,38 +37,42 @@ $endfor$
 $for(include-before)$
 $include-before$
 $endfor$
-<div class="container">
-$if(title)$
-<header>
-<h1 class="title">$title$</h1>
-$if(subtitle)$
-<h1 class="subtitle">$subtitle$</h1>
-$endif$
-$for(author)$
-<h2 class="author">$author$</h2>
-$endfor$
-$if(date)$
-<h3 class="date">$date$</h3>
-$endif$
-</header>
-$endif$
 $if(toc)$
-<div class="row">
-    <div class="col-md-3 pull-right">
-        <nav id="$idprefix$TOC" data-spy="affix" data-offset-top="279">
-$toc$
-        </nav>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#$idprefix$TOC">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapsed navbar-collapse in" id="$idprefix$TOC">
+            $toc$
+        </div>
     </div>
-    <div class="col-md-9" role="main">
+</nav>
 $endif$
-$body$
-$if(toc)$
-    </div>
-</div>
-$endif$
-$for(include-after)$
-$include-after$
-$endfor$
+<div class="container" role="main">
+    $if(title)$
+    <header>
+        <h1 class="title">$title$</h1>
+        $if(subtitle)$
+        <h1 class="subtitle">$subtitle$</h1>
+        $endif$
+        $for(author)$
+        <h2 class="author">$author$</h2>
+        $endfor$
+        $if(date)$
+        <h3 class="date">$date$</h3>
+        $endif$
+    </header>
+    $endif$
+        $body$
+        $for(include-after)$
+        $include-after$
+        $endfor$
 </div>
 </body>
 </html>

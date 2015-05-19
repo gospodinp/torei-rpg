@@ -13,37 +13,37 @@
 @import "bootstrap/less/code.less";
 @import "bootstrap/less/grid.less";
 @import "bootstrap/less/tables.less";
-//@import "forms.less";
+@import "bootstrap/less/forms.less";
 @import "bootstrap/less/buttons.less";
 
 // Components
 //@import "component-animations.less";
-//@import "dropdowns.less";
+//@import "bootstrap/less/dropdowns.less";
 //@import "button-groups.less";
 //@import "input-groups.less";
 @import "bootstrap/less/navs.less";
-//@import "navbar.less";
+@import "bootstrap/less/navbar.less";
 //@import "breadcrumbs.less";
-@import "bootstrap/less/pagination.less";
-@import "bootstrap/less/pager.less";
+//@import "bootstrap/less/pagination.less";
+//@import "bootstrap/less/pager.less";
 @import "bootstrap/less/labels.less";
-@import "bootstrap/less/badges.less";
+//@import "bootstrap/less/badges.less";
 @import "bootstrap/less/jumbotron.less";
-@import "bootstrap/less/thumbnails.less";
+//@import "bootstrap/less/thumbnails.less";
 @import "bootstrap/less/alerts.less";
 //@import "progress-bars.less";
 //@import "media.less";
-@import "bootstrap/less/list-group.less";
-@import "bootstrap/less/panels.less";
+//@import "bootstrap/less/list-group.less";
+//@import "bootstrap/less/panels.less";
 //@import "responsive-embed.less";
 @import "bootstrap/less/wells.less";
 //@import "close.less";
 
 // Components w/ JavaScript
-@import "bootstrap/less/modals.less";
-@import "bootstrap/less/tooltip.less";
-@import "bootstrap/less/popovers.less";
-@import "bootstrap/less/carousel.less";
+//@import "bootstrap/less/modals.less";
+//@import "bootstrap/less/tooltip.less";
+//@import "bootstrap/less/popovers.less";
+//@import "bootstrap/less/carousel.less";
 
 // Utility classes
 @import "bootstrap/less/utilities.less";
@@ -54,6 +54,9 @@ section.level1, section.level2 {
     .make-md-column(12);
     .make-row();
 }
+section.level1 {
+    padding-top: 50px;
+}
 section.level1 > p, section.level2 > p,
 section.level1 > ol, section.level2 > ol,
 section.level1 > ul, section.level2 > ul,
@@ -61,8 +64,8 @@ section.level1 > dl, section.level2 > dl,
 section.level1 > blockquote, section.level2 > blockquote { .make-md-column(9); .make-md-column-offset(1); }
 section.level3 { .make-md-column(9); .make-md-column-offset(1); }
 section.level4 { .make-md-column(6) }
-section.level5 { .make-md-column(4) }
-section.level6 { .make-md-column(3) }
+section.level5 { .make-sm-column(4) }
+section.level6 { .make-sm-column(3) }
 
 .image-link(@filestem) {
     @filename: %('icons/lorc/originals/svg/000000/transparent/%s.svg', @filestem);
@@ -164,10 +167,8 @@ figcaption > a[href$='#taking-the-blow']::before, p > a[href$='#taking-the-blow'
 #creating-npcs > *:first-child::before, [href$='#creating-npcs']::before { .image-link('puppet');}
 #npc-crowds > *:first-child::before, [href$='#npc-crowds']::before { .image-link('dozen');}
 
-nav:extend(.nav all) {}
 table:extend(.table all, .table-striped all) {}
 header:extend(.jumbotron all) {
-    //background-image:url('ziggurat.svg');
     background-color: black;
     background-height: 100%;
     background-repeat:no-repeat;
@@ -188,26 +189,22 @@ h1,h2,h3,h4,h5,h6,a { font-family: 'Orbitron'; }
 section>p>img:extend(.img-rounded all, .pull-right all), 
 .action:extend(.well all), .stat:extend(.well all) {}
 .die, .harm {padding-bottom: 15px;}
+
 .die > h5:extend(h3), .die > h6:extend(h3), .action > h6:extend(h4),
 .harm > h5:extend(h3), .harm > h6:extend(h3), .stat > h6:extend(h3) { text-align: center;}
-section.harm h6 a:extend(.label),
-section.die h5 a:extend(.label) {text-shadow: 1px 1px 1px #000;}
-section.bg-success h6 a:extend(.label, .label-success) {text-shadow: 1px 1px 1px #000;}
-section.bg-info h5 a:extend(.label, .label-info),
-section.bg-info h6 a:extend(.label, .label-info) {text-shadow: 1px 1px 1px #000;}
-section.bg-warning h6 a:extend(.label, .label-warning) {text-shadow: 1px 1px 1px #000;}
-section.bg-danger h6 a:extend(.label, .label-danger) {text-shadow: 1px 1px 1px #000;}
+
 figure img:extend(.center-block, .img-rounded) { max-width: 8em !important;}
 
-section.example:extend(.well-sm, .well) {
-    > h3:extend(h4) {
-        a:extend(.center-block, .label) {
-            background-color: @state-info-bg;
-            text-shadow: 1px 1px 1px #000;
-        };
-        a:before { content: 'Example: '; };
-    }
-    tr.even {background-color: @gray-darker;}
+section.example:extend(.well, .panel all, .panel-info all) {
+    clear: both;
+    h3::before {
+        content: 'Example: ';
+        height: auto !important;
+        width: auto !important;
+        padding-right: 0.2em;
+    };
+    h3:extend(.panel-title all) {};
+    tr.even {background-color: @gray-darker;};
 }
 
 code.d10:extend(.bg-success),
@@ -232,22 +229,15 @@ code.d8:after { content: "d8"; }
 code.d6:after { content: "d6"; }
 code.d4:after { content: "d4"; }
 
-nav > ul:extend(.list-group all) { }
-nav  ul:extend(.list-unstyled all) { }
-nav > ul > li:extend(.list-group-item all) { }
-nav > ul > li > a:extend(.btn) { padding-left: 3em !important; margin-left: -10px; margin-top: -5px;}
+div.navbar-collapse {
+    >  ul:extend(.nav all, .navbar-nav all) { 
+        li.extend(.navbar-btn) {};
+    }
+    display: block;
+    overflow-y: hidden;
+}
+@grid-float-breakpoint: 1024px;
 
-@media (min-width: 767px) {
-    .affix {
-        width: 262.5px;
-        top: 20px;
-    }
-}
-@media (max-width: 767px) {
-    .affix {
-        position: static;
-    }
-}
 
 @brand-primary:  #c5b74b;
 @state-success-text:  lighten(#3c763d, 50%);
@@ -278,12 +268,7 @@ strong, em, a:visited, h1, h2, h3, h4, h5, h6 {
 @code-color: @gray-lighter;
 @code-bg: @well-bg;
 
-@font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
-@font-size-h2:            floor((@font-size-base * 2.6)); // ~36px
-@font-size-h3:            floor((@font-size-base * 2.15)); // ~30px
-@font-size-h4:            ceil((@font-size-base * 1.7)); // ~24px
-@font-size-h5:            ceil((@font-size-base * 1.25)); // ~18px
-@font-size-h6:            @font-size-base;
+@font-size-base: 14pt;
 
 @font-face {
     font-family: 'Junction';
@@ -300,3 +285,4 @@ strong, em, a:visited, h1, h2, h3, h4, h5, h6 {
 @media print {
     section.level6, section.level5, section.level4 { page-break-inside: avoid; }
 }
+body { padding-top: 70px; }
