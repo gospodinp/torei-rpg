@@ -332,7 +332,7 @@ Your character starts out with **one** special belonging of your choice.  *It mu
 
 Anything else, you need to find, steal, buy or borrow.  Most of the time, we can just assume that you use what is at hand.
 
-> The game is about your *character*, not your gear, so don't get too caught up in Belongings!
+> The game is about your *character*, not your gear, so don't get too caught up in [Belongings]!
 
 
 ### Guns are complicated
