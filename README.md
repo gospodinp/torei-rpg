@@ -17,4 +17,4 @@ In addition, it includes a copy of the excellent SVG icons from <http://game-ico
 Published Copy
 --------------
 
-There's a copy of the HTML output semi-regularly published to <http://www.asstr.org/~Gospodin/rules.html>.  Despite being hosted on the Web, it is a self-contained file that will work even when offline.  Because of that, it tends to clock in at just under 700KB, so have patience when loading!
+There's a copy of the HTML output semi-regularly published to <http://gospodinp.github.io>.  Despite being hosted on the Web, it is a self-contained file that will work even when offline.  Because of that, it tends to clock in at just over 700KB, so have patience when loading!
