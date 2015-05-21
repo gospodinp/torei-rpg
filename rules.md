@@ -92,7 +92,8 @@ Many similar systems you may already be familiar with started their lives as com
 
 This game is not one of those.  Games set on Torei will be 
 
-> FIXME: clean this up and finish it.
+### FIXME: {.bg-danger}
+clean this up and finish it.
 
 # Character Creation
 
@@ -575,11 +576,14 @@ If you change the game to a type nobody's rolled yet, you do not need to respond
 
 Anyone can help by describing and rolling a relevant trait or belonging, then giving you their single highest rolled die. The rest are discarded. They now can't use this trait or belonging in their next conflict.
 
-### Submitting
+### Submit
 
 You can surrender the stakes at any time, even when someone is challenging you. This saves you from needing to respond, and can prevent fallout!
 
 Keep your **two highest dice** in your pool for your next conflict (don't re-roll them!) You can't help in this same conflict.
+
+[Submission]: #submit
+[Submitting]: #submit
 
 ### Stella Uses her Traits {.example}
 
@@ -739,11 +743,9 @@ It's true that you can escalate from peaceful approaches to more violent ones, b
 
 #### Submission is Power
 
-If you're willing to surrender the stakes, [Submitting] can be one of the most powerful moves you can make! You get to keep your two best rolls in your pool, and use them in your next [Conflict]. You also avoid any further risk of [Fallout], and this can help you aim for [Experience].
+If you're willing to surrender the stakes, [Submitting] is one of the most powerful moves you can make! You get to keep your two best rolls in your pool, and use them in your next [Conflict]. You also avoid any further risk of [Fallout], and this can help you aim for [Experience].
 
 A submissive character may well play a long game of rope-a-dope, [Submitting] to a dominant character regularly just to gain the upper hand on the next [Conflict].
-
-Consenting to submit as a beneficial game mechanic: it's one of the reasons the Torei RPG uses these rules!
 
 # GM Advice
 
@@ -754,13 +756,14 @@ The mechanics of this game are based on those of [Afraid], the horror-themed var
 [Afraid]: http://lumpley.com/index.php/anyway/thread/201
 [Dogs in the Vineyard]: http://nightskygames.com/welcome/game/DogsInTheVineyard
 
-> FIXME: 
-> 
->  * Be Bold, and don't fear fallout
->  * Play Episodically
->  * Hone in and test your group's limits and desires
-> 
-> But once you're in play, don't be timid!  The [Fallout] system may not be as [deadly](http://anydice.com/program/3932) as it first appears,
+### FIXME: {.bg-danger}
+
+  * Be Bold, and don't fear fallout
+  * Play Episodically
+  * Hone in and test your group's limits and desires
+ 
+But once you're in play, don't be timid!  The [Fallout] system may not be as [deadly](http://anydice.com/program/3932) as it first appears,
+```
 
 ## Say Yes or Roll the Dice
 
@@ -888,4 +891,6 @@ For *each* of an NPC's relationships, roll `1`{.d8}:
 
 ## NPC Crowds
 
-> FIXME: add the bulk NPC creation rules, and maybe mention assisting
+### FIXME {.bg-danger}
+
+add the bulk NPC creation rules, and maybe mention assisting

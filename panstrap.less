@@ -67,8 +67,8 @@ section.level4 { .make-md-column(6) }
 section.level5 { .make-sm-column(4) }
 section.level6 { .make-sm-column(3) }
 
-.image-link(@filestem; @author: 'lorc') {
-    @filename: %('icons/%s/originals/svg/000000/transparent/%s.svg', @author, @filestem);
+.image-link(@filestem; @author: 'lorc'; @section: 'originals') {
+    @filename: %('icons/%s/%s/svg/000000/transparent/%s.svg', @author, @section, @filestem);
     height: 1em;
     width: 1em;
     padding-right: 0.2em;
@@ -138,10 +138,10 @@ svg { max-height: 100%; }
 #roll-stats-and-relationships > *:first-child::before, #need-more-dice > *:first-child::before, #how-to-think-about-dice > *:first-child::before, [href$='#roll-stats-and-relationships']::before, a[href$='#need-more-dice']::before, a[href$='#how-to-think-about-dice']::before { .image-link('cubes');}
 #challenge > *:first-child::before, [href$='#challenge']::before { .image-link('smoking-finger');}
 #response > *:first-child::before, [href$='#response']::before { .image-link('checked-shield');}
-#change-the-game > *:first-child::before, #how-to-think-about-changing-the-game > *:first-child::before, [href$='#change-the-game']::before, a[href$='#how-to-think-about-changing-the-game']::before { .image-link('magic-swirl');}
+#change-the-game > *:first-child::before, #how-to-think-about-changing-the-game > *:first-child::before, [href$='#change-the-game']::before, a[href$='#how-to-think-about-changing-the-game']::before { .image-link('transform'; @author: 'delapouite'; @section: 'gui');}
 #traits-and-belongings > *:first-child::before, [href$='#traits-and-belongings']::before { .image-link('cubeforce');}
 #help > *:first-child::before, [href$='#help']::before { .image-link('all-for-one');}
-#submitting > *:first-child::before, #submission-is-power > *:first-child::before, [href$='#submitting']::before, a[href$='#submission-is-power']::before { .image-link('prayer');}
+#submit > *:first-child::before, #submission-is-power > *:first-child::before, [href$='#submit']::before, a[href$='#submission-is-power']::before { .image-link('prayer');}
 
 #fallout > *:first-child::before, #fallout-dice > *:first-child::before, #how-to-think-about-fallout > *:first-child::before, [href$='#fallout']::before, a[href$='#fallout-dice']::before, a[href$='#how-to-think-about-fallout']::before { .image-link('thunder-struck');}
 [href$='#safe']::before { .image-link('screaming'); }
