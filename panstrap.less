@@ -62,13 +62,13 @@ section.level1 > ol, section.level2 > ol,
 section.level1 > ul, section.level2 > ul,
 section.level1 > dl, section.level2 > dl,
 section.level1 > blockquote, section.level2 > blockquote { .make-md-column(9); .make-md-column-offset(1); }
-section.level3 { .make-md-column(9); .make-md-column-offset(1); }
+section.level3 { .make-md-column(9); .make-sm-column-offset(1); }
 section.level4 { .make-md-column(6) }
 section.level5 { .make-sm-column(4) }
 section.level6 { .make-sm-column(3) }
 
-.image-link(@filestem) {
-    @filename: %('icons/lorc/originals/svg/000000/transparent/%s.svg', @filestem);
+.image-link(@filestem; @author: 'lorc') {
+    @filename: %('icons/%s/originals/svg/000000/transparent/%s.svg', @author, @filestem);
     height: 1em;
     width: 1em;
     padding-right: 0.2em;
@@ -116,10 +116,10 @@ svg { max-height: 100%; }
 #where-are-you-from > *:first-child::before, [href$='#where-are-you-from']::before { .image-link('globe');}
 #hierarchy > *:first-child::before, [href$='#hierarchy']::before { .image-link('minions');}
 #stats > *:first-child::before, [href$='#stats']::before { .image-link('suits');}
-p > a[href$='#acuity']::before { .image-link('frontal-lobe');}
-p > a[href$='#body']::before { .image-link('strong');}
-p > a[href$='#heart']::before { .image-link('shining-heart');}
-p > a[href$='#will']::before { .image-link('burning-passion');}
+[href$='#acuity']::before { .image-link('frontal-lobe');}
+[href$='#body']::before { .image-link('strong');}
+[href$='#heart']::before { .image-link('shining-heart');}
+[href$='#will']::before { .image-link('burning-passion');}
 #traits > *:first-child::before, [href$='#traits']::before { .image-link('poker-hand');}
 #relationships > *:first-child::before, [href$='#relationships']::before { .image-link('telepathy');}
 #allocate-your-dice > *:first-child::before, [href$='#allocate-your-dice']::before { .image-link('checkbox-tree');}
@@ -144,13 +144,13 @@ p > a[href$='#will']::before { .image-link('burning-passion');}
 #give-in > *:first-child::before, #giving-in-is-awesome > *:first-child::before, [href$='#give-in']::before, a[href$='#giving-in-is-awesome']::before { .image-link('prayer');}
 
 #fallout > *:first-child::before, #fallout-dice > *:first-child::before, #how-to-think-about-fallout > *:first-child::before, [href$='#fallout']::before, a[href$='#fallout-dice']::before, a[href$='#how-to-think-about-fallout']::before { .image-link('thunder-struck');}
-p > a[href$='#safe']::before { .image-link('screaming'); }
-p > a[href$='#physical']::before { .image-link('grab'); }
-p > a[href$='#violent']::before { .image-link('dripping-knife'); }
-p > a[href$='#perilous']::before { .image-link('backstab'); }
-figcaption > a[href$='#reversing-the-blow']::before, p > a[href$='#reversing-the-blow']::before { .image-link('shield-reflect'); }
-figcaption > a[href$='#blocking']::before, p > a[href$='#blocking']::before { .image-link('arrows-shield'); }
-figcaption > a[href$='#taking-the-blow']::before, p > a[href$='#taking-the-blow']::before { .image-link('broken-shield'); }
+[href$='#safe']::before { .image-link('screaming'); }
+[href$='#physical']::before { .image-link('grab'); }
+[href$='#violent']::before { .image-link('dripping-knife'); }
+[href$='#perilous']::before { .image-link('backstab'); }
+figcaption > a[href$='#reversing-the-blow']::before, [href$='#reversing-the-blow']::before { .image-link('shield-reflect'); }
+figcaption > a[href$='#blocking']::before, [href$='#blocking']::before { .image-link('arrows-shield'); }
+figcaption > a[href$='#taking-the-blow']::before, [href$='#taking-the-blow']::before { .image-link('broken-shield'); }
 #short-term-harm > *:first-child::before, [href$='#short-term-harm']::before { .image-link('cut-palm');}
 #permanent-harm > *:first-child::before, [href$='#permanent-harm']::before { .image-link('broken-bone');}
 [href$='#scar']::before { .image-link('stitched-wound');}
@@ -165,6 +165,10 @@ figcaption > a[href$='#taking-the-blow']::before, p > a[href$='#taking-the-blow'
 #keep-revealing > *:first-child::before, [href$='#keep-revealing']::before { .image-link('magnifying-glass');}
 #creating-situations > *:first-child::before, [href$='#creating-situations']::before { .image-link('jigsaw-box');}
 #creating-npcs > *:first-child::before, [href$='#creating-npcs']::before { .image-link('puppet');}
+[href$='#i-am-taking-this-very-seriously']::before {.image-link('meditation')}
+[href$='#this-falls-within-my-expertise']::before {.image-link('juggler')}
+[href$='#my-life-depends-on-this']::before {.image-link('jump-across'; @author: 'delapouite')}
+[href$='#i-am-fighting-for-someone-i-love']::before {.image-link('transfuse')}
 #npc-crowds > *:first-child::before, [href$='#npc-crowds']::before { .image-link('dozen');}
 
 table:extend(.table all, .table-striped all) {}

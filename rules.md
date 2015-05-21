@@ -433,7 +433,7 @@ Ouch!  Unlucky roll for Stella, and lucky for the bully!
 
 ## Challenge
 
-##### 1st Die {.col-md-offset-2 .die .bg-info .content-box}
+##### 1st Die {.col-sm-offset-2 .die .bg-info .content-box}
 ![Push one die if that's all you have left.](icons/delapouite/dice/svg/000000/transparent/perspective-dice-six-faces-random.svg)
 
 ##### 2nd Die {.die .bg-info .content-box}
@@ -707,7 +707,7 @@ Short-Term Harm reduces the die size of one of your [Stats] for at least the nex
 ![Far more serious forms of permanent harm manifest as *trauma*.  Trauma is what begins to undo you as a character.](icons/lorc/originals/svg/000000/transparent/internal-injury.svg)
 
 * Remove `1`{.d6}, `1`{.d8}, or `1`{.d10} from anywhere on your sheet.
-* Or reduce the die size of a Trait or Relationship by 2.
+* Or reduce the die size of a Trait or Relationship by `2`.
 
 ## Experience
 
@@ -715,14 +715,14 @@ Per the circumstances of the story, choose one:
 
 * Gain a `1`{.d6} trait, relationship, or belonging.
 * Add one die to an existing trait, relationship, or belonging.
-* Add 2 to the die size (max: 10) of an existing trait, relationship, or belonging.
+* Add `2` to the die size (max: `10`) of an existing trait, relationship, or belonging.
 
 
 # Play Advice
 
 #### How to Think about Dice
 
-Lots of small dice can win you the stakes, but they're more likely to harm you. It's true that `3`{.d4} can total up to `12` just as `2`{.d6} can, but needing 3 dice to respond instead of 2 increases your [Fallout]. So having that fistful of `#`{.d4} can win you the stakes, but you will pay for it later!
+Lots of small dice can win you the stakes, but they're more likely to harm you. It's true that `3`{.d4} can total up to `12` just as `2`{.d6} can, but needing three dice to respond instead of two increases your [Fallout]. So having that fistful of `#`{.d4} can win you the stakes, but you will pay for it later!
 
 #### How to Think about Fallout
 
@@ -841,7 +841,7 @@ Feel free to link this to one of the NPC's [Relationships], or to leave it until
 
 ### NPC Trait Dice
 
-Every NPC has the four traits above, but allocates dice to the use of each trait in a given conflict type ([Safe], [Physical], [Violent] and [Perilous]).  So an NPC may have "[My life depends on this]: `2`{.d6} [Safe], `1`{.d4} [Violent], `1`{.d10} [Perilous]"
+Every NPC has the four traits above, but allocates dice to the use of each trait in a given conflict type ([Safe], [Physical], [Violent] and [Perilous]).  So an NPC may have "[My life depends on this]: `2`{.d6} [Safe], `1`{.d4} [Violent], `1`{.d10} [Perilous]" and another set of dice for the other three.
 
 For an NPC's trait dice, roll `1`{.d10}, and assign them to various conflict types in the four NPC traits.
 
