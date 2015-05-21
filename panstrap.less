@@ -69,8 +69,8 @@ section.level6 { .make-sm-column(3) }
 
 .image-link(@filestem; @author: 'lorc'; @section: 'originals') {
     @filename: %('icons/%s/%s/svg/000000/transparent/%s.svg', @author, @section, @filestem);
-    height: 1em;
-    width: 1em;
+    height: 1.2em;
+    width: 1.2em;
     padding-right: 0.2em;
     content: url(@filename);
     display: inline-block;
@@ -90,6 +90,7 @@ svg { max-height: 100%; }
 #high-tech-and-traditional-bdsm-are-part-of-the-torean-way-of-life > *:first-child::before, [href$='#high-tech-and-traditional-bdsm-are-part-of-the-torean-way-of-life']::before { .image-link('manacles') }
 #the-three-ais-are-inscrutable-mad-gods-keeping-torei-a-backwater-while-trying-to-finish-its-biosphere > *:first-child::before, [href$='#the-three-ais-are-inscrutable-mad-gods-keeping-torei-a-backwater-while-trying-to-finish-its-biosphere']::before { .image-link('triple-lock') }
 #torei-is-hard-to-get-to-from-the-rest-of-the-cosmos > *:first-child::before, [href$='#torei-is-hard-to-get-to-from-the-rest-of-the-cosmos']::before { .image-link('black-hole-bolas') }
+#biotech > *:first-child::before, [href$='#biotech']::before,
 #torean-biotech-can-do-some-amazing-things > *:first-child::before, [href$='#torean-biotech-can-do-some-amazing-things']::before { .image-link('techno-heart') }
 #earth-is-gone-and-forgotten > *:first-child::before, [href$='#earth-is-gone-and-forgotten']::before { .image-link('world') }
 #the-star > *:first-child::before, [href$='#the-star']::before { .image-link('orbital') }
@@ -122,11 +123,12 @@ svg { max-height: 100%; }
 [href$='#will']::before { .image-link('burning-passion');}
 #traits > *:first-child::before, [href$='#traits']::before { .image-link('poker-hand');}
 #relationships > *:first-child::before, [href$='#relationships']::before { .image-link('telepathy');}
+#dont-roll-these-dice-yet > *:first-child::before, [href$='#dont-roll-these-dice-yet']::before { .image-link('hand'; @author: 'sbed');}
+#save-some-relationship-dice > *:first-child::before, [href$='#save-some-relationship-dice']::before { .image-link('profit');}
 #allocate-your-dice > *:first-child::before, [href$='#allocate-your-dice']::before { .image-link('checkbox-tree');}
 #belongings > *:first-child::before, [href$='#belongings']::before { .image-link('knapsack');}
 #torean-objects > *:first-child::before, [href$='#torean-objects']::before { .image-link('whip');}
 #off-world-objects > *:first-child::before, [href$='#off-world-objects']::before { .image-link('circuitry');}
-#biotech > *:first-child::before, [href$='#biotech']::before { .image-link('biohazard');}
 #starting-equipment > *:first-child::before, [href$='#starting-equipment']::before { .image-link('belt-buckles');}
 #guns-are-complicated > *:first-child::before, [href$='#guns-are-complicated']::before { .image-link('bolter-gun');}
 #initiation-to-torei > *:first-child::before, [href$='#initiation-to-torei']::before { .image-link('slavery-whip');}

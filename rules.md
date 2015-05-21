@@ -145,7 +145,7 @@ Stella works for the Amalthean embassy, on contract work.  As a freelancer, she 
 To make a character, one of the first things you must choose is which of the five background types your character has.  Try to pick the one that best describes your character.
 
 ##### Well-Rounded
-You're straightforward, adaptable, and well-balanced.  Just the sort of person to set out to seek her or his fortune on a frontier world like Torei.
+You're straightforward, adaptable, and well-balanced.  Just the sort of person to set out to seek your fortune on a frontier world like Torei.
 
 ##### Strong History
 You're well educated, trained, or experienced.  You're on Torei because something about your history makes you the best choice for the trip.
@@ -338,7 +338,7 @@ Anything else, you need to find, steal, buy or borrow.  Most of the time, we can
 > The game is about your *character*, not your gear, so don't get too caught up in [Belongings]!
 
 
-### Guns are complicated
+### Guns are Complicated
 
 Guns are the one place where die sizes are mixed: all guns get an extra `1`{.d4} in addition to whatever else they have.  This means that an excellent off-world gun would be `2`{.d8} `1`{.d4}, and an ordinary Torean gun would be `1`{.d6} `1`{.d4}.  A terrible gun would be `2`{.d4} no matter where it was made.
 
@@ -353,9 +353,9 @@ As a legal professional, Stella needs access to documents and records quickly.  
 
 You may not necessarily be an insider on Torei yet, but you've been there long enough for it to make its mark on you.  Consider the period between your arrival on Torei and the start of play, and write down something you hope to have accomplished.
 
-Perhaps you hope that you got out of debt, or broke a slave's will, or resisted falling in love with an abuser.  Whatever you choose, make sure it isn't something that would ruin your character if you lose.  "I hope that I didn't die" won't work!
+Perhaps you hope that you got out of debt, or broke a slave's will, or resisted falling in love with an abuser.  Whatever you choose, make sure it isn't something that would ruin your character if you lose.  "I hope that I didn't die" is not a practical goal!
 
-The GM will run a [Conflict] between your character and `4`{.d6} `4`{.d10} in opposition.  The result will be a new `1`{.d6} trait, such as "I stayed debt-free ever since the belt came off" or "I never did earn my slave's respect."
+The GM will run a [Conflict] between your character and `4`{.d6} `4`{.d10} in opposition.  The result will be a new `1`{.d6} [Experience] trait, such as "I stayed debt-free ever since the belt came off" or "I never did earn my slave's respect."
 
 ### Stellanova's Initiation {.example}
 
@@ -366,6 +366,8 @@ Stella's a slightly idealistic champion for the underdog, so she chose "I hope I
 > tower casinos, and he steps over to her to have a word.  The casino girl does
 > her best to respectfully decline his advances, but he ignores this and grabs
 > her.
+
+Time for the [Conflict]!
 
 # Conflict
 
@@ -380,7 +382,7 @@ They can join in. Characters who join later can [Help].
 
 ## Roll Stats and Relationships
 
-The first step is to roll the dice from two of your [Stats].  All your rolls go into a pool of dice in front of you, where everyone can see.
+The first step is to roll the dice from **two** of your [Stats].  All your rolls go into a pool of dice in front of you, where everyone can see.
 
 Which two [Stats] you roll depends on how you're trying to get what you want:
 
@@ -736,9 +738,9 @@ Fallout also has a die-size element to it, keyed to the type of conflict you're 
 
 #### How to Think about Changing The Game
 
-The original games that inspired this one called [Changing the Game] *escalation*, and that confused a lot of new players.
+The original games that inspired this system all used the word *escalation*, and that confused a lot of new players.  It encouraged them to think of a progression from [Safe] to [Perilous], going in one direction only.  This is a mistake!
 
-It's true that you can escalate from peaceful approaches to more violent ones, but what's most important is that the current approach won't work for you and you're not willing to give up the stakes.
+It's true that you can escalate from peaceful approaches to more violent ones, but what's most important is that the *current approach won't work for you* and you're not willing to give up the stakes.
 
 > A pirate who breaks from a swordfight to swing from the chandelier is [Changing the Game] every bit as much as a cowgirl who draws her pistol on an argument!
 
@@ -848,7 +850,7 @@ Feel free to link this to one of the NPC's [Relationships], or to leave it until
 
 Every NPC has the four traits above, but allocates dice to the use of each trait in a given conflict type ([Safe], [Physical], [Violent] and [Perilous]).  So an NPC may have "[My life depends on this]: `2`{.d6} [Safe], `1`{.d4} [Violent], `1`{.d10} [Perilous]" and another set of dice for the other three.
 
-For an NPC's trait dice, roll `1`{.d10}, and assign them to various conflict types in the four NPC traits.
+For an NPC's trait dice, roll `1`{.d10} and take a row of dice sets from the table below, and assign them to various conflict types in the four NPC traits.
 
 |Roll|Dice                                                                      |
 |---:|:-------------------------------------------------------------------------|
