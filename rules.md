@@ -53,7 +53,9 @@ The habitable part of Torei covers a fairly narrow band around the planet's equa
 
 #### The Antipodes
 
-The farther you get from the space elevator on Torei, the more rural and relaxed the pace of life becomes.  That isn't to say that life is easy out in the farming ringdoms, but there is a dramatic contrast with the dense urban core.
+The farther you get from the space elevator on Torei, the more rural and relaxed the pace of life becomes.
+
+That isn't to say that life is easy out in the farming ringdoms, but there is a dramatic contrast with the dense urban core.
 
 #### The Badlands
 
