@@ -440,12 +440,12 @@ Ouch!  Unlucky roll for Stella, and lucky for the bully!
 ##### 2nd Die {.die .bg-info .content-box}
 ![But if you have at least two dice, you must push two.](icons/delapouite/dice/svg/000000/transparent/perspective-dice-six-faces-random.svg)
 
-### Push forward any 2 dice from your pool.
+### Push forward any 2 dice from your pool
 
 > Never push more than two in a [Challenge]!
 
 
-### The higher the total on the dice, the better.
+### The higher the total on the dice, the better
 
 1) If you don't have any dice to push forward, you *lose*.
 2) Describe how you try to get what you want.  It must be something the targets *can't ignore*.
@@ -805,7 +805,7 @@ If you [Build Situations, Not Plots], then you may be surprised to learn that ev
 
 Don't leave the players in the dark, chasing red herrings or scratching their heads trying to find the next clue.  NPCs may be cagey or duplicitous, but they should at least send the players to an NPC who will reveal more of the facts of the situation.  Run your games as "howcatchems", not "whodunnits"!
 
-## Creating Situations
+## Creating Situations {.bg-danger}
 
 > * Desire
 > * Limit
