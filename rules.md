@@ -175,7 +175,7 @@ It comes into play when doing something that requires attention to detail or del
 It comes into play when performing a physically demanding task (running, lifting, dancing, wrestling, swordfighting).
 
 ###### Heart {.stat .content-box}
-![Heart represents your empathy, motivation to improve, and desire to help others.](icons/lorc/originals/svg/000000/transparent/shining-heart.svg)
+![Heart represents your empathy, motivation to improve, and desire to help others.](icons/lorc/originals/svg/000000/transparent/heart-inside.svg)
 
 It comes into play when competing in a more indirect or non-violent way (talking, racing, working, dancing).
 
@@ -541,7 +541,7 @@ She will roll these at the end of the [Conflict], but right now they just build 
 * Use [Traits and Belongings]
 * [Change the Game]
 
-> Don't forget that [Giving In is Awesome]!
+> Don't forget that [Submission is Power]!
 
 If you can't match the [Challenge]'s total, you *lose* the stakes.
 
@@ -575,11 +575,11 @@ If you change the game to a type nobody's rolled yet, you do not need to respond
 
 Anyone can help by describing and rolling a relevant trait or belonging, then giving you their single highest rolled die. The rest are discarded. They now can't use this trait or belonging in their next conflict.
 
-### Give In
+### Submitting
 
-You can give in the stakes at any time, even when someone is challenging you. This saves you from needing to respond, and can prevent fallout!
+You can surrender the stakes at any time, even when someone is challenging you. This saves you from needing to respond, and can prevent fallout!
 
-Keep your 2 highest dice in your pool for your next conflict (don't re-roll them!) You can't help in this same conflict.
+Keep your **two highest dice** in your pool for your next conflict (don't re-roll them!) You can't help in this same conflict.
 
 ### Stella Uses her Traits {.example}
 
@@ -737,11 +737,11 @@ It's true that you can escalate from peaceful approaches to more violent ones, b
 > A pirate who breaks from a swordfight to swing from the chandelier is [Changing the Game] every bit as much as a cowgirl who draws her pistol on an argument!
 
 
-#### Giving In is Awesome
+#### Submission is Power
 
-If you're willing to surrender the stakes, giving in can be one of the most powerful moves you have! You get to keep your two best rolls in your pool, and use them in your next [Conflict]. You also avoid any further risk of [Fallout], and this can help you aim for [Experience].
+If you're willing to surrender the stakes, [Submitting] can be one of the most powerful moves you can make! You get to keep your two best rolls in your pool, and use them in your next [Conflict]. You also avoid any further risk of [Fallout], and this can help you aim for [Experience].
 
-A submissive character may well play a long game of rope-a-dope, giving in to a dominant character regularly just to gain the upper hand on the next [Conflict].
+A submissive character may well play a long game of rope-a-dope, [Submitting] to a dominant character regularly just to gain the upper hand on the next [Conflict].
 
 Consenting to submit as a beneficial game mechanic: it's one of the reasons the Torei RPG uses these rules!
 
