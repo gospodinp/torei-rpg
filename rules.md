@@ -766,8 +766,7 @@ The mechanics of this game are based on those of [Afraid], the horror-themed var
   * Play Episodically
   * Hone in and test your group's limits and desires
  
-But once you're in play, don't be timid!  The [Fallout] system may not be as [deadly](http://anydice.com/program/3932) as it first appears,
-```
+But once you're in play, don't be timid!  The [Fallout] system may not be as [deadly](http://anydice.com/program/3932) as it first appears.
 
 ## Say Yes or Roll the Dice
 
