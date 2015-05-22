@@ -808,14 +808,18 @@ If you [Build Situations, Not Plots], then you may be surprised to learn that ev
 
 Don't leave the players in the dark, chasing red herrings or scratching their heads trying to find the next clue.  NPCs may be cagey or duplicitous, but they should at least send the players to an NPC who will reveal more of the facts of the situation.  Run your games as "howcatchems", not "whodunnits"!
 
-## Creating Situations {.bg-danger}
+## Creating Situations 
 
-> * Desire
-> * Limit
-> * History
-> * Connections
+### FIXME: {.bg-danger}
 
-> One character's desire is another character's limit.  When one side wins conclusively, neither feel constrained.
+Need to design a formula for creating the kind of tension that works best on Torei.  It will likely be some sort of interplay between these forces:
+
+ * Desire
+ * Limit
+ * History
+ * Connections
+
+One character's desire is another character's limit.  When one side wins conclusively, neither feel constrained.
 
 ## Creating NPCs
 
@@ -892,7 +896,7 @@ For *each* of an NPC's relationships, roll `1`{.d8}:
 | 7  |   `1`{.d10} |
 | 8  |   `2`{.d10} |
 
-## NPC Crowds
+### NPC Crowds
 
 Small crowds of NPCs can be built as a single character, with individuals forming the traits.  Use the same dice as above, but instead of the four core traits, assign them to members of the mob.
 
@@ -900,7 +904,7 @@ Small crowds of NPCs can be built as a single character, with individuals formin
 
 Needs an example
 
-## Forces of Nature
+### Forces of Nature
 
 A storm doesn't need to have component elements.  It can just be treated as one giant trait: **Violent Storm**.  Some [Conflicts] will pit the players against forces of nature that are easier to model this way.
 
