@@ -92,7 +92,7 @@ This is a game for collaborative storytelling.  You will create a character that
 
 Many similar systems you may already be familiar with started their lives as combat simulators, and added other things only for completeness.  Your characters in those games are armed to the teeth, and the GM might say "well I guess you could put something about cooking or singing on there, if you want to waste the slot."  And so everything that does not contribute to effectiveness in battle gets pushed off into "character notes" and used as colour during the telling.
 
-This game is not one of those.  Games set on Torei will be 
+This game is not one of those.  Games set on Torei will be
 
 ### FIXME: {.bg-danger}
 clean this up and finish it.
@@ -765,7 +765,7 @@ The mechanics of this game are based on those of [Afraid], the horror-themed var
   * Be Bold, and don't fear fallout
   * Play Episodically
   * Hone in and test your group's limits and desires
- 
+
 But once you're in play, don't be timid!  The [Fallout] system may not be as [deadly](http://anydice.com/program/3932) as it first appears.
 
 ## Say Yes or Roll the Dice
@@ -815,7 +815,7 @@ Don't leave the players in the dark, chasing red herrings or scratching their he
 > * History
 > * Connections
 
-> One character's desire is another character's limit.  When one side wins conclusively, neither feel constrained.  
+> One character's desire is another character's limit.  When one side wins conclusively, neither feel constrained.
 
 ## Creating NPCs
 
@@ -894,6 +894,29 @@ For *each* of an NPC's relationships, roll `1`{.d8}:
 
 ## NPC Crowds
 
-### FIXME {.bg-danger}
+Small crowds of NPCs can be built as a single character, with individuals forming the traits.  Use the same dice as above, but instead of the four core traits, assign them to members of the mob.
 
-add the bulk NPC creation rules, and maybe mention assisting
+### FIXME: {.bg-danger}
+
+Needs an example
+
+## Forces of Nature
+
+A storm doesn't need to have component elements.  It can just be treated as one giant trait: **Violent Storm**.  Some [Conflicts] will pit the players against forces of nature that are easier to model this way.
+
+These behave more like the [Conflict] in the [Initiation to Torei] you did during [Character Creation].  To determine how many dice to use, roll `1`{.d8} and consult the following table.  Most results will allow you to [Change the Game] at least once, and half will allow you to do this a second time.
+
+|Roll|Dice                         |[Change the Game]   |Second [Changing the Game]   |
+|---:|:----------------------------|:-------------------|:----------------------------|
+| 1  | `5`{.d6} `1`{.d10}          |                    |                             |
+| 2  | `5`{.d6}                    | `3`{.d6}           |                             |
+| 3  | `5`{.d6} `1`{.d8}           | `2`{.d6} `1`{.d8}  |                             |
+| 4  | `5`{.d6} `1`{.d8} `1`{.d10} | `2`{.d6} `1`{.d10} | `1`{.d6} `1`{.d8}           |
+| 5  | `7`{.d6} `2`{.d8}           | `4`{.d6} `2`{.d10} |                             |
+| 6  | `6`{.d6} `1`{.d8} `1`{.d10} | `3`{.d10}          | `1`{.d6} `4`{.d4}           |
+| 7  | `6`{.d6} `2`{.d8} `1`{.d10} | `2`{.d6} `2`{.d8}  | `1`{.d6} `2`{.d10}          |
+| 8  | `6`{.d6} `2`{.d8}           | `4`{.d6} `2`{.d8}  | `2`{.d6} `1`{.d8} `1`{.d10} |
+
+> The AIs are vast and inscrutable, and many interactions with them should be modeled as [Forces of Nature]!
+
+[Conflicts]: #conflict
