@@ -488,6 +488,7 @@ The target of the [Challenge] pushes forward enough dice to match the total from
 
 [Reversing the Blow]: #reversing-the-blow
 [Reverses the Blow]: #reversing-the-blow
+[Reversed the Blow]: #reversing-the-blow
 [Blocking]: #blocking
 [Blocked]: #blocking
 [Block]: #blocking
@@ -550,7 +551,7 @@ She will roll these at the end of the [Conflict], but right now they just build 
 
 If you can't match the [Challenge]'s total, you *lose* the stakes.
 
-After responding, discard these dice (unless you *Reversed the Blow*).
+After responding, discard these dice (unless you [Reversed the Blow]).
 
 
 
